@@ -1,0 +1,62 @@
+{
+ "handcrafted": {
+  "ii": {
+   "uar": 0.5998331974201202,
+   "roc_auc": 0.6129031062347098
+  },
+  "i_uar_mean": 0.7068053969901402,
+  "i_uar_range": [
+   0.6605715768403885,
+   0.7547168062866038
+  ],
+  "gap_i_minus_ii": {
+   "difference": 0.10697219957002002,
+   "ci_low": 0.06025387327864154,
+   "ci_high": 0.1547846876222015,
+   "p_one_sided": 9.999000099990002e-05,
+   "n_resamples": 10000,
+   "n_undefined": 0,
+   "n_speakers_resampled": 670
+  },
+  "full_gap": 0.22173152198087343,
+  "phonation_minus_full": {
+   "difference": -0.1147593224108534,
+   "ci_low": -0.16547909043988746,
+   "ci_high": -0.06504514018007199
+  },
+  "readings": {
+   "gap": "the gap stays on phonation only: not just length and silence",
+   "change": "taking out the silence costs the gap"
+  }
+ },
+ "hubert": {
+  "ii": {
+   "uar": 0.637558380902958,
+   "roc_auc": 0.66926384461413
+  },
+  "i_uar_mean": 0.7722522796352582,
+  "i_uar_range": [
+   0.7196919712358218,
+   0.8165097486841131
+  ],
+  "gap_i_minus_ii": {
+   "difference": 0.1346938987323002,
+   "ci_low": 0.08932797641737052,
+   "ci_high": 0.18214768807665277,
+   "p_one_sided": 9.999000099990002e-05,
+   "n_resamples": 10000,
+   "n_undefined": 0,
+   "n_speakers_resampled": 670
+  },
+  "full_gap": 0.17965201275113052,
+  "phonation_minus_full": {
+   "difference": -0.04495811401883032,
+   "ci_low": -0.07753813907293045,
+   "ci_high": -0.013862961052709583
+  },
+  "readings": {
+   "gap": "the gap stays on phonation only: not just length and silence",
+   "change": "as measured"
+  }
+ }
+}

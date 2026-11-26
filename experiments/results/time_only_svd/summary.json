@@ -1,0 +1,48 @@
+{
+ "period_only": {
+  "auc": 0.6834189260486531,
+  "ci_low": 0.6595990996633226,
+  "ci_high": 0.7068750308399473
+ },
+ "counts": {
+  "early_normal": 377,
+  "early_pathological": 166,
+  "late_normal": 280,
+  "late_pathological": 636
+ },
+ "handcrafted": {
+  "auc": 0.47743464777933403,
+  "ci_low": 0.4478884599763908,
+  "ci_high": 0.5073744482021734,
+  "reading": "SVD has no shortcut in time",
+  "within_period": {
+   "auc": 0.45360897279510076,
+   "ci": [
+    0.42752962054868426,
+    0.480763724522627
+   ],
+   "strata_with_both_labels": 2,
+   "strata": 2,
+   "speakers": 1459
+  },
+  "period_auc_among_normals": 0.5965990905646078
+ },
+ "hubert": {
+  "auc": 0.44389217215712623,
+  "ci_low": 0.4150767013212782,
+  "ci_high": 0.4729543151254284,
+  "reading": "as measured",
+  "within_period": {
+   "auc": 0.4162504300019648,
+   "ci": [
+    0.38884931495291675,
+    0.44291995890640734
+   ],
+   "strata_with_both_labels": 2,
+   "strata": 2,
+   "speakers": 1459
+  },
+  "period_auc_among_normals": 0.6547176960970065
+ },
+ "seconds": 30.0
+}

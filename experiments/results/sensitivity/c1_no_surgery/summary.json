@@ -1,0 +1,59 @@
+{
+ "difference": 0.25362861545756277,
+ "ci_low": 0.20180747477777938,
+ "ci_high": 0.30683602960793954,
+ "p_one_sided": 9.999000099990002e-05,
+ "n_resamples": 10000,
+ "n_undefined": 0,
+ "n_speakers_resampled": 541,
+ "uar_i_mean": 0.7661167614983405,
+ "uar_i_min": 0.7094535324798483,
+ "uar_i_max": 0.805363916548127,
+ "uar_ii": 0.5124881460407777,
+ "sensitivity_i_mean": 0.8642072072072072,
+ "specificity_i_mean": 0.6680263157894737,
+ "sensitivity_ii": 0.6157657657657658,
+ "specificity_ii": 0.40921052631578947,
+ "roc_auc_i_mean": 0.8108549075391182,
+ "roc_auc_ii": 0.5292081555239451,
+ "patients": 222,
+ "normals_per_arm": 76,
+ "draws": 50,
+ "draw_place_share": {
+  "ESSUA": 0.6602631578947369,
+  "HSA": 0.3223684210526316,
+  "ULSM": 0.014210526315789474,
+  "HSJ": 0.003157894736842105
+ },
+ "worst_share_deviation": 0.011633109619686888,
+ "smallest_gap": 0.1,
+ "reaches_smallest_gap": true,
+ "negative": [
+  {
+   "arm": "ii",
+   "shuffles": 20,
+   "mean_uar": 0.4862304409672831,
+   "sd_uar": 0.03636820665878322,
+   "min_uar": 0.41653034613560924,
+   "max_uar": 0.5602714556661924,
+   "worst_share_deviation": 0.011633109619686888,
+   "n_undefined": 0,
+   "passed": true
+  },
+  {
+   "arm": "i_00",
+   "shuffles": 20,
+   "mean_uar": 0.5004368183973446,
+   "sd_uar": 0.023483875318220736,
+   "min_uar": 0.45724276908487427,
+   "max_uar": 0.5450509720246562,
+   "worst_share_deviation": 0.011633109619686888,
+   "n_undefined": 0,
+   "passed": true
+  }
+ ],
+ "removed": {
+  "patients": 107,
+  "hsa_normals": 6
+ }
+}

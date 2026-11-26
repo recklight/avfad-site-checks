@@ -1,0 +1,794 @@
+{
+ "corpus": {
+  "normal": {
+   "ESSUA": 274,
+   "HSA": 82,
+   "other": 7
+  },
+  "patients": {
+   "ESSUA": 0,
+   "HSA": 329,
+   "other": 17
+  }
+ },
+ "ribas": {
+  "a_n": {
+   "folds": [
+    {
+     "fold": 1,
+     "train": {
+      "files": 566,
+      "speakers": 566,
+      "normal": {
+       "ESSUA": 213,
+       "HSA": 63,
+       "other": 6
+      },
+      "patients": {
+       "ESSUA": 0,
+       "HSA": 272,
+       "other": 12
+      },
+      "essua_share_of_normals": 0.7553191489361702
+     },
+     "test": {
+      "files": 142,
+      "speakers": 142,
+      "normal": {
+       "ESSUA": 60,
+       "HSA": 19,
+       "other": 1
+      },
+      "patients": {
+       "ESSUA": 0,
+       "HSA": 57,
+       "other": 5
+      },
+      "essua_share_of_normals": 0.75
+     },
+     "speakers_on_both_sides": 0
+    },
+    {
+     "fold": 2,
+     "train": {
+      "files": 566,
+      "speakers": 566,
+      "normal": {
+       "ESSUA": 219,
+       "HSA": 63,
+       "other": 6
+      },
+      "patients": {
+       "ESSUA": 0,
+       "HSA": 264,
+       "other": 14
+      },
+      "essua_share_of_normals": 0.7604166666666666
+     },
+     "test": {
+      "files": 142,
+      "speakers": 142,
+      "normal": {
+       "ESSUA": 54,
+       "HSA": 19,
+       "other": 1
+      },
+      "patients": {
+       "ESSUA": 0,
+       "HSA": 65,
+       "other": 3
+      },
+      "essua_share_of_normals": 0.7297297297297297
+     },
+     "speakers_on_both_sides": 0
+    },
+    {
+     "fold": 3,
+     "train": {
+      "files": 566,
+      "speakers": 566,
+      "normal": {
+       "ESSUA": 221,
+       "HSA": 67,
+       "other": 6
+      },
+      "patients": {
+       "ESSUA": 0,
+       "HSA": 258,
+       "other": 14
+      },
+      "essua_share_of_normals": 0.7517006802721088
+     },
+     "test": {
+      "files": 142,
+      "speakers": 142,
+      "normal": {
+       "ESSUA": 52,
+       "HSA": 15,
+       "other": 1
+      },
+      "patients": {
+       "ESSUA": 0,
+       "HSA": 71,
+       "other": 3
+      },
+      "essua_share_of_normals": 0.7647058823529411
+     },
+     "speakers_on_both_sides": 0
+    },
+    {
+     "fold": 4,
+     "train": {
+      "files": 567,
+      "speakers": 567,
+      "normal": {
+       "ESSUA": 216,
+       "HSA": 68,
+       "other": 4
+      },
+      "patients": {
+       "ESSUA": 0,
+       "HSA": 264,
+       "other": 15
+      },
+      "essua_share_of_normals": 0.75
+     },
+     "test": {
+      "files": 141,
+      "speakers": 141,
+      "normal": {
+       "ESSUA": 57,
+       "HSA": 14,
+       "other": 3
+      },
+      "patients": {
+       "ESSUA": 0,
+       "HSA": 65,
+       "other": 2
+      },
+      "essua_share_of_normals": 0.7702702702702703
+     },
+     "speakers_on_both_sides": 0
+    },
+    {
+     "fold": 5,
+     "train": {
+      "files": 567,
+      "speakers": 567,
+      "normal": {
+       "ESSUA": 223,
+       "HSA": 67,
+       "other": 6
+      },
+      "patients": {
+       "ESSUA": 0,
+       "HSA": 258,
+       "other": 13
+      },
+      "essua_share_of_normals": 0.7533783783783784
+     },
+     "test": {
+      "files": 141,
+      "speakers": 141,
+      "normal": {
+       "ESSUA": 50,
+       "HSA": 15,
+       "other": 1
+      },
+      "patients": {
+       "ESSUA": 0,
+       "HSA": 71,
+       "other": 4
+      },
+      "essua_share_of_normals": 0.7575757575757576
+     },
+     "speakers_on_both_sides": 0
+    }
+   ],
+   "mixed": true,
+   "essua_share_train": [
+    0.75,
+    0.7541629748506649,
+    0.7604166666666666
+   ],
+   "essua_share_test": [
+    0.7297297297297297,
+    0.7544563279857398,
+    0.7702702702702703
+   ],
+   "speakers_on_both_sides": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "speakers_on_list": 708,
+   "left_out": [
+    "SPS"
+   ],
+   "test_files_per_speaker": 1.0,
+   "folds_per_speaker": 1.0
+  },
+  "phrase": {
+   "folds": [
+    {
+     "fold": 1,
+     "train": {
+      "files": 3397,
+      "speakers": 708,
+      "normal": {
+       "ESSUA": 273,
+       "HSA": 82,
+       "other": 7
+      },
+      "patients": {
+       "ESSUA": 0,
+       "HSA": 329,
+       "other": 17
+      },
+      "essua_share_of_normals": 0.7541436464088398
+     },
+     "test": {
+      "files": 850,
+      "speakers": 708,
+      "normal": {
+       "ESSUA": 273,
+       "HSA": 82,
+       "other": 7
+      },
+      "patients": {
+       "ESSUA": 0,
+       "HSA": 329,
+       "other": 17
+      },
+      "essua_share_of_normals": 0.7541436464088398
+     },
+     "speakers_on_both_sides": 708
+    },
+    {
+     "fold": 2,
+     "train": {
+      "files": 3397,
+      "speakers": 708,
+      "normal": {
+       "ESSUA": 273,
+       "HSA": 82,
+       "other": 7
+      },
+      "patients": {
+       "ESSUA": 0,
+       "HSA": 329,
+       "other": 17
+      },
+      "essua_share_of_normals": 0.7541436464088398
+     },
+     "test": {
+      "files": 850,
+      "speakers": 708,
+      "normal": {
+       "ESSUA": 273,
+       "HSA": 82,
+       "other": 7
+      },
+      "patients": {
+       "ESSUA": 0,
+       "HSA": 329,
+       "other": 17
+      },
+      "essua_share_of_normals": 0.7541436464088398
+     },
+     "speakers_on_both_sides": 708
+    },
+    {
+     "fold": 3,
+     "train": {
+      "files": 3398,
+      "speakers": 708,
+      "normal": {
+       "ESSUA": 273,
+       "HSA": 82,
+       "other": 7
+      },
+      "patients": {
+       "ESSUA": 0,
+       "HSA": 329,
+       "other": 17
+      },
+      "essua_share_of_normals": 0.7541436464088398
+     },
+     "test": {
+      "files": 849,
+      "speakers": 708,
+      "normal": {
+       "ESSUA": 273,
+       "HSA": 82,
+       "other": 7
+      },
+      "patients": {
+       "ESSUA": 0,
+       "HSA": 329,
+       "other": 17
+      },
+      "essua_share_of_normals": 0.7541436464088398
+     },
+     "speakers_on_both_sides": 708
+    },
+    {
+     "fold": 4,
+     "train": {
+      "files": 3398,
+      "speakers": 708,
+      "normal": {
+       "ESSUA": 273,
+       "HSA": 82,
+       "other": 7
+      },
+      "patients": {
+       "ESSUA": 0,
+       "HSA": 329,
+       "other": 17
+      },
+      "essua_share_of_normals": 0.7541436464088398
+     },
+     "test": {
+      "files": 849,
+      "speakers": 708,
+      "normal": {
+       "ESSUA": 273,
+       "HSA": 82,
+       "other": 7
+      },
+      "patients": {
+       "ESSUA": 0,
+       "HSA": 329,
+       "other": 17
+      },
+      "essua_share_of_normals": 0.7541436464088398
+     },
+     "speakers_on_both_sides": 708
+    },
+    {
+     "fold": 5,
+     "train": {
+      "files": 3398,
+      "speakers": 708,
+      "normal": {
+       "ESSUA": 273,
+       "HSA": 82,
+       "other": 7
+      },
+      "patients": {
+       "ESSUA": 0,
+       "HSA": 329,
+       "other": 17
+      },
+      "essua_share_of_normals": 0.7541436464088398
+     },
+     "test": {
+      "files": 849,
+      "speakers": 708,
+      "normal": {
+       "ESSUA": 273,
+       "HSA": 82,
+       "other": 7
+      },
+      "patients": {
+       "ESSUA": 0,
+       "HSA": 329,
+       "other": 17
+      },
+      "essua_share_of_normals": 0.7541436464088398
+     },
+     "speakers_on_both_sides": 708
+    }
+   ],
+   "mixed": true,
+   "essua_share_train": [
+    0.7541436464088398,
+    0.7541436464088398,
+    0.7541436464088398
+   ],
+   "essua_share_test": [
+    0.7541436464088398,
+    0.7541436464088398,
+    0.7541436464088398
+   ],
+   "speakers_on_both_sides": [
+    708,
+    708,
+    708,
+    708,
+    708
+   ],
+   "speakers_on_list": 708,
+   "left_out": [
+    "SPS"
+   ],
+   "test_files_per_speaker": 5.998587570621469,
+   "folds_per_speaker": 5.0
+  }
+ },
+ "unknown_speakers": [],
+ "label_disagreements": [],
+ "wbr_rebuilt": {
+  "commit": "118f8bb4bd3dbf41e433f65daf39a781eaca2bc6",
+  "note": "rebuilt from their script on the 708 speakers; no list of theirs to check against",
+  "folds": [
+   {
+    "fold": 1,
+    "train": {
+     "files": 637,
+     "speakers": 637,
+     "normal": {
+      "ESSUA": 249,
+      "HSA": 71,
+      "other": 6
+     },
+     "patients": {
+      "ESSUA": 0,
+      "HSA": 297,
+      "other": 14
+     },
+     "essua_share_of_normals": 0.7638036809815951
+    },
+    "test": {
+     "files": 71,
+     "speakers": 71,
+     "normal": {
+      "ESSUA": 24,
+      "HSA": 11,
+      "other": 1
+     },
+     "patients": {
+      "ESSUA": 0,
+      "HSA": 32,
+      "other": 3
+     },
+     "essua_share_of_normals": 0.6666666666666666
+    },
+    "speakers_on_both_sides": 0
+   },
+   {
+    "fold": 2,
+    "train": {
+     "files": 637,
+     "speakers": 637,
+     "normal": {
+      "ESSUA": 249,
+      "HSA": 71,
+      "other": 6
+     },
+     "patients": {
+      "ESSUA": 0,
+      "HSA": 295,
+      "other": 16
+     },
+     "essua_share_of_normals": 0.7638036809815951
+    },
+    "test": {
+     "files": 71,
+     "speakers": 71,
+     "normal": {
+      "ESSUA": 24,
+      "HSA": 11,
+      "other": 1
+     },
+     "patients": {
+      "ESSUA": 0,
+      "HSA": 34,
+      "other": 1
+     },
+     "essua_share_of_normals": 0.6666666666666666
+    },
+    "speakers_on_both_sides": 0
+   },
+   {
+    "fold": 3,
+    "train": {
+     "files": 637,
+     "speakers": 637,
+     "normal": {
+      "ESSUA": 248,
+      "HSA": 72,
+      "other": 6
+     },
+     "patients": {
+      "ESSUA": 0,
+      "HSA": 295,
+      "other": 16
+     },
+     "essua_share_of_normals": 0.7607361963190185
+    },
+    "test": {
+     "files": 71,
+     "speakers": 71,
+     "normal": {
+      "ESSUA": 25,
+      "HSA": 10,
+      "other": 1
+     },
+     "patients": {
+      "ESSUA": 0,
+      "HSA": 34,
+      "other": 1
+     },
+     "essua_share_of_normals": 0.6944444444444444
+    },
+    "speakers_on_both_sides": 0
+   },
+   {
+    "fold": 4,
+    "train": {
+     "files": 637,
+     "speakers": 637,
+     "normal": {
+      "ESSUA": 244,
+      "HSA": 76,
+      "other": 6
+     },
+     "patients": {
+      "ESSUA": 0,
+      "HSA": 296,
+      "other": 15
+     },
+     "essua_share_of_normals": 0.7484662576687117
+    },
+    "test": {
+     "files": 71,
+     "speakers": 71,
+     "normal": {
+      "ESSUA": 29,
+      "HSA": 6,
+      "other": 1
+     },
+     "patients": {
+      "ESSUA": 0,
+      "HSA": 33,
+      "other": 2
+     },
+     "essua_share_of_normals": 0.8055555555555556
+    },
+    "speakers_on_both_sides": 0
+   },
+   {
+    "fold": 5,
+    "train": {
+     "files": 637,
+     "speakers": 637,
+     "normal": {
+      "ESSUA": 246,
+      "HSA": 74,
+      "other": 6
+     },
+     "patients": {
+      "ESSUA": 0,
+      "HSA": 296,
+      "other": 15
+     },
+     "essua_share_of_normals": 0.754601226993865
+    },
+    "test": {
+     "files": 71,
+     "speakers": 71,
+     "normal": {
+      "ESSUA": 27,
+      "HSA": 8,
+      "other": 1
+     },
+     "patients": {
+      "ESSUA": 0,
+      "HSA": 33,
+      "other": 2
+     },
+     "essua_share_of_normals": 0.75
+    },
+    "speakers_on_both_sides": 0
+   },
+   {
+    "fold": 6,
+    "train": {
+     "files": 637,
+     "speakers": 637,
+     "normal": {
+      "ESSUA": 241,
+      "HSA": 78,
+      "other": 7
+     },
+     "patients": {
+      "ESSUA": 0,
+      "HSA": 294,
+      "other": 17
+     },
+     "essua_share_of_normals": 0.7392638036809815
+    },
+    "test": {
+     "files": 71,
+     "speakers": 71,
+     "normal": {
+      "ESSUA": 32,
+      "HSA": 4,
+      "other": 0
+     },
+     "patients": {
+      "ESSUA": 0,
+      "HSA": 35,
+      "other": 0
+     },
+     "essua_share_of_normals": 0.8888888888888888
+    },
+    "speakers_on_both_sides": 0
+   },
+   {
+    "fold": 7,
+    "train": {
+     "files": 637,
+     "speakers": 637,
+     "normal": {
+      "ESSUA": 246,
+      "HSA": 72,
+      "other": 7
+     },
+     "patients": {
+      "ESSUA": 0,
+      "HSA": 296,
+      "other": 16
+     },
+     "essua_share_of_normals": 0.7569230769230769
+    },
+    "test": {
+     "files": 71,
+     "speakers": 71,
+     "normal": {
+      "ESSUA": 27,
+      "HSA": 10,
+      "other": 0
+     },
+     "patients": {
+      "ESSUA": 0,
+      "HSA": 33,
+      "other": 1
+     },
+     "essua_share_of_normals": 0.7297297297297297
+    },
+    "speakers_on_both_sides": 0
+   },
+   {
+    "fold": 8,
+    "train": {
+     "files": 637,
+     "speakers": 637,
+     "normal": {
+      "ESSUA": 241,
+      "HSA": 78,
+      "other": 6
+     },
+     "patients": {
+      "ESSUA": 0,
+      "HSA": 297,
+      "other": 15
+     },
+     "essua_share_of_normals": 0.7415384615384616
+    },
+    "test": {
+     "files": 71,
+     "speakers": 71,
+     "normal": {
+      "ESSUA": 32,
+      "HSA": 4,
+      "other": 1
+     },
+     "patients": {
+      "ESSUA": 0,
+      "HSA": 32,
+      "other": 2
+     },
+     "essua_share_of_normals": 0.8648648648648649
+    },
+    "speakers_on_both_sides": 0
+   },
+   {
+    "fold": 9,
+    "train": {
+     "files": 638,
+     "speakers": 638,
+     "normal": {
+      "ESSUA": 247,
+      "HSA": 73,
+      "other": 6
+     },
+     "patients": {
+      "ESSUA": 0,
+      "HSA": 298,
+      "other": 14
+     },
+     "essua_share_of_normals": 0.7576687116564417
+    },
+    "test": {
+     "files": 70,
+     "speakers": 70,
+     "normal": {
+      "ESSUA": 26,
+      "HSA": 9,
+      "other": 1
+     },
+     "patients": {
+      "ESSUA": 0,
+      "HSA": 31,
+      "other": 3
+     },
+     "essua_share_of_normals": 0.7222222222222222
+    },
+    "speakers_on_both_sides": 0
+   },
+   {
+    "fold": 10,
+    "train": {
+     "files": 638,
+     "speakers": 638,
+     "normal": {
+      "ESSUA": 246,
+      "HSA": 73,
+      "other": 7
+     },
+     "patients": {
+      "ESSUA": 0,
+      "HSA": 297,
+      "other": 15
+     },
+     "essua_share_of_normals": 0.754601226993865
+    },
+    "test": {
+     "files": 70,
+     "speakers": 70,
+     "normal": {
+      "ESSUA": 27,
+      "HSA": 9,
+      "other": 0
+     },
+     "patients": {
+      "ESSUA": 0,
+      "HSA": 32,
+      "other": 2
+     },
+     "essua_share_of_normals": 0.75
+    },
+    "speakers_on_both_sides": 0
+   }
+  ],
+  "mixed": true,
+  "essua_share_train": [
+   0.7392638036809815,
+   0.7541406323737612,
+   0.7638036809815951
+  ],
+  "essua_share_test": [
+   0.6666666666666666,
+   0.7539039039039038,
+   0.8888888888888888
+  ],
+  "speakers_on_both_sides": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ]
+ },
+ "expected_without_place_control": {
+  "share_of_normals_overall": 0.7548209366391184,
+  "speechdx_test_142_subjects": [
+   0.6712328767123288,
+   0.8356164383561644
+  ],
+  "mvp_test_fold_71_subjects": [
+   0.6111111111111112,
+   0.8888888888888888
+  ]
+ }
+}

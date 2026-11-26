@@ -1,0 +1,49 @@
+{
+ "handcrafted": {
+  "speakers": {
+   "all": 709,
+   "pathological": 346
+  },
+  "all_avfad": {
+   "auc": 0.8532460707973057,
+   "ci_low": 0.8229894186213157,
+   "ci_high": 0.8817503065335436,
+   "reading": "a detector that never saw a patient gets most of the full score",
+   "share_of_full": 0.9495862118207143
+  },
+  "hsa_only": {
+   "auc": 0.512973533990659,
+   "ci_low": 0.44106123508043593,
+   "ci_high": 0.5835884795018162
+  },
+  "median_score": {
+   "ESSUA_normal": -6.848843648968018,
+   "HSA_normal": 2.6021980723562566,
+   "HSA_pathological": 2.6466530210883077
+  }
+ },
+ "hubert": {
+  "speakers": {
+   "all": 709,
+   "pathological": 346
+  },
+  "all_avfad": {
+   "auc": 0.906543097820029,
+   "ci_low": 0.8827288252997659,
+   "ci_high": 0.9283115575088775,
+   "reading": "a detector that never saw a patient gets most of the full score",
+   "share_of_full": 0.9964291613236003
+  },
+  "hsa_only": {
+   "auc": 0.6430795462969827,
+   "ci_low": 0.5725767291867447,
+   "ci_high": 0.7126186151679146
+  },
+  "median_score": {
+   "ESSUA_normal": -9.635450361796645,
+   "HSA_normal": 5.11381014954742,
+   "HSA_pathological": 7.4902634221780175
+  }
+ },
+ "seconds": 10.1
+}

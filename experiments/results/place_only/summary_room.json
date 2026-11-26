@@ -1,0 +1,20 @@
+{
+ "speakers": {
+  "all": 609,
+  "pathological": 320,
+  "hsa": 380
+ },
+ "all_avfad": {
+  "auc": 0.8641544117647059,
+  "ci_low": 0.832039089532872,
+  "ci_high": 0.8941946907439446,
+  "reading": "a detector that never saw a patient gets most of the full score"
+ },
+ "hsa_only": {
+  "auc": 0.5317965023847376,
+  "ci_low": 0.4606518282988871,
+  "ci_high": 0.6033397367956191
+ },
+ "uar": 0.8265927768166088,
+ "seconds": 2.9
+}

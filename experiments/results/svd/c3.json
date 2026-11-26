@@ -1,0 +1,138 @@
+{
+ "speakers": 1459,
+ "labels": {
+  "pathological": 802,
+  "normal": 657
+ },
+ "uar": {
+  "phonation": 0.7355767734393088,
+  "phonation_breath": 0.7509633450620026,
+  "full": 0.7493118421602007
+ },
+ "roc_auc": {
+  "phonation": 0.8203046417441936,
+  "phonation_breath": 0.8219037641816312,
+  "full": 0.8316463407690818
+ },
+ "contrasts": [
+  {
+   "first": "full",
+   "second": "phonation",
+   "difference": 0.013735068720891919,
+   "ci_low": -0.00393787622958545,
+   "ci_high": 0.03153543720320366,
+   "better": true,
+   "fold_mean_difference": 0.013740907276980121,
+   "n_pairs": 50,
+   "t_statistic": 1.1960229649101992,
+   "p_corrected_t": 0.2374432568153663,
+   "p_corrected_t_adjusted": 0.5344867355064564,
+   "p_wilcoxon": 2.6885878247284722e-05,
+   "p_wilcoxon_adjusted": 5.574042467839323e-05,
+   "n_undefined": 0,
+   "p_one_sided": 0.11872162840768315
+  },
+  {
+   "first": "phonation_breath",
+   "second": "phonation",
+   "difference": 0.015386571622693745,
+   "ci_low": -0.001086434868453163,
+   "ci_high": 0.032088526963745596,
+   "better": true,
+   "fold_mean_difference": 0.015392186797327023,
+   "n_pairs": 50,
+   "t_statistic": 1.3660442294713677,
+   "p_corrected_t": 0.1781622451688188,
+   "p_corrected_t_adjusted": 0.5344867355064564,
+   "p_wilcoxon": 1.8580141559464412e-05,
+   "p_wilcoxon_adjusted": 5.574042467839323e-05,
+   "n_undefined": 0,
+   "p_one_sided": 0.0890811225844094
+  },
+  {
+   "first": "full",
+   "second": "phonation_breath",
+   "difference": -0.0016515029018018268,
+   "ci_low": -0.014852342188678046,
+   "ci_high": 0.011162851842539625,
+   "better": false,
+   "fold_mean_difference": -0.0016512795203469021,
+   "n_pairs": 50,
+   "t_statistic": -0.17664551324976827,
+   "p_corrected_t": 0.8605149461817065,
+   "p_corrected_t_adjusted": 0.8605149461817065,
+   "p_wilcoxon": 0.5954606323608245,
+   "p_wilcoxon_adjusted": 0.5954606323608245,
+   "n_undefined": 0,
+   "p_one_sided": 0.5697425269091467
+  }
+ ],
+ "difference": 0.013735068720891919,
+ "ci_low": -0.00393787622958545,
+ "ci_high": 0.03153543720320366,
+ "p_one_sided": 0.11872162840768315,
+ "smallest_gap": 0.03,
+ "reaches_smallest_gap": false,
+ "worst_share_deviation": 0.0017463640887454002,
+ "gap_a_n_to_iau": {
+  "speakers": 1458,
+  "uar_a_n": 0.7019412216410194,
+  "uar_iau": 0.7498272231007846,
+  "roc_auc_a_n": 0.7678251018794476,
+  "roc_auc_iau": 0.8317375387750138,
+  "contrast": {
+   "first": "iau",
+   "second": "a_n",
+   "difference": 0.04788600145976529,
+   "ci_low": 0.024539265189515894,
+   "ci_high": 0.07104868978251971,
+   "better": true,
+   "fold_mean_difference": 0.0478890352304516,
+   "n_pairs": 50,
+   "t_statistic": 3.0903771432661884,
+   "p_corrected_t": 0.0032920738838584703,
+   "p_corrected_t_adjusted": 0.0032920738838584703,
+   "p_wilcoxon": 7.638334409421077e-14,
+   "p_wilcoxon_adjusted": 7.638334409421077e-14,
+   "n_undefined": 0,
+   "p_one_sided": 0.0016460369419292352
+  },
+  "worst_share_deviation": 0.002123381626172094
+ },
+ "negative": [
+  {
+   "arm": "phonation",
+   "shuffles": 20,
+   "mean_uar": 0.4977735076312263,
+   "sd_uar": 0.011128808022972765,
+   "min_uar": 0.4720077659731949,
+   "max_uar": 0.5154484413016166,
+   "worst_share_deviation": 0.0017463640887454002,
+   "n_undefined": 0,
+   "passed": true
+  },
+  {
+   "arm": "phonation_breath",
+   "shuffles": 20,
+   "mean_uar": 0.49936589272632725,
+   "sd_uar": 0.013369952118358208,
+   "min_uar": 0.4816491875334495,
+   "max_uar": 0.5279207802411777,
+   "worst_share_deviation": 0.0017463640887454002,
+   "n_undefined": 0,
+   "passed": true
+  },
+  {
+   "arm": "full",
+   "shuffles": 20,
+   "mean_uar": 0.500271092626121,
+   "sd_uar": 0.009324106755588956,
+   "min_uar": 0.4809586573900105,
+   "max_uar": 0.5167426752752821,
+   "worst_share_deviation": 0.0017463640887454002,
+   "n_undefined": 0,
+   "passed": true
+  }
+ ],
+ "seconds": 163.0
+}

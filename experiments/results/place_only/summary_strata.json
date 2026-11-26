@@ -1,0 +1,30 @@
+{
+ "handcrafted": {
+  "auc": 0.8460300430378173,
+  "ci": [
+   0.8180891783393156,
+   0.874392095566042
+  ],
+  "strata_with_both_labels": 30,
+  "strata": 32,
+  "speakers": 709,
+  "reading": "not age and sex"
+ },
+ "hubert": {
+  "auc": 0.9011972798264786,
+  "ci": [
+   0.8750295628480473,
+   0.9238372130950798
+  ],
+  "strata_with_both_labels": 30,
+  "strata": 32,
+  "speakers": 709,
+  "reading": "not age and sex"
+ },
+ "age_sex_only": {
+  "auc": 0.5353269956527971,
+  "ci_low": 0.49361434895460116,
+  "ci_high": 0.5765539658274813
+ },
+ "seconds": 23.5
+}

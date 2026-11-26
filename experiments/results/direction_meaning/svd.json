@@ -1,0 +1,27 @@
+{
+ "speakers": 1459,
+ "pathological": 802,
+ "layers": {
+  "0": {
+   "auc": 0.6010905005370896,
+   "within_strata_auc": 0.599153721692172
+  },
+  "3": {
+   "auc": 0.523478214661216,
+   "within_strata_auc": 0.5747037503319034
+  },
+  "6": {
+   "auc": 0.4289903096140926,
+   "within_strata_auc": 0.5057831268280293
+  },
+  "9": {
+   "auc": 0.4505573964631799,
+   "within_strata_auc": 0.5220579379014423
+  },
+  "12": {
+   "auc": 0.47529198313197224,
+   "within_strata_auc": 0.5303850015124699
+  }
+ },
+ "reading": "the place direction separates pathology on SVD too"
+}

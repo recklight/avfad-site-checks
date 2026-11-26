@@ -1,0 +1,13 @@
+{
+ "source": "Koudounas et al. 2025, MVP: Multi-source Voice Pathology detection, arXiv 2505.20050v1, Table 1, AVFAD column, AUC; read cell by cell in the browser on 2026-11-05",
+ "protocol": "speaker-independent 10-fold; one randomly chosen vowel and one sentence per subject; no mention of place, age or sex",
+ "vowel_ls_finetuned": 0.714,
+ "vowel_as_finetuned": 0.756,
+ "sentence_ls_finetuned": 0.877,
+ "sentence_as_finetuned": 0.855,
+ "concatenated_ls": 0.908,
+ "fusion_frozen": 0.834,
+ "fusion_finetuned": 0.963,
+ "estevez_age_sex_uar": 0.83,
+ "estevez_source": "Estevez et al. 2025, arXiv 2504.08997: random forest on sex and age, accuracy and UAR 83%"
+}

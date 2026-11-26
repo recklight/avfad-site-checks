@@ -1,0 +1,174 @@
+{
+ "a_n": {
+  "hsa_normals": {
+   "speakers": 82,
+   "called_normal": 13,
+   "layers": {
+    "0": {
+     "auc": 0.7469342251950948,
+     "ci_low": 0.5880509106197565,
+     "ci_high": 0.8838223526853662,
+     "n_undefined": 0,
+     "reading": "the published system follows the place direction inside one place too"
+    },
+    "3": {
+     "auc": 0.7146042363433668,
+     "ci_low": 0.5532314101706576,
+     "ci_high": 0.8571428571428571,
+     "n_undefined": 0,
+     "reading": "the published system follows the place direction inside one place too"
+    },
+    "6": {
+     "auc": 0.6421404682274248,
+     "ci_low": 0.4713500820262484,
+     "ci_high": 0.8006871928746927,
+     "n_undefined": 0,
+     "reading": "not visible"
+    },
+    "9": {
+     "auc": 0.6142697881828316,
+     "ci_low": 0.44173948997012374,
+     "ci_high": 0.7770345596432553,
+     "n_undefined": 0,
+     "reading": "not visible"
+    },
+    "12": {
+     "auc": 0.6588628762541806,
+     "ci_low": 0.484375,
+     "ci_high": 0.8185846159825869,
+     "n_undefined": 0,
+     "reading": "not visible"
+    }
+   },
+   "overall": "as measured"
+  },
+  "hsa_patients": {
+   "speakers": 329,
+   "called_normal": 15,
+   "layers": {
+    "0": {
+     "auc": 0.7919320594479831,
+     "ci_low": 0.6842706496467602,
+     "ci_high": 0.8907990146572407,
+     "n_undefined": 0,
+     "reading": "the published system follows the place direction inside one place too"
+    },
+    "3": {
+     "auc": 0.7188959660297239,
+     "ci_low": 0.5788692202883263,
+     "ci_high": 0.8446447110969132,
+     "n_undefined": 0,
+     "reading": "the published system follows the place direction inside one place too"
+    },
+    "6": {
+     "auc": 0.5343949044585987,
+     "ci_low": 0.3548590100849257,
+     "ci_high": 0.7156568804554457,
+     "n_undefined": 0,
+     "reading": "not visible"
+    },
+    "9": {
+     "auc": 0.5469214437367304,
+     "ci_low": 0.3663559842809391,
+     "ci_high": 0.7249261132411798,
+     "n_undefined": 0,
+     "reading": "not visible"
+    },
+    "12": {
+     "auc": 0.5233545647558386,
+     "ci_low": 0.33519736319987303,
+     "ci_high": 0.714703615896982,
+     "n_undefined": 0,
+     "reading": "not visible"
+    }
+   },
+   "overall": "as measured"
+  }
+ },
+ "phrase": {
+  "hsa_normals": {
+   "speakers": 82,
+   "called_normal": 11,
+   "layers": {
+    "0": {
+     "auc": 0.6530089628681178,
+     "ci_low": 0.4708333333333333,
+     "ci_high": 0.8178571428571428,
+     "n_undefined": 0,
+     "reading": "not visible"
+    },
+    "3": {
+     "auc": 0.6581306017925737,
+     "ci_low": 0.4936933504745182,
+     "ci_high": 0.8097412480974124,
+     "n_undefined": 0,
+     "reading": "not visible"
+    },
+    "6": {
+     "auc": 0.4801536491677337,
+     "ci_low": 0.29654403567447046,
+     "ci_high": 0.668918918918919,
+     "n_undefined": 0,
+     "reading": "not visible"
+    },
+    "9": {
+     "auc": 0.48911651728553135,
+     "ci_low": 0.2617960426179604,
+     "ci_high": 0.7134993961352656,
+     "n_undefined": 0,
+     "reading": "not visible"
+    },
+    "12": {
+     "auc": 0.5172855313700384,
+     "ci_low": 0.3134203192640693,
+     "ci_high": 0.7194480900554844,
+     "n_undefined": 0,
+     "reading": "not visible"
+    }
+   },
+   "overall": "not visible"
+  },
+  "hsa_patients": {
+   "speakers": 329,
+   "called_normal": 7,
+   "layers": {
+    "0": {
+     "auc": 0.730700976042591,
+     "ci_low": 0.5076189192427509,
+     "ci_high": 0.9029927760577915,
+     "n_undefined": 9,
+     "reading": "the published system follows the place direction inside one place too"
+    },
+    "3": {
+     "auc": 0.611357586512866,
+     "ci_low": 0.34404024767801855,
+     "ci_high": 0.8370723651779552,
+     "n_undefined": 9,
+     "reading": "not visible"
+    },
+    "6": {
+     "auc": 0.4525288376220053,
+     "ci_low": 0.22324159021406728,
+     "ci_high": 0.6821107097809884,
+     "n_undefined": 9,
+     "reading": "not visible"
+    },
+    "9": {
+     "auc": 0.48535936113575867,
+     "ci_low": 0.24199537514810993,
+     "ci_high": 0.7262996941896025,
+     "n_undefined": 9,
+     "reading": "not visible"
+    },
+    "12": {
+     "auc": 0.47249334516415264,
+     "ci_low": 0.20946146707586105,
+     "ci_high": 0.7488378036900939,
+     "n_undefined": 9,
+     "reading": "not visible"
+    }
+   },
+   "overall": "not visible"
+  }
+ }
+}

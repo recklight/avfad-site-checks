@@ -1,0 +1,82 @@
+{
+ "vowel": "u",
+ "inside_detector": "hubert",
+ "outside_detector": "erased",
+ "phonation_only": false,
+ "seed": 20261138,
+ "n_resamples": 10000,
+ "outside": {
+  "ii": {
+   "auc": 0.51701386314775,
+   "ci_low": 0.44543516939728667,
+   "ci_high": 0.586959744977389
+  },
+  "i": {
+   "auc": 0.5208866483801616,
+   "ci_low": 0.4717887678141145,
+   "ci_high": 0.5702534126656453,
+   "draw_range": [
+    0.4565201275113055,
+    0.5702794869893988
+   ]
+  },
+  "gap": {
+   "difference": 0.003872785232411635,
+   "ci_low": -0.04600513411870141,
+   "ci_high": 0.057708683180197416
+  }
+ },
+ "inside": {
+  "ii": {
+   "auc": 0.5958929498109571,
+   "ci_low": 0.526576284379865,
+   "ci_high": 0.6629865075246497
+  },
+  "i": {
+   "auc": 0.854883238194084,
+   "ci_low": 0.8318274601090911,
+   "ci_high": 0.8761211220792627,
+   "draw_range": [
+    0.7929053302691081,
+    0.9217881236563126
+   ]
+  },
+  "gap": {
+   "difference": 0.2589902883831269,
+   "ci_low": 0.20075634351946095,
+   "ci_high": 0.31719269353340834
+  }
+ },
+ "learned": {
+  "difference": 0.25511750315071524,
+  "ci_low": 0.18209363661276406,
+  "ci_high": 0.325922899186709
+ },
+ "ranking_among_hsa_patients": {
+  "rho_ii": {
+   "rho": 0.0979154732138645,
+   "ci_low": -0.01148465563008838,
+   "ci_high": 0.20573112027861395
+  },
+  "rho_i": {
+   "rho": 0.050947135376299885,
+   "ci_low": -0.04008313794695319,
+   "ci_high": 0.14300584564834776,
+   "draw_range": [
+    -0.055380141394671754,
+    0.2318215515672703
+   ]
+  },
+  "i_minus_ii": {
+   "difference": -0.046968337837564614,
+   "ci_low": -0.12933826520944083,
+   "ci_high": 0.036029114915902584
+  }
+ },
+ "readings": {
+  "outside_gap": "the outside detector sees no difference between the two sets of normals",
+  "learned": "most of the gap is learned in training",
+  "ranking": "the same"
+ },
+ "outside_hsa_normals_vs_essua_normals": 0.5052519138330069
+}

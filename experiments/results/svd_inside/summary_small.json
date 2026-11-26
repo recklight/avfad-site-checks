@@ -1,0 +1,52 @@
+{
+ "handcrafted": {
+  "auc": 0.7309407227744945,
+  "within_strata": {
+   "auc": 0.6107459892918355,
+   "ci": [
+    0.5775687553011046,
+    0.6473866395886104
+   ],
+   "strata_with_both_labels": 28,
+   "strata": 36,
+   "speakers": 1459
+  },
+  "hsa_within_strata": {
+   "auc": 0.5725260492252982,
+   "ci": [
+    0.5193553336451849,
+    0.6261091304566473
+   ],
+   "strata_with_both_labels": 24,
+   "strata": 31,
+   "speakers": 411
+  },
+  "reading": "with the same numbers, HSA is still harder",
+  "seconds": 29.3
+ },
+ "hubert": {
+  "auc": 0.7519061934205582,
+  "within_strata": {
+   "auc": 0.6378531441137874,
+   "ci": [
+    0.6073371196173245,
+    0.6712821171110748
+   ],
+   "strata_with_both_labels": 28,
+   "strata": 36,
+   "speakers": 1459
+  },
+  "hsa_within_strata": {
+   "auc": 0.6558483278301559,
+   "ci": [
+    0.602201629341635,
+    0.7115883747919798
+   ],
+   "strata_with_both_labels": 24,
+   "strata": 31,
+   "speakers": 411
+  },
+  "reading": "with the same numbers, HSA is as hard as SVD",
+  "seconds": 81.4
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "speakers": {
+  "ESSUA": 274,
+  "HSA": 82
+ },
+ "missing": {
+  "ESSUA": 0,
+  "HSA": 0
+ },
+ "voiced_share_median": {
+  "ESSUA": 0.9527104747919726,
+  "HSA": 0.9047400377154118
+ },
+ "auc": 0.6897810218978102,
+ "ci_low": 0.6173669218444009,
+ "ci_high": 0.7570767313512551,
+ "reading": "the two places' normals differ in pitch"
+}

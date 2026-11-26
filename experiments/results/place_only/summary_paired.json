@@ -1,0 +1,21 @@
+{
+ "cape_v": {
+  "speakers": 709,
+  "place_auc": 0.8927132597652829,
+  "full_auc": 0.9183426487682925,
+  "difference": -0.025629389003009595,
+  "ci_low": -0.04065351359098068,
+  "ci_high": -0.011369209700791406,
+  "reading": "below the full detector"
+ },
+ "reading": {
+  "speakers": 708,
+  "place_auc": 0.8878987503493432,
+  "full_auc": 0.9215155507645626,
+  "difference": -0.03361680041521942,
+  "ci_low": -0.04824589771230084,
+  "ci_high": -0.019890406036651036,
+  "reading": "below the full detector"
+ },
+ "seconds": 14.2
+}

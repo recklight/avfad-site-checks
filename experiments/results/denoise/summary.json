@@ -1,0 +1,77 @@
+{
+ "all": {
+  "denoised": {
+   "uar": 0.7688319081514037,
+   "roc_auc": 0.8438534053090017
+  },
+  "plain": {
+   "uar": 0.8195437029252058,
+   "roc_auc": 0.8722615009793149
+  }
+ },
+ "ii": {
+  "denoised": 0.5282823040996367,
+  "plain": 0.5529412854918823,
+  "change": {
+   "difference": -0.024658981392245538,
+   "ci_low": -0.05522854213782977,
+   "ci_high": 0.006868699573130838,
+   "p_one_sided": 0.9401059894010599,
+   "n_resamples": 10000,
+   "n_undefined": 0,
+   "n_speakers_resampled": 411
+  }
+ },
+ "i": {
+  "denoised_mean": 0.7184953295277633,
+  "plain_mean": 0.7746728074727557
+ },
+ "gap": {
+  "denoised": {
+   "difference": 0.19021302542812657,
+   "ci_low": 0.143742256932834,
+   "ci_high": 0.2380916185077956,
+   "p_one_sided": 9.999000099990002e-05,
+   "n_resamples": 10000,
+   "n_undefined": 0,
+   "n_speakers_resampled": 670
+  },
+  "plain": {
+   "difference": 0.22173152198087343,
+   "ci_low": 0.17475535235211506,
+   "ci_high": 0.271013749294495,
+   "p_one_sided": 9.999000099990002e-05,
+   "n_resamples": 10000,
+   "n_undefined": 0,
+   "n_speakers_resampled": 670
+  },
+  "change": -0.031518496552746855,
+  "change_ci": [
+   -0.06424364755819932,
+   0.0005435629580330783
+  ]
+ },
+ "intervention": {
+  "case": "ESSUA_with_HSA_+0",
+  "denoised": 0.3536496350364964,
+  "plain": 0.48138686131386865,
+  "speakers": 274,
+  "change": -0.12773722627737227,
+  "change_ci": [
+   -0.16862226277372264,
+   -0.08686131386861314
+  ]
+ },
+ "quiet_level_db": {
+  "files": 701,
+  "median_before": -55.485762404510346,
+  "median_after": -74.17846767973977
+ },
+ "reading": {
+  "flips_halved": false,
+  "gap_shrank": false,
+  "ii_not_worse": false,
+  "ii_better": false,
+  "verdict": "does not work"
+ }
+}

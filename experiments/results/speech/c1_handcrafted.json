@@ -1,0 +1,650 @@
+{
+ "s004": {
+  "difference": 0.22263255656872694,
+  "ci_low": 0.17590929105910572,
+  "ci_high": 0.2708579370184109,
+  "p_one_sided": 9.999000099990002e-05,
+  "n_resamples": 10000,
+  "n_undefined": 0,
+  "n_speakers_resampled": 670,
+  "uar_i_mean": 0.7575175428721529,
+  "uar_i_min": 0.7106683177605164,
+  "uar_i_max": 0.8054110848437089,
+  "uar_ii": 0.534884986303426,
+  "sensitivity_i_mean": 0.8517264437689971,
+  "specificity_i_mean": 0.6633086419753086,
+  "sensitivity_ii": 0.6389057750759879,
+  "specificity_ii": 0.43086419753086413,
+  "roc_auc_i_mean": 0.8026954857593155,
+  "roc_auc_ii": 0.5268527899733574,
+  "patients": 329,
+  "normals_per_arm": 81,
+  "draws": 50,
+  "draw_place_share": {
+   "ESSUA": 0.6646913580246914,
+   "HSA": 0.3190123456790123,
+   "ULSM": 0.013580246913580247,
+   "HSJ": 0.0027160493827160493
+  },
+  "worst_share_deviation": 0.009756097560975618,
+  "smallest_gap": 0.1,
+  "reaches_smallest_gap": true,
+  "negative": [
+   {
+    "arm": "ii",
+    "shuffles": 20,
+    "mean_uar": 0.5044909752711171,
+    "sd_uar": 0.04006265485849823,
+    "min_uar": 0.4311268715524035,
+    "max_uar": 0.5897632181320125,
+    "worst_share_deviation": 0.009756097560975618,
+    "n_undefined": 0,
+    "passed": true
+   },
+   {
+    "arm": "i_00",
+    "shuffles": 20,
+    "mean_uar": 0.4996000788022064,
+    "sd_uar": 0.02805291830023261,
+    "min_uar": 0.44118541033434655,
+    "max_uar": 0.5692934068820594,
+    "worst_share_deviation": 0.009756097560975618,
+    "n_undefined": 0,
+    "passed": true
+   }
+  ],
+  "all": {
+   "arm": "all_s004",
+   "n_speakers": 708,
+   "normal": 362,
+   "pathological": 346,
+   "uar": 0.8056422252738479,
+   "roc_auc": 0.8571519816050841,
+   "sensitivity": 0.8615606936416185,
+   "specificity": 0.7497237569060774,
+   "worst_share_deviation": 0.004257181507121843,
+   "chosen_c": "{\"0.01\": 30, \"0.1\": 16, \"1.0\": 4}",
+   "uar_ci": [
+    0.778967087149423,
+    0.8315013767707841
+   ]
+  },
+  "speakers_left_out": 1
+ },
+ "s005": {
+  "difference": 0.1966586107198457,
+  "ci_low": 0.14904211544528162,
+  "ci_high": 0.24885463725927046,
+  "p_one_sided": 9.999000099990002e-05,
+  "n_resamples": 10000,
+  "n_undefined": 0,
+  "n_speakers_resampled": 670,
+  "uar_i_mean": 0.7558624064052191,
+  "uar_i_min": 0.6975776558677441,
+  "uar_i_max": 0.818781970494477,
+  "uar_ii": 0.5592037956853734,
+  "sensitivity_i_mean": 0.8322613981762916,
+  "specificity_i_mean": 0.6794634146341464,
+  "sensitivity_ii": 0.6623100303951368,
+  "specificity_ii": 0.4560975609756097,
+  "roc_auc_i_mean": 0.8095256134628215,
+  "roc_auc_ii": 0.5870820668693009,
+  "patients": 329,
+  "normals_per_arm": 82,
+  "draws": 50,
+  "draw_place_share": {
+   "ESSUA": 0.6680487804878049,
+   "HSA": 0.31682926829268293,
+   "ULSM": 0.012926829268292682,
+   "HSJ": 0.0021951219512195124
+  },
+  "worst_share_deviation": 0.007803691175597871,
+  "smallest_gap": 0.1,
+  "reaches_smallest_gap": true,
+  "negative": [
+   {
+    "arm": "ii",
+    "shuffles": 20,
+    "mean_uar": 0.49388019868040633,
+    "sd_uar": 0.023186852708064823,
+    "min_uar": 0.4579379494402846,
+    "max_uar": 0.5340759137074652,
+    "worst_share_deviation": 0.007803691175597871,
+    "n_undefined": 0,
+    "passed": true
+   },
+   {
+    "arm": "i_00",
+    "shuffles": 20,
+    "mean_uar": 0.4946584253836459,
+    "sd_uar": 0.034762931074894095,
+    "min_uar": 0.4435947809326118,
+    "max_uar": 0.5540255022611016,
+    "worst_share_deviation": 0.007803691175597871,
+    "n_undefined": 0,
+    "passed": true
+   }
+  ],
+  "all": {
+   "arm": "all_s005",
+   "n_speakers": 709,
+   "normal": 363,
+   "pathological": 346,
+   "uar": 0.8027381009251741,
+   "roc_auc": 0.8573233650217359,
+   "sensitivity": 0.8404624277456648,
+   "specificity": 0.7650137741046832,
+   "worst_share_deviation": 0.004946462980988886,
+   "chosen_c": "{\"0.01\": 17, \"0.1\": 30, \"1.0\": 1, \"10.0\": 2}",
+   "uar_ci": [
+    0.7762454408813301,
+    0.8281992609262174
+   ]
+  },
+  "speakers_left_out": 0
+ },
+ "s006": {
+  "difference": 0.2184644154496257,
+  "ci_low": 0.16766000766467207,
+  "ci_high": 0.27135855835175826,
+  "p_one_sided": 9.999000099990002e-05,
+  "n_resamples": 10000,
+  "n_undefined": 0,
+  "n_speakers_resampled": 670,
+  "uar_i_mean": 0.7698952109125955,
+  "uar_i_min": 0.715794350952628,
+  "uar_i_max": 0.8184631922307066,
+  "uar_ii": 0.5514307954629698,
+  "sensitivity_i_mean": 0.8647416413373861,
+  "specificity_i_mean": 0.6750487804878048,
+  "sensitivity_ii": 0.6613981762917933,
+  "specificity_ii": 0.4414634146341464,
+  "roc_auc_i_mean": 0.8192790421825191,
+  "roc_auc_ii": 0.568915412558381,
+  "patients": 329,
+  "normals_per_arm": 82,
+  "draws": 50,
+  "draw_place_share": {
+   "ESSUA": 0.6680487804878049,
+   "HSA": 0.31682926829268293,
+   "ULSM": 0.012926829268292682,
+   "HSJ": 0.0021951219512195124
+  },
+  "worst_share_deviation": 0.007803691175597871,
+  "smallest_gap": 0.1,
+  "reaches_smallest_gap": true,
+  "negative": [
+   {
+    "arm": "ii",
+    "shuffles": 20,
+    "mean_uar": 0.49035408480984505,
+    "sd_uar": 0.03400570850858937,
+    "min_uar": 0.4370616798873156,
+    "max_uar": 0.5521869671584254,
+    "worst_share_deviation": 0.007803691175597871,
+    "n_undefined": 0,
+    "passed": true
+   },
+   {
+    "arm": "i_00",
+    "shuffles": 20,
+    "mean_uar": 0.507581918600341,
+    "sd_uar": 0.03261342712687374,
+    "min_uar": 0.450620876269553,
+    "max_uar": 0.5717973904663058,
+    "worst_share_deviation": 0.007803691175597871,
+    "n_undefined": 0,
+    "passed": true
+   }
+  ],
+  "all": {
+   "arm": "all_s006",
+   "n_speakers": 709,
+   "normal": 363,
+   "pathological": 346,
+   "uar": 0.8062377585630344,
+   "roc_auc": 0.8665536075415213,
+   "sensitivity": 0.8546242774566475,
+   "specificity": 0.7578512396694215,
+   "worst_share_deviation": 0.004946462980988886,
+   "chosen_c": "{\"0.01\": 25, \"0.1\": 21, \"1.0\": 4}",
+   "uar_ci": [
+    0.7802109318781483,
+    0.8315448527147179
+   ]
+  },
+  "speakers_left_out": 0
+ },
+ "s007": {
+  "difference": 0.2392232559863593,
+  "ci_low": 0.19302754098070976,
+  "ci_high": 0.28837835872307166,
+  "p_one_sided": 9.999000099990002e-05,
+  "n_resamples": 10000,
+  "n_undefined": 0,
+  "n_speakers_resampled": 669,
+  "uar_i_mean": 0.7862226629105197,
+  "uar_i_min": 0.72370820668693,
+  "uar_i_max": 0.8455519312032026,
+  "uar_ii": 0.5469994069241604,
+  "sensitivity_i_mean": 0.883933130699088,
+  "specificity_i_mean": 0.6885121951219513,
+  "sensitivity_ii": 0.6683890577507599,
+  "specificity_ii": 0.42560975609756097,
+  "roc_auc_i_mean": 0.8310137890132699,
+  "roc_auc_ii": 0.5889094817999851,
+  "patients": 329,
+  "normals_per_arm": 82,
+  "draws": 50,
+  "draw_place_share": {
+   "ESSUA": 0.6663414634146342,
+   "HSA": 0.31853658536585366,
+   "ULSM": 0.012926829268292682,
+   "HSJ": 0.0021951219512195124
+  },
+  "worst_share_deviation": 0.007803691175597871,
+  "smallest_gap": 0.1,
+  "reaches_smallest_gap": true,
+  "negative": [
+   {
+    "arm": "ii",
+    "shuffles": 20,
+    "mean_uar": 0.4847275557861961,
+    "sd_uar": 0.02928954459123684,
+    "min_uar": 0.44560938542516126,
+    "max_uar": 0.5563088442434576,
+    "worst_share_deviation": 0.007803691175597871,
+    "n_undefined": 0,
+    "passed": true
+   },
+   {
+    "arm": "i_00",
+    "shuffles": 20,
+    "mean_uar": 0.5076151864482171,
+    "sd_uar": 0.021001964679129,
+    "min_uar": 0.4655311735488176,
+    "max_uar": 0.5511268440951886,
+    "worst_share_deviation": 0.007803691175597871,
+    "n_undefined": 0,
+    "passed": true
+   }
+  ],
+  "all": {
+   "arm": "all_s007",
+   "n_speakers": 708,
+   "normal": 362,
+   "pathological": 346,
+   "uar": 0.8271604445437998,
+   "roc_auc": 0.880421071120621,
+   "sensitivity": 0.8852601156069364,
+   "specificity": 0.7690607734806629,
+   "worst_share_deviation": 0.004257181507121843,
+   "chosen_c": "{\"0.01\": 34, \"0.1\": 15, \"1.0\": 1}",
+   "uar_ci": [
+    0.8011851337413274,
+    0.8525699115372309
+   ]
+  },
+  "speakers_left_out": 1
+ },
+ "s008": {
+  "difference": 0.25023475609756096,
+  "ci_low": 0.20031153382096725,
+  "ci_high": 0.30339846646860175,
+  "p_one_sided": 9.999000099990002e-05,
+  "n_resamples": 10000,
+  "n_undefined": 0,
+  "n_speakers_resampled": 668,
+  "uar_i_mean": 0.7752347560975611,
+  "uar_i_min": 0.7102134146341463,
+  "uar_i_max": 0.8263719512195122,
+  "uar_ii": 0.5250000000000001,
+  "sensitivity_i_mean": 0.8775426829268292,
+  "specificity_i_mean": 0.6729268292682927,
+  "sensitivity_ii": 0.6390243902439025,
+  "specificity_ii": 0.4109756097560976,
+  "roc_auc_i_mean": 0.8170837299226651,
+  "roc_auc_ii": 0.541946757882213,
+  "patients": 328,
+  "normals_per_arm": 82,
+  "draws": 50,
+  "draw_place_share": {
+   "ESSUA": 0.6682926829268293,
+   "HSA": 0.31658536585365854,
+   "ULSM": 0.012926829268292682,
+   "HSJ": 0.0021951219512195124
+  },
+  "worst_share_deviation": 0.007317073170731714,
+  "smallest_gap": 0.1,
+  "reaches_smallest_gap": true,
+  "negative": [
+   {
+    "arm": "ii",
+    "shuffles": 20,
+    "mean_uar": 0.4970731707317072,
+    "sd_uar": 0.019422770754041516,
+    "min_uar": 0.4577743902439025,
+    "max_uar": 0.5422256097560976,
+    "worst_share_deviation": 0.007317073170731714,
+    "n_undefined": 0,
+    "passed": true
+   },
+   {
+    "arm": "i_00",
+    "shuffles": 20,
+    "mean_uar": 0.5009984756097562,
+    "sd_uar": 0.03519461870340645,
+    "min_uar": 0.44329268292682933,
+    "max_uar": 0.5722560975609755,
+    "worst_share_deviation": 0.007317073170731714,
+    "n_undefined": 0,
+    "passed": true
+   }
+  ],
+  "all": {
+   "arm": "all_s008",
+   "n_speakers": 707,
+   "normal": 362,
+   "pathological": 345,
+   "uar": 0.8169929537993434,
+   "roc_auc": 0.8642229161662263,
+   "sensitivity": 0.8884057971014492,
+   "specificity": 0.7455801104972377,
+   "worst_share_deviation": 0.002061876207741453,
+   "chosen_c": "{\"0.01\": 46, \"0.1\": 4}",
+   "uar_ci": [
+    0.7903884783639541,
+    0.8432616853026393
+   ]
+  },
+  "speakers_left_out": 2
+ },
+ "s009": {
+  "difference": 0.24046951219512203,
+  "ci_low": 0.19061934755626528,
+  "ci_high": 0.2929835921579953,
+  "p_one_sided": 9.999000099990002e-05,
+  "n_resamples": 10000,
+  "n_undefined": 0,
+  "n_speakers_resampled": 669,
+  "uar_i_mean": 0.758609756097561,
+  "uar_i_min": 0.7088414634146342,
+  "uar_i_max": 0.8073170731707316,
+  "uar_ii": 0.518140243902439,
+  "sensitivity_i_mean": 0.8564878048780487,
+  "specificity_i_mean": 0.6607317073170732,
+  "sensitivity_ii": 0.6314024390243903,
+  "specificity_ii": 0.40487804878048783,
+  "roc_auc_i_mean": 0.8052752082093992,
+  "roc_auc_ii": 0.5353249553837002,
+  "patients": 328,
+  "normals_per_arm": 82,
+  "draws": 50,
+  "draw_place_share": {
+   "ESSUA": 0.6680487804878049,
+   "HSA": 0.31682926829268293,
+   "ULSM": 0.012926829268292682,
+   "HSJ": 0.0021951219512195124
+  },
+  "worst_share_deviation": 0.007317073170731714,
+  "smallest_gap": 0.1,
+  "reaches_smallest_gap": true,
+  "negative": [
+   {
+    "arm": "ii",
+    "shuffles": 20,
+    "mean_uar": 0.5012576219512195,
+    "sd_uar": 0.03224284514830078,
+    "min_uar": 0.4588414634146341,
+    "max_uar": 0.5519817073170732,
+    "worst_share_deviation": 0.007317073170731714,
+    "n_undefined": 0,
+    "passed": true
+   },
+   {
+    "arm": "i_00",
+    "shuffles": 20,
+    "mean_uar": 0.5007088414634147,
+    "sd_uar": 0.02470147399843686,
+    "min_uar": 0.44832317073170724,
+    "max_uar": 0.5376524390243904,
+    "worst_share_deviation": 0.007317073170731714,
+    "n_undefined": 0,
+    "passed": true
+   }
+  ],
+  "all": {
+   "arm": "all_s009",
+   "n_speakers": 708,
+   "normal": 363,
+   "pathological": 345,
+   "uar": 0.7959659839501737,
+   "roc_auc": 0.8545662155148319,
+   "sensitivity": 0.8484057971014491,
+   "specificity": 0.743526170798898,
+   "worst_share_deviation": 0.0020735665344392418,
+   "chosen_c": "{\"0.01\": 25, \"0.1\": 17, \"1.0\": 7, \"10.0\": 1}",
+   "uar_ci": [
+    0.7695595379833317,
+    0.8223401803042286
+   ]
+  },
+  "speakers_left_out": 1
+ },
+ "cape_v": {
+  "difference": 0.2916199495885536,
+  "ci_low": 0.24443535803526512,
+  "ci_high": 0.34157399733579846,
+  "p_one_sided": 9.999000099990002e-05,
+  "n_resamples": 10000,
+  "n_undefined": 0,
+  "n_speakers_resampled": 670,
+  "uar_i_mean": 0.768740195715027,
+  "uar_i_min": 0.6949551486396323,
+  "uar_i_max": 0.8205852917191786,
+  "uar_ii": 0.47712024612647347,
+  "sensitivity_i_mean": 0.8624316109422492,
+  "specificity_i_mean": 0.6750487804878048,
+  "sensitivity_ii": 0.6091185410334347,
+  "specificity_ii": 0.34512195121951217,
+  "roc_auc_i_mean": 0.812866854474016,
+  "roc_auc_ii": 0.4949217881236564,
+  "patients": 329,
+  "normals_per_arm": 82,
+  "draws": 50,
+  "draw_place_share": {
+   "ESSUA": 0.6680487804878049,
+   "HSA": 0.31682926829268293,
+   "ULSM": 0.012926829268292682,
+   "HSJ": 0.0021951219512195124
+  },
+  "worst_share_deviation": 0.007803691175597871,
+  "smallest_gap": 0.1,
+  "reaches_smallest_gap": true,
+  "negative": [
+   {
+    "arm": "ii",
+    "shuffles": 20,
+    "mean_uar": 0.49297853806805547,
+    "sd_uar": 0.024446801461108045,
+    "min_uar": 0.4486470457409741,
+    "max_uar": 0.5393857958336422,
+    "worst_share_deviation": 0.007803691175597871,
+    "n_undefined": 0,
+    "passed": true
+   },
+   {
+    "arm": "i_00",
+    "shuffles": 20,
+    "mean_uar": 0.5017789495144191,
+    "sd_uar": 0.028068958194262198,
+    "min_uar": 0.4564107791533842,
+    "max_uar": 0.5657721106086442,
+    "worst_share_deviation": 0.007803691175597871,
+    "n_undefined": 0,
+    "passed": true
+   }
+  ],
+  "all": {
+   "arm": "all_cape_v",
+   "n_speakers": 709,
+   "normal": 363,
+   "pathological": 346,
+   "uar": 0.8200182327744072,
+   "roc_auc": 0.8626992468032931,
+   "sensitivity": 0.872543352601156,
+   "specificity": 0.7674931129476585,
+   "worst_share_deviation": 0.004946462980988886,
+   "chosen_c": "{\"0.01\": 37, \"0.1\": 13}",
+   "uar_ci": [
+    0.793426875009375,
+    0.8452770628950691
+   ]
+  },
+  "speakers_left_out": 0
+ },
+ "reading": {
+  "difference": 0.2313902439024389,
+  "ci_low": 0.1846961260710877,
+  "ci_high": 0.2805339520280183,
+  "p_one_sided": 9.999000099990002e-05,
+  "n_resamples": 10000,
+  "n_undefined": 0,
+  "n_speakers_resampled": 669,
+  "uar_i_mean": 0.7720914634146341,
+  "uar_i_min": 0.7181402439024391,
+  "uar_i_max": 0.8454268292682927,
+  "uar_ii": 0.5407012195121952,
+  "sensitivity_i_mean": 0.8611585365853659,
+  "specificity_i_mean": 0.6830243902439024,
+  "sensitivity_ii": 0.6557926829268294,
+  "specificity_ii": 0.425609756097561,
+  "roc_auc_i_mean": 0.8226786882807852,
+  "roc_auc_ii": 0.5646378643664486,
+  "patients": 328,
+  "normals_per_arm": 82,
+  "draws": 50,
+  "draw_place_share": {
+   "ESSUA": 0.6680487804878049,
+   "HSA": 0.31682926829268293,
+   "ULSM": 0.012926829268292682,
+   "HSJ": 0.0021951219512195124
+  },
+  "worst_share_deviation": 0.007317073170731714,
+  "smallest_gap": 0.1,
+  "reaches_smallest_gap": true,
+  "negative": [
+   {
+    "arm": "ii",
+    "shuffles": 20,
+    "mean_uar": 0.5053201219512196,
+    "sd_uar": 0.026975741455142598,
+    "min_uar": 0.45579268292682923,
+    "max_uar": 0.542530487804878,
+    "worst_share_deviation": 0.007317073170731714,
+    "n_undefined": 0,
+    "passed": true
+   },
+   {
+    "arm": "i_00",
+    "shuffles": 20,
+    "mean_uar": 0.5023170731707316,
+    "sd_uar": 0.028676181987526854,
+    "min_uar": 0.4466463414634146,
+    "max_uar": 0.5498475609756098,
+    "worst_share_deviation": 0.007317073170731714,
+    "n_undefined": 0,
+    "passed": true
+   }
+  ],
+  "all": {
+   "arm": "all_reading",
+   "n_speakers": 708,
+   "normal": 363,
+   "pathological": 345,
+   "uar": 0.8297772188286021,
+   "roc_auc": 0.8817359364394939,
+   "sensitivity": 0.8843478260869565,
+   "specificity": 0.7752066115702478,
+   "worst_share_deviation": 0.0020735665344392418,
+   "chosen_c": "{\"0.01\": 4, \"0.1\": 45, \"1.0\": 1}",
+   "uar_ci": [
+    0.8044409823153046,
+    0.8546891587032724
+   ]
+  },
+  "speakers_left_out": 1
+ },
+ "connected": {
+  "difference": 0.2536917488323819,
+  "ci_low": 0.20649116860175354,
+  "ci_high": 0.30275288325960487,
+  "p_one_sided": 9.999000099990002e-05,
+  "n_resamples": 10000,
+  "n_undefined": 0,
+  "n_speakers_resampled": 670,
+  "uar_i_mean": 0.7760451478982874,
+  "uar_i_min": 0.7190303210022981,
+  "uar_i_max": 0.8314163392393802,
+  "uar_ii": 0.5223533990659055,
+  "sensitivity_i_mean": 0.8603829787234042,
+  "specificity_i_mean": 0.6917073170731708,
+  "sensitivity_ii": 0.6361702127659574,
+  "specificity_ii": 0.4085365853658537,
+  "roc_auc_i_mean": 0.818964044777226,
+  "roc_auc_ii": 0.5365853658536586,
+  "patients": 329,
+  "normals_per_arm": 82,
+  "draws": 50,
+  "draw_place_share": {
+   "ESSUA": 0.6680487804878049,
+   "HSA": 0.31682926829268293,
+   "ULSM": 0.012926829268292682,
+   "HSJ": 0.0021951219512195124
+  },
+  "worst_share_deviation": 0.007803691175597871,
+  "smallest_gap": 0.1,
+  "reaches_smallest_gap": true,
+  "negative": [
+   {
+    "arm": "ii",
+    "shuffles": 20,
+    "mean_uar": 0.49215147527615083,
+    "sd_uar": 0.030140741610755195,
+    "min_uar": 0.4189265327303729,
+    "max_uar": 0.5424494032174364,
+    "worst_share_deviation": 0.007803691175597871,
+    "n_undefined": 0,
+    "passed": true
+   },
+   {
+    "arm": "i_00",
+    "shuffles": 20,
+    "mean_uar": 0.5003709504040329,
+    "sd_uar": 0.02677771376256776,
+    "min_uar": 0.44407850841426344,
+    "max_uar": 0.5482726666172437,
+    "worst_share_deviation": 0.007803691175597871,
+    "n_undefined": 0,
+    "passed": true
+   }
+  ],
+  "all": {
+   "arm": "all_connected",
+   "n_speakers": 709,
+   "normal": 363,
+   "pathological": 346,
+   "uar": 0.8281764040828676,
+   "roc_auc": 0.8732877912068664,
+   "sensitivity": 0.8797687861271676,
+   "specificity": 0.7765840220385675,
+   "worst_share_deviation": 0.004946462980988886,
+   "chosen_c": "{\"0.01\": 14, \"0.1\": 34, \"1.0\": 2}",
+   "uar_ci": [
+    0.8029360953665035,
+    0.8524958771230757
+   ]
+  },
+  "speakers_left_out": 0
+ }
+}

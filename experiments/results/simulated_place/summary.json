@@ -1,0 +1,1176 @@
+{
+ "measured": {
+  "silence_share": {
+   "ESSUA": 0.30421624405824127,
+   "HSA": 0.24389115820084184,
+   "difference": 0.06032508585739943
+  },
+  "band_difference_db": {
+   "ltas_0063": -5.191833398594369,
+   "ltas_0079": -6.35204962819185,
+   "ltas_0100": -8.981123234668296,
+   "ltas_0126": -5.437525660019583,
+   "ltas_0158": 1.4774221119749171,
+   "ltas_0200": 1.8078931183385336,
+   "ltas_0251": -1.9175019623526453,
+   "ltas_0316": -0.05509830089323842,
+   "ltas_0398": 0.7174629232358214,
+   "ltas_0501": -1.1088595300180035,
+   "ltas_0631": -0.27365590318745525,
+   "ltas_0794": 0.5321045094798844,
+   "ltas_1000": 0.5032587827434032,
+   "ltas_1259": 0.2502612203737602,
+   "ltas_1585": 1.1414530190990586,
+   "ltas_1995": 0.9123949472458435,
+   "ltas_2512": 0.7520096776571918,
+   "ltas_3162": 0.48755452822706147,
+   "ltas_3981": 1.1200124108529437,
+   "ltas_5012": 0.11078114668184469,
+   "ltas_6310": 0.28276573069858557
+  },
+  "level_difference_db": -1.1263379231823478,
+  "reverb_drr_db": {
+   "reverb_0.25": 8.585371975696392,
+   "reverb_0.5": 5.575072019056581,
+   "reverb_1.0": 2.5647720624167674,
+   "all": 5.575072019056581
+  }
+ },
+ "snr_db": {
+  "as_recorded": 32.60822841445525,
+  "noise_6": 26.608228414455247,
+  "noise_12": 20.608228414455247,
+  "noise_24": 8.608228414455247
+ },
+ "handcrafted": {
+  "none": {
+   "ii": {
+    "uar": 0.7036233227073911,
+    "roc_auc": 0.7752020164578546
+   },
+   "i_uar_mean": 0.6815879234932166,
+   "i_uar_range": [
+    0.6295852175846985,
+    0.7260341759952553
+   ],
+   "gap_i_minus_ii": {
+    "difference": -0.022035399214174523,
+    "ci_low": -0.06304172700623535,
+    "ci_high": 0.020089470892186406,
+    "p_one_sided": 0.8483151684831517,
+    "n_resamples": 10000,
+    "n_undefined": 0,
+    "n_speakers_resampled": 647
+   }
+  },
+  "noise_6": {
+   "ii": {
+    "uar": 0.7036233227073911,
+    "roc_auc": 0.7752020164578546
+   },
+   "i_uar_mean": 0.7284767217732966,
+   "i_uar_range": [
+    0.689120765067833,
+    0.7873081770331382
+   ],
+   "gap_i_minus_ii": {
+    "difference": 0.024853399065905446,
+    "ci_low": -0.018615631224213714,
+    "ci_high": 0.07003245774450081,
+    "p_one_sided": 0.13038696130386962,
+    "n_resamples": 10000,
+    "n_undefined": 0,
+    "n_speakers_resampled": 647
+   },
+   "minus_none": {
+    "difference": 0.04688879828007997,
+    "ci_low": 0.028156483995511062,
+    "ci_high": 0.06553599054075047
+   }
+  },
+  "noise_12": {
+   "ii": {
+    "uar": 0.7036233227073911,
+    "roc_auc": 0.7752020164578546
+   },
+   "i_uar_mean": 0.7582239231966789,
+   "i_uar_range": [
+    0.7131699903625177,
+    0.8112017199199348
+   ],
+   "gap_i_minus_ii": {
+    "difference": 0.05460060048928772,
+    "ci_low": 0.009406914595040448,
+    "ci_high": 0.10175402293784769,
+    "p_one_sided": 0.0086991300869913,
+    "n_resamples": 10000,
+    "n_undefined": 0,
+    "n_speakers_resampled": 647
+   },
+   "minus_none": {
+    "difference": 0.07663599970346224,
+    "ci_low": 0.05188802429913775,
+    "ci_high": 0.10164433459092116
+   }
+  },
+  "noise_24": {
+   "ii": {
+    "uar": 0.7036233227073911,
+    "roc_auc": 0.7752020164578546
+   },
+   "i_uar_mean": 0.8001276595744681,
+   "i_uar_range": [
+    0.767651419675291,
+    0.8354103343465045
+   ],
+   "gap_i_minus_ii": {
+    "difference": 0.09650433686707693,
+    "ci_low": 0.04997873366697811,
+    "ci_high": 0.14678087859809524,
+    "p_one_sided": 9.999000099990002e-05,
+    "n_resamples": 10000,
+    "n_undefined": 0,
+    "n_speakers_resampled": 647
+   },
+   "minus_none": {
+    "difference": 0.11853973608125146,
+    "ci_low": 0.0876653671867338,
+    "ci_high": 0.14983547020138246
+   }
+  },
+  "silence_0.5x": {
+   "ii": {
+    "uar": 0.7036233227073911,
+    "roc_auc": 0.7752020164578546
+   },
+   "i_uar_mean": 0.7731109422492402,
+   "i_uar_range": [
+    0.7216009340944474,
+    0.8483301208392022
+   ],
+   "gap_i_minus_ii": {
+    "difference": 0.06948761954184901,
+    "ci_low": 0.023177575180483734,
+    "ci_high": 0.11949300482940688,
+    "p_one_sided": 0.0012998700129987,
+    "n_resamples": 10000,
+    "n_undefined": 0,
+    "n_speakers_resampled": 647
+   },
+   "minus_none": {
+    "difference": 0.09152301875602353,
+    "ci_low": 0.06189035369795825,
+    "ci_high": 0.12190274530185392
+   }
+  },
+  "silence_1x": {
+   "ii": {
+    "uar": 0.7036233227073911,
+    "roc_auc": 0.7752020164578546
+   },
+   "i_uar_mean": 0.8280021498999184,
+   "i_uar_range": [
+    0.7801708799762769,
+    0.8681796278449105
+   ],
+   "gap_i_minus_ii": {
+    "difference": 0.12437882719252724,
+    "ci_low": 0.07434059635081648,
+    "ci_high": 0.17929643548130075,
+    "p_one_sided": 9.999000099990002e-05,
+    "n_resamples": 10000,
+    "n_undefined": 0,
+    "n_speakers_resampled": 647
+   },
+   "minus_none": {
+    "difference": 0.14641422640670176,
+    "ci_low": 0.11019247396085627,
+    "ci_high": 0.18268514578700382
+   }
+  },
+  "silence_2x": {
+   "ii": {
+    "uar": 0.7036233227073911,
+    "roc_auc": 0.7752020164578546
+   },
+   "i_uar_mean": 0.8354942545778041,
+   "i_uar_range": [
+    0.7850322484987767,
+    0.8719697531321818
+   ],
+   "gap_i_minus_ii": {
+    "difference": 0.131870931870413,
+    "ci_low": 0.08121055747345245,
+    "ci_high": 0.18770801304137838,
+    "p_one_sided": 9.999000099990002e-05,
+    "n_resamples": 10000,
+    "n_undefined": 0,
+    "n_speakers_resampled": 647
+   },
+   "minus_none": {
+    "difference": 0.1539063310845875,
+    "ci_low": 0.11690012222680181,
+    "ci_high": 0.1910474535641481
+   }
+  },
+  "reverb_0.25": {
+   "ii": {
+    "uar": 0.7036233227073911,
+    "roc_auc": 0.7752020164578546
+   },
+   "i_uar_mean": 0.6671577581733266,
+   "i_uar_range": [
+    0.627904218251909,
+    0.7081362591741419
+   ],
+   "gap_i_minus_ii": {
+    "difference": -0.036465564534064576,
+    "ci_low": -0.08125539530474775,
+    "ci_high": 0.010400473512396997,
+    "p_one_sided": 0.939006099390061,
+    "n_resamples": 10000,
+    "n_undefined": 0,
+    "n_speakers_resampled": 647
+   },
+   "minus_none": {
+    "difference": -0.014430165319890054,
+    "ci_low": -0.032553322033155585,
+    "ci_high": 0.00401300929117041
+   }
+  },
+  "reverb_0.5": {
+   "ii": {
+    "uar": 0.7036233227073911,
+    "roc_auc": 0.7752020164578546
+   },
+   "i_uar_mean": 0.7160183482837869,
+   "i_uar_range": [
+    0.667751501223219,
+    0.7755448884276077
+   ],
+   "gap_i_minus_ii": {
+    "difference": 0.012395025576395713,
+    "ci_low": -0.03670313436148673,
+    "ci_high": 0.06434752269777244,
+    "p_one_sided": 0.31056894310568944,
+    "n_resamples": 10000,
+    "n_undefined": 0,
+    "n_speakers_resampled": 647
+   },
+   "minus_none": {
+    "difference": 0.034430424790570235,
+    "ci_low": 0.004698983342317695,
+    "ci_high": 0.06448733765586431
+   }
+  },
+  "reverb_1.0": {
+   "ii": {
+    "uar": 0.7036233227073911,
+    "roc_auc": 0.7752020164578546
+   },
+   "i_uar_mean": 0.7639663058788644,
+   "i_uar_range": [
+    0.7202609533694121,
+    0.8343149974052931
+   ],
+   "gap_i_minus_ii": {
+    "difference": 0.06034298317147324,
+    "ci_low": 0.009858822767236531,
+    "ci_high": 0.11490492169385799,
+    "p_one_sided": 0.0091990800919908,
+    "n_resamples": 10000,
+    "n_undefined": 0,
+    "n_speakers_resampled": 647
+   },
+   "minus_none": {
+    "difference": 0.08237838238564776,
+    "ci_low": 0.0481445968043372,
+    "ci_high": 0.11667009315036551
+   }
+  },
+  "channel_0.5x": {
+   "ii": {
+    "uar": 0.7036233227073911,
+    "roc_auc": 0.7752020164578546
+   },
+   "i_uar_mean": 0.6828420935577136,
+   "i_uar_range": [
+    0.6244032174364298,
+    0.7293702275928535
+   ],
+   "gap_i_minus_ii": {
+    "difference": -0.020781229149677505,
+    "ci_low": -0.061942569598582506,
+    "ci_high": 0.02148097892595422,
+    "p_one_sided": 0.8348165183481652,
+    "n_resamples": 10000,
+    "n_undefined": 0,
+    "n_speakers_resampled": 647
+   },
+   "minus_none": {
+    "difference": 0.0012541700644970177,
+    "ci_low": -0.003261087295522791,
+    "ci_high": 0.0057858712043700735
+   }
+  },
+  "channel_1x": {
+   "ii": {
+    "uar": 0.7036233227073911,
+    "roc_auc": 0.7752020164578546
+   },
+   "i_uar_mean": 0.6868595892949811,
+   "i_uar_range": [
+    0.6382496849284603,
+    0.7360126769960708
+   ],
+   "gap_i_minus_ii": {
+    "difference": -0.016763733412409998,
+    "ci_low": -0.05879589043516125,
+    "ci_high": 0.02625742058884185,
+    "p_one_sided": 0.7849215078492151,
+    "n_resamples": 10000,
+    "n_undefined": 0,
+    "n_speakers_resampled": 647
+   },
+   "minus_none": {
+    "difference": 0.005271665801764525,
+    "ci_low": -0.003358849839215361,
+    "ci_high": 0.013977335987854408
+   }
+  },
+  "channel_2x": {
+   "ii": {
+    "uar": 0.7036233227073911,
+    "roc_auc": 0.7752020164578546
+   },
+   "i_uar_mean": 0.7010634591148343,
+   "i_uar_range": [
+    0.6515141967529099,
+    0.7553376825561567
+   ],
+   "gap_i_minus_ii": {
+    "difference": -0.002559863592556888,
+    "ci_low": -0.045232847549005376,
+    "ci_high": 0.041587711762130636,
+    "p_one_sided": 0.5557444255574443,
+    "n_resamples": 10000,
+    "n_undefined": 0,
+    "n_speakers_resampled": 647
+   },
+   "minus_none": {
+    "difference": 0.019475535621617635,
+    "ci_low": 0.00424631854974262,
+    "ci_high": 0.03447734499256781
+   }
+  },
+  "all": {
+   "ii": {
+    "uar": 0.7036233227073911,
+    "roc_auc": 0.7752020164578546
+   },
+   "i_uar_mean": 0.8157675142708876,
+   "i_uar_range": [
+    0.7690748016902661,
+    0.86459707910149
+   ],
+   "gap_i_minus_ii": {
+    "difference": 0.11214419156349642,
+    "ci_low": 0.061060014277082166,
+    "ci_high": 0.16777087061493162,
+    "p_one_sided": 9.999000099990002e-05,
+    "n_resamples": 10000,
+    "n_undefined": 0,
+    "n_speakers_resampled": 647
+   },
+   "minus_none": {
+    "difference": 0.13417959077767094,
+    "ci_low": 0.09682607268788426,
+    "ci_high": 0.17176754856180565
+   }
+  },
+  "readings": {
+   "none": "the design makes no gap by itself",
+   "noise_12": "alone it makes a gap, less than half",
+   "silence_1x": "alone it reaches half of AVFAD's gap or more",
+   "reverb_0.5": "alone it makes no gap",
+   "channel_1x": "alone it makes no gap",
+   "all": "all four together fall short of AVFAD"
+  }
+ },
+ "free": {
+  "none": {
+   "ii": {
+    "uar": 0.6550967454963302,
+    "roc_auc": 0.723370894803173
+   },
+   "i_uar_mean": 0.6436023797168062,
+   "i_uar_range": [
+    0.5934353918007265,
+    0.7181629475869226
+   ],
+   "gap_i_minus_ii": {
+    "difference": -0.011494365779524007,
+    "ci_low": -0.053390035116379256,
+    "ci_high": 0.030103410049861522,
+    "p_one_sided": 0.7086291370862914,
+    "n_resamples": 10000,
+    "n_undefined": 0,
+    "n_speakers_resampled": 647
+   }
+  },
+  "noise_6": {
+   "ii": {
+    "uar": 0.6550967454963302,
+    "roc_auc": 0.723370894803173
+   },
+   "i_uar_mean": 0.6631573133664468,
+   "i_uar_range": [
+    0.6158351249165988,
+    0.7375046334049966
+   ],
+   "gap_i_minus_ii": {
+    "difference": 0.008060567870116553,
+    "ci_low": -0.03313924917411888,
+    "ci_high": 0.04898657612216307,
+    "p_one_sided": 0.35476452354764526,
+    "n_resamples": 10000,
+    "n_undefined": 0,
+    "n_speakers_resampled": 647
+   },
+   "minus_none": {
+    "difference": 0.01955493364964056,
+    "ci_low": 0.009341774844751266,
+    "ci_high": 0.0298545434950577
+   }
+  },
+  "noise_12": {
+   "ii": {
+    "uar": 0.6550967454963302,
+    "roc_auc": 0.723370894803173
+   },
+   "i_uar_mean": 0.6635850693157387,
+   "i_uar_range": [
+    0.6059196382237378,
+    0.7311012676996071
+   ],
+   "gap_i_minus_ii": {
+    "difference": 0.00848832381940845,
+    "ci_low": -0.03278105476189895,
+    "ci_high": 0.04977864937999237,
+    "p_one_sided": 0.3487651234876512,
+    "n_resamples": 10000,
+    "n_undefined": 0,
+    "n_speakers_resampled": 647
+   },
+   "minus_none": {
+    "difference": 0.019982689598932457,
+    "ci_low": 0.00704423628031671,
+    "ci_high": 0.0330950714177387
+   }
+  },
+  "noise_24": {
+   "ii": {
+    "uar": 0.6550967454963302,
+    "roc_auc": 0.723370894803173
+   },
+   "i_uar_mean": 0.678894432500556,
+   "i_uar_range": [
+    0.6389484024019572,
+    0.7216954555563794
+   ],
+   "gap_i_minus_ii": {
+    "difference": 0.023797687004225798,
+    "ci_low": -0.01827184846232329,
+    "ci_high": 0.06659862557352007,
+    "p_one_sided": 0.1376862313768623,
+    "n_resamples": 10000,
+    "n_undefined": 0,
+    "n_speakers_resampled": 647
+   },
+   "minus_none": {
+    "difference": 0.035292052783749805,
+    "ci_low": 0.01414403250395215,
+    "ci_high": 0.056956162954547085
+   }
+  },
+  "silence_0.5x": {
+   "ii": {
+    "uar": 0.6550967454963302,
+    "roc_auc": 0.723370894803173
+   },
+   "i_uar_mean": 0.7472843798650753,
+   "i_uar_range": [
+    0.6873230039291274,
+    0.7899677515012231
+   ],
+   "gap_i_minus_ii": {
+    "difference": 0.09218763436874511,
+    "ci_low": 0.03715694892106937,
+    "ci_high": 0.14871400618000533,
+    "p_one_sided": 0.0005999400059994001,
+    "n_resamples": 10000,
+    "n_undefined": 0,
+    "n_speakers_resampled": 647
+   },
+   "minus_none": {
+    "difference": 0.10368200014826912,
+    "ci_low": 0.06395332475484942,
+    "ci_high": 0.14430282793978855
+   }
+  },
+  "silence_1x": {
+   "ii": {
+    "uar": 0.6550967454963302,
+    "roc_auc": 0.723370894803173
+   },
+   "i_uar_mean": 0.8269466973089183,
+   "i_uar_range": [
+    0.7605882570983764,
+    0.8706019719771666
+   ],
+   "gap_i_minus_ii": {
+    "difference": 0.1718499518125881,
+    "ci_low": 0.11406963169367934,
+    "ci_high": 0.231907155234909,
+    "p_one_sided": 9.999000099990002e-05,
+    "n_resamples": 10000,
+    "n_undefined": 0,
+    "n_speakers_resampled": 647
+   },
+   "minus_none": {
+    "difference": 0.18334431759211212,
+    "ci_low": 0.13857217778264277,
+    "ci_high": 0.2282902133973349
+   }
+  },
+  "silence_2x": {
+   "ii": {
+    "uar": 0.6550967454963302,
+    "roc_auc": 0.723370894803173
+   },
+   "i_uar_mean": 0.8319954407294833,
+   "i_uar_range": [
+    0.7719957002001631,
+    0.8721217288160723
+   ],
+   "gap_i_minus_ii": {
+    "difference": 0.17689869523315305,
+    "ci_low": 0.1189579488743804,
+    "ci_high": 0.2374369708160496,
+    "p_one_sided": 9.999000099990002e-05,
+    "n_resamples": 10000,
+    "n_undefined": 0,
+    "n_speakers_resampled": 647
+   },
+   "minus_none": {
+    "difference": 0.18839306101267705,
+    "ci_low": 0.14329126050307658,
+    "ci_high": 0.2338420458798471
+   }
+  },
+  "reverb_0.25": {
+   "ii": {
+    "uar": 0.6550967454963302,
+    "roc_auc": 0.723370894803173
+   },
+   "i_uar_mean": 0.5731202831937133,
+   "i_uar_range": [
+    0.5072355252427905,
+    0.6289161539031803
+   ],
+   "gap_i_minus_ii": {
+    "difference": -0.0819764623026169,
+    "ci_low": -0.131737089605701,
+    "ci_high": -0.03222498330062277,
+    "p_one_sided": 0.9992000799920008,
+    "n_resamples": 10000,
+    "n_undefined": 0,
+    "n_speakers_resampled": 647
+   },
+   "minus_none": {
+    "difference": -0.0704820965230929,
+    "ci_low": -0.09791039692202334,
+    "ci_high": -0.0426093570049041
+   }
+  },
+  "reverb_0.5": {
+   "ii": {
+    "uar": 0.6550967454963302,
+    "roc_auc": 0.723370894803173
+   },
+   "i_uar_mean": 0.6678514345021871,
+   "i_uar_range": [
+    0.6209207502409371,
+    0.7174308695974498
+   ],
+   "gap_i_minus_ii": {
+    "difference": 0.012754689005856856,
+    "ci_low": -0.047518737653374006,
+    "ci_high": 0.07508629947339789,
+    "p_one_sided": 0.34036596340365965,
+    "n_resamples": 10000,
+    "n_undefined": 0,
+    "n_speakers_resampled": 647
+   },
+   "minus_none": {
+    "difference": 0.024249054785380864,
+    "ci_low": -0.023192631067182733,
+    "ci_high": 0.07088279742243486
+   }
+  },
+  "reverb_1.0": {
+   "ii": {
+    "uar": 0.6550967454963302,
+    "roc_auc": 0.723370894803173
+   },
+   "i_uar_mean": 0.7351266958262286,
+   "i_uar_range": [
+    0.6741344799466231,
+    0.7868114760174957
+   ],
+   "gap_i_minus_ii": {
+    "difference": 0.08002995032989835,
+    "ci_low": 0.01801362354857892,
+    "ci_high": 0.14412757449804608,
+    "p_one_sided": 0.006099390060993901,
+    "n_resamples": 10000,
+    "n_undefined": 0,
+    "n_speakers_resampled": 647
+   },
+   "minus_none": {
+    "difference": 0.09152431610942235,
+    "ci_low": 0.04283852631239164,
+    "ci_high": 0.1406057942054459
+   }
+  },
+  "channel_0.5x": {
+   "ii": {
+    "uar": 0.6550967454963302,
+    "roc_auc": 0.723370894803173
+   },
+   "i_uar_mean": 0.6436208762695529,
+   "i_uar_range": [
+    0.5952591000074136,
+    0.7163318259322411
+   ],
+   "gap_i_minus_ii": {
+    "difference": -0.011475869226777347,
+    "ci_low": -0.05331745227924628,
+    "ci_high": 0.030102456382708018,
+    "p_one_sided": 0.7078292170782922,
+    "n_resamples": 10000,
+    "n_undefined": 0,
+    "n_speakers_resampled": 647
+   },
+   "minus_none": {
+    "difference": 1.8496552746660733e-05,
+    "ci_low": -0.0006619169697589383,
+    "ci_high": 0.0006920288018493758
+   }
+  },
+  "channel_1x": {
+   "ii": {
+    "uar": 0.6550967454963302,
+    "roc_auc": 0.723370894803173
+   },
+   "i_uar_mean": 0.6430148639632293,
+   "i_uar_range": [
+    0.5934353918007266,
+    0.711455630513752
+   ],
+   "gap_i_minus_ii": {
+    "difference": -0.012081881533100969,
+    "ci_low": -0.054045783040372435,
+    "ci_high": 0.02961269815853848,
+    "p_one_sided": 0.7171282871712829,
+    "n_resamples": 10000,
+    "n_undefined": 0,
+    "n_speakers_resampled": 647
+   },
+   "minus_none": {
+    "difference": -0.0005875157535769615,
+    "ci_low": -0.00169206805575087,
+    "ci_high": 0.0005154477112140754
+   }
+  },
+  "channel_2x": {
+   "ii": {
+    "uar": 0.6550967454963302,
+    "roc_auc": 0.723370894803173
+   },
+   "i_uar_mean": 0.6418064348728595,
+   "i_uar_range": [
+    0.5949607087256282,
+    0.7087182148417229
+   ],
+   "gap_i_minus_ii": {
+    "difference": -0.013290310623470747,
+    "ci_low": -0.055430252694401556,
+    "ci_high": 0.028505544192905803,
+    "p_one_sided": 0.7382261773822618,
+    "n_resamples": 10000,
+    "n_undefined": 0,
+    "n_speakers_resampled": 647
+   },
+   "minus_none": {
+    "difference": -0.0017959448439467396,
+    "ci_low": -0.0037195768643074863,
+    "ci_high": 9.110116400599567e-05
+   }
+  },
+  "all": {
+   "ii": {
+    "uar": 0.6550967454963302,
+    "roc_auc": 0.723370894803173
+   },
+   "i_uar_mean": 0.8014475869226778,
+   "i_uar_range": [
+    0.748142931277337,
+    0.8397064274594113
+   ],
+   "gap_i_minus_ii": {
+    "difference": 0.14635084142634758,
+    "ci_low": 0.08750670649059689,
+    "ci_high": 0.20708426523832904,
+    "p_one_sided": 9.999000099990002e-05,
+    "n_resamples": 10000,
+    "n_undefined": 0,
+    "n_speakers_resampled": 647
+   },
+   "minus_none": {
+    "difference": 0.15784520720587158,
+    "ci_low": 0.11196332783587142,
+    "ci_high": 0.2038617503457817
+   }
+  },
+  "readings": {
+   "none": "the design makes no gap by itself",
+   "reverb_0.5": "the 40 columns do not respond to reverb"
+  }
+ },
+ "hubert": {
+  "none": {
+   "ii": {
+    "uar": 0.7163911335161984,
+    "roc_auc": 0.7771665801764401
+   },
+   "i_uar_mean": 0.7060802505745422,
+   "i_uar_range": [
+    0.6568611461190601,
+    0.7651549410630885
+   ],
+   "gap_i_minus_ii": {
+    "difference": -0.010310882941656274,
+    "ci_low": -0.04651201387944046,
+    "ci_high": 0.025311913775524608,
+    "p_one_sided": 0.7136286371362863,
+    "n_resamples": 10000,
+    "n_undefined": 0,
+    "n_speakers_resampled": 647
+   }
+  },
+  "noise_12": {
+   "ii": {
+    "uar": 0.7163911335161984,
+    "roc_auc": 0.7771665801764401
+   },
+   "i_uar_mean": 0.7711246200607904,
+   "i_uar_range": [
+    0.7285603083994365,
+    0.8204870635332494
+   ],
+   "gap_i_minus_ii": {
+    "difference": 0.05473348654459198,
+    "ci_low": 0.015443419405450371,
+    "ci_high": 0.09574356087661648,
+    "p_one_sided": 0.0032996700329967,
+    "n_resamples": 10000,
+    "n_undefined": 0,
+    "n_speakers_resampled": 647
+   },
+   "minus_none": {
+    "difference": 0.06504436948624825,
+    "ci_low": 0.0419383494241178,
+    "ci_high": 0.08884235197213795
+   }
+  },
+  "silence_1x": {
+   "ii": {
+    "uar": 0.7163911335161984,
+    "roc_auc": 0.7771665801764401
+   },
+   "i_uar_mean": 0.8393137741863741,
+   "i_uar_range": [
+    0.7926440062272964,
+    0.8738323819408407
+   ],
+   "gap_i_minus_ii": {
+    "difference": 0.12292264067017566,
+    "ci_low": 0.07660961686005222,
+    "ci_high": 0.1719479316691272,
+    "p_one_sided": 9.999000099990002e-05,
+    "n_resamples": 10000,
+    "n_undefined": 0,
+    "n_speakers_resampled": 647
+   },
+   "minus_none": {
+    "difference": 0.13323352361183194,
+    "ci_low": 0.09900801357781353,
+    "ci_high": 0.16779249103345217
+   }
+  },
+  "reverb_0.5": {
+   "ii": {
+    "uar": 0.7163911335161984,
+    "roc_auc": 0.7771665801764401
+   },
+   "i_uar_mean": 0.7673178515827712,
+   "i_uar_range": [
+    0.7150214989991845,
+    0.8022740751723628
+   ],
+   "gap_i_minus_ii": {
+    "difference": 0.050926718066572785,
+    "ci_low": 0.004991022814446894,
+    "ci_high": 0.0988782276255384,
+    "p_one_sided": 0.015498450154984501,
+    "n_resamples": 10000,
+    "n_undefined": 0,
+    "n_speakers_resampled": 647
+   },
+   "minus_none": {
+    "difference": 0.06123760100822906,
+    "ci_low": 0.03086355627992688,
+    "ci_high": 0.0916226868210477
+   }
+  },
+  "channel_1x": {
+   "ii": {
+    "uar": 0.7163911335161984,
+    "roc_auc": 0.7771665801764401
+   },
+   "i_uar_mean": 0.7022302616947141,
+   "i_uar_range": [
+    0.647872340425532,
+    0.7628734524427312
+   ],
+   "gap_i_minus_ii": {
+    "difference": -0.014160871821484289,
+    "ci_low": -0.05012772562939184,
+    "ci_high": 0.021598155039607384,
+    "p_one_sided": 0.7792220777922207,
+    "n_resamples": 10000,
+    "n_undefined": 0,
+    "n_speakers_resampled": 647
+   },
+   "minus_none": {
+    "difference": -0.0038499888798280146,
+    "ci_low": -0.007358554184479624,
+    "ci_high": -0.00039303818383913414
+   }
+  },
+  "all": {
+   "ii": {
+    "uar": 0.7163911335161984,
+    "roc_auc": 0.7771665801764401
+   },
+   "i_uar_mean": 0.8278238194084068,
+   "i_uar_range": [
+    0.771159833938765,
+    0.8676050856253245
+   ],
+   "gap_i_minus_ii": {
+    "difference": 0.11143268589220834,
+    "ci_low": 0.06420754202950085,
+    "ci_high": 0.1608245649820034,
+    "p_one_sided": 9.999000099990002e-05,
+    "n_resamples": 10000,
+    "n_undefined": 0,
+    "n_speakers_resampled": 647
+   },
+   "minus_none": {
+    "difference": 0.12174356883386461,
+    "ci_low": 0.08685845733031841,
+    "ci_high": 0.15690877657795133
+   }
+  },
+  "readings": {
+   "none": "the design makes no gap by itself",
+   "noise_12": "alone it makes a gap, less than half",
+   "silence_1x": "alone it reaches half of AVFAD's gap or more",
+   "reverb_0.5": "alone it makes a gap, less than half",
+   "channel_1x": "alone it makes no gap",
+   "all": "as measured"
+  }
+ },
+ "place": {
+  "free": {
+   "all": {
+    "auc": 0.8303763532666234,
+    "ci_low": 0.7956174652505037,
+    "ci_high": 0.8633674567125439,
+    "visibility_a_vs_b": 0.9998664767669575,
+    "ceiling": 0.8848314606741573
+   },
+   "channel_0.5x": {
+    "auc": 0.3768143164509409,
+    "ci_low": 0.33526860421433696,
+    "ci_high": 0.4188812711314504,
+    "visibility_a_vs_b": 0.5534538009613673,
+    "ceiling": 0.8848314606741573
+   },
+   "channel_1x": {
+    "auc": 0.3776424985485468,
+    "ci_low": 0.3358359516409959,
+    "ci_high": 0.4211378538984324,
+    "visibility_a_vs_b": 0.5574594979526437,
+    "ceiling": 0.8848314606741573
+   },
+   "channel_2x": {
+    "auc": 0.380912537140125,
+    "ci_low": 0.33878624363922,
+    "ci_high": 0.42381663877599807,
+    "visibility_a_vs_b": 0.5684529108064803,
+    "ceiling": 0.8848314606741573
+   },
+   "noise_12": {
+    "auc": 0.45106895256309554,
+    "ci_low": 0.40736270960691234,
+    "ci_high": 0.49501447184180863,
+    "visibility_a_vs_b": 0.5884368880185152,
+    "ceiling": 0.8848314606741573
+   },
+   "noise_24": {
+    "auc": 0.5617465250503739,
+    "ci_low": 0.5186806290768758,
+    "ci_high": 0.605477954987876,
+    "visibility_a_vs_b": 0.7271675271497241,
+    "ceiling": 0.8848314606741573
+   },
+   "noise_6": {
+    "auc": 0.42160445339981556,
+    "ci_low": 0.37884613742700046,
+    "ci_high": 0.4649787831699737,
+    "visibility_a_vs_b": 0.5663165390777996,
+    "ceiling": 0.8848314606741573
+   },
+   "none": {
+    "auc": 0.37586660291656704,
+    "ci_low": 0.33379986168505177,
+    "ci_high": 0.4196595061644069,
+    "visibility_a_vs_b": 0.5514954602100766,
+    "ceiling": 0.8848314606741573
+   },
+   "reverb_0.25": {
+    "auc": 0.5131996858030805,
+    "ci_low": 0.46999739592227047,
+    "ci_high": 0.5563863939073119,
+    "visibility_a_vs_b": 0.81756275591953,
+    "ceiling": 0.8848314606741573
+   },
+   "reverb_0.5": {
+    "auc": 0.7173508418428333,
+    "ci_low": 0.6779989583689082,
+    "ci_high": 0.7559776390833647,
+    "visibility_a_vs_b": 0.9617678476054834,
+    "ceiling": 0.8848314606741573
+   },
+   "reverb_1.0": {
+    "auc": 0.7891123937024008,
+    "ci_low": 0.7528343891943581,
+    "ci_high": 0.8241453502271098,
+    "visibility_a_vs_b": 0.9969734733843689,
+    "ceiling": 0.8848314606741573
+   },
+   "silence_0.5x": {
+    "auc": 0.7844848195075305,
+    "ci_low": 0.7478655100577166,
+    "ci_high": 0.8190981353095864,
+    "visibility_a_vs_b": 0.9888285561687734,
+    "ceiling": 0.8848314606741573
+   },
+   "silence_1x": {
+    "auc": 0.8368822786107032,
+    "ci_low": 0.8026868959393463,
+    "ci_high": 0.8693954697585464,
+    "visibility_a_vs_b": 0.9996884457895674,
+    "ceiling": 0.8848314606741573
+   },
+   "silence_2x": {
+    "auc": 0.8369164304497797,
+    "ci_low": 0.8021916942727366,
+    "ci_high": 0.8696767955329395,
+    "visibility_a_vs_b": 1.0,
+    "ceiling": 0.8848314606741573
+   },
+   "check": {
+    "visibility_channel_1x": 0.5574594979526437,
+    "passed": true
+   }
+  },
+  "handcrafted": {
+   "all": {
+    "auc": 0.8240753389570028,
+    "ci_low": 0.7889074826679416,
+    "ci_high": 0.8571770089819337,
+    "visibility_a_vs_b": 1.0,
+    "ceiling": 0.8848314606741573,
+    "reading": "as far as AVFAD's place detector"
+   },
+   "channel_0.5x": {
+    "auc": 0.39542706874765204,
+    "ci_low": 0.3532907431440183,
+    "ci_high": 0.43902445271677876,
+    "visibility_a_vs_b": 0.5116610290190493,
+    "ceiling": 0.8848314606741573,
+    "reading": "short of AVFAD's place detector"
+   },
+   "channel_1x": {
+    "auc": 0.41127352207916396,
+    "ci_low": 0.36903580820327175,
+    "ci_high": 0.4543739967897271,
+    "visibility_a_vs_b": 0.5443297133701264,
+    "ceiling": 0.8848314606741573,
+    "reading": "short of AVFAD's place detector"
+   },
+   "channel_2x": {
+    "auc": 0.50837573853352,
+    "ci_low": 0.46530173149824117,
+    "ci_high": 0.5526202998531471,
+    "visibility_a_vs_b": 0.6563111981484778,
+    "ceiling": 0.8848314606741573,
+    "reading": "short of AVFAD's place detector"
+   },
+   "noise_12": {
+    "auc": 0.7353147091970903,
+    "ci_low": 0.6968757470714798,
+    "ci_high": 0.7724721235613539,
+    "visibility_a_vs_b": 0.9188623820544775,
+    "ceiling": 0.8848314606741573,
+    "reading": "short of AVFAD's place detector"
+   },
+   "noise_24": {
+    "auc": 0.8289334380656398,
+    "ci_low": 0.797384396024726,
+    "ci_high": 0.8589040247942351,
+    "visibility_a_vs_b": 0.9848228591774969,
+    "ceiling": 0.8848314606741573,
+    "reading": "as far as AVFAD's place detector"
+   },
+   "noise_6": {
+    "auc": 0.6427034595812985,
+    "ci_low": 0.6015244527167789,
+    "ci_high": 0.6844054164816775,
+    "visibility_a_vs_b": 0.848584653729749,
+    "ceiling": 0.8848314606741573,
+    "reading": "short of AVFAD's place detector"
+   },
+   "none": {
+    "auc": 0.4087548239472696,
+    "ci_low": 0.3663465643249889,
+    "ci_high": 0.45157311908746284,
+    "visibility_a_vs_b": 0.5154886950329357,
+    "ceiling": 0.8848314606741573,
+    "reading": "short of AVFAD's place detector"
+   },
+   "reverb_0.25": {
+    "auc": 0.524102660428264,
+    "ci_low": 0.4798303507393873,
+    "ci_high": 0.5679628001092859,
+    "visibility_a_vs_b": 0.8110201175004451,
+    "ceiling": 0.8848314606741573,
+    "reading": "short of AVFAD's place detector"
+   },
+   "reverb_0.5": {
+    "auc": 0.7090177931081588,
+    "ci_low": 0.6695293022779277,
+    "ci_high": 0.7476608124722517,
+    "visibility_a_vs_b": 0.9654619903863272,
+    "ceiling": 0.8848314606741573,
+    "reading": "short of AVFAD's place detector"
+   },
+   "reverb_1.0": {
+    "auc": 0.7888306410300194,
+    "ci_low": 0.7529797479594276,
+    "ci_high": 0.8239903862572999,
+    "visibility_a_vs_b": 0.9993323838347873,
+    "ceiling": 0.8848314606741573,
+    "reading": "as measured"
+   },
+   "silence_0.5x": {
+    "auc": 0.7882500597657184,
+    "ci_low": 0.7525443120112018,
+    "ci_high": 0.8221991222977357,
+    "visibility_a_vs_b": 0.9855349830870571,
+    "ceiling": 0.8848314606741573,
+    "reading": "short of AVFAD's place detector"
+   },
+   "silence_1x": {
+    "auc": 0.827661282060039,
+    "ci_low": 0.7928253389570028,
+    "ci_high": 0.8609339247293467,
+    "visibility_a_vs_b": 0.9998219690226099,
+    "ceiling": 0.8848314606741573,
+    "reading": "as far as AVFAD's place detector"
+   },
+   "silence_2x": {
+    "auc": 0.8339452204501212,
+    "ci_low": 0.7981619907106998,
+    "ci_high": 0.8673811516000136,
+    "visibility_a_vs_b": 1.0,
+    "ceiling": 0.8848314606741573,
+    "reading": "as far as AVFAD's place detector"
+   }
+  },
+  "hubert": {
+   "all": {
+    "auc": 0.8058382568901336,
+    "ci_low": 0.769048188244937,
+    "ci_high": 0.841767272292613,
+    "visibility_a_vs_b": 0.9996884457895674,
+    "ceiling": 0.8848314606741573,
+    "reading": "short of AVFAD's place detector"
+   },
+   "channel_1x": {
+    "auc": 0.44751716129913593,
+    "ci_low": 0.40451060414603324,
+    "ci_high": 0.4901303319558758,
+    "visibility_a_vs_b": 0.4695121951219512,
+    "ceiling": 0.8848314606741573,
+    "reading": "short of AVFAD's place detector"
+   },
+   "noise_12": {
+    "auc": 0.7261193265257334,
+    "ci_low": 0.6885683122161128,
+    "ci_high": 0.7632171886206072,
+    "visibility_a_vs_b": 0.8777372262773723,
+    "ceiling": 0.8848314606741573,
+    "reading": "short of AVFAD's place detector"
+   },
+   "none": {
+    "auc": 0.438953587650695,
+    "ci_low": 0.3964855623100304,
+    "ci_high": 0.48115714968751067,
+    "visibility_a_vs_b": 0.44961723339861137,
+    "ceiling": 0.8848314606741573,
+    "reading": "short of AVFAD's place detector"
+   },
+   "reverb_0.5": {
+    "auc": 0.6896366244322256,
+    "ci_low": 0.6477908029097368,
+    "ci_high": 0.7298512687408217,
+    "visibility_a_vs_b": 0.9860690760192273,
+    "ceiling": 0.8848314606741573,
+    "reading": "short of AVFAD's place detector"
+   },
+   "silence_1x": {
+    "auc": 0.8302738977493938,
+    "ci_low": 0.795873817492572,
+    "ci_high": 0.8640968119258221,
+    "visibility_a_vs_b": 0.9998664767669575,
+    "ceiling": 0.8848314606741573,
+    "reading": "short of AVFAD's place detector"
+   }
+  }
+ }
+}

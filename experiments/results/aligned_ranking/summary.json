@@ -1,0 +1,124 @@
+{
+ "patients": 329,
+ "seed": 20261142,
+ "n_resamples": 10000,
+ "hubert": {
+  "rho_ii": {
+   "rho": 0.7345281340351397,
+   "ci_low": 0.6799149382349499,
+   "ci_high": 0.7832914201863803
+  },
+  "rho_i_plain": {
+   "rho": 0.4855839370800451,
+   "ci_low": 0.41111417549461293,
+   "ci_high": 0.5533131178033603
+  },
+  "location": {
+   "rho_i": {
+    "rho": 0.5343876357166446,
+    "ci_low": 0.46777078122347293,
+    "ci_high": 0.5958177846173873
+   },
+   "minus_plain_i": {
+    "difference": 0.0488036986365995,
+    "ci_low": 0.011512005682252175,
+    "ci_high": 0.08585180910737915
+   },
+   "reading": "as measured",
+   "minus_ii": {
+    "difference": -0.20014049831849512,
+    "ci_low": -0.23510682754210085,
+    "ci_high": -0.16695804437411357
+   },
+   "versus_ii_reading": "still agrees less than (ii)"
+  },
+  "scale": {
+   "rho_i": {
+    "rho": 0.5341626847464938,
+    "ci_low": 0.4662494732935823,
+    "ci_high": 0.5960196834459714
+   },
+   "minus_plain_i": {
+    "difference": 0.04857874766644865,
+    "ci_low": 0.010586705904688107,
+    "ci_high": 0.08637919310612975
+   },
+   "reading": "as measured",
+   "minus_ii": {
+    "difference": -0.20036544928864597,
+    "ci_low": -0.2356404089195514,
+    "ci_high": -0.16670838764257562
+   },
+   "versus_ii_reading": "still agrees less than (ii)"
+  }
+ },
+ "handcrafted": {
+  "rho_ii": {
+   "rho": 0.2937036238281698,
+   "ci_low": 0.18948679086788142,
+   "ci_high": 0.3940009274190863
+  },
+  "rho_i_plain": {
+   "rho": 0.25905037774887285,
+   "ci_low": 0.171800175688518,
+   "ci_high": 0.34496399560408975
+  },
+  "location": {
+   "rho_i": {
+    "rho": 0.31360470147392827,
+    "ci_low": 0.2374093517379738,
+    "ci_high": 0.3877526605645834
+   },
+   "minus_plain_i": {
+    "difference": 0.05455432372505542,
+    "ci_low": -0.018733820305788303,
+    "ci_high": 0.13232843097995353
+   },
+   "reading": "the ranking does not change",
+   "minus_ii": {
+    "difference": 0.01990107764575849,
+    "ci_low": -0.03264411337224359,
+    "ci_high": 0.07439247911354764
+   },
+   "versus_ii_reading": "catches up with (ii)"
+  },
+  "scale": {
+   "rho_i": {
+    "rho": 0.29781509512801674,
+    "ci_low": 0.21694094712573003,
+    "ci_high": 0.3759791386722651
+   },
+   "minus_plain_i": {
+    "difference": 0.03876471737914389,
+    "ci_low": -0.037152356842429186,
+    "ci_high": 0.11892748034076192
+   },
+   "reading": "the ranking does not change",
+   "minus_ii": {
+    "difference": 0.004111471299846958,
+    "ci_low": -0.046088890176992275,
+    "ci_high": 0.05546653405628815
+   },
+   "versus_ii_reading": "catches up with (ii)"
+  },
+  "coral": {
+   "rho_i": {
+    "rho": 0.32058840536733635,
+    "ci_low": 0.2389676133167131,
+    "ci_high": 0.40020369399755623
+   },
+   "minus_plain_i": {
+    "difference": 0.0615380276184635,
+    "ci_low": -0.017267455263127725,
+    "ci_high": 0.14332297619940051
+   },
+   "reading": "the ranking does not change",
+   "minus_ii": {
+    "difference": 0.02688478153916657,
+    "ci_low": -0.016922106736878387,
+    "ci_high": 0.07188249322489232
+   },
+   "versus_ii_reading": "catches up with (ii)"
+  }
+ }
+}

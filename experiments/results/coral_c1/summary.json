@@ -1,0 +1,108 @@
+{
+ "logistic": {
+  "plain_gap": 0.22173152198087343,
+  "scale_gap": 0.06799284602268518,
+  "gap_i_minus_ii": {
+   "difference": 0.06251204685299139,
+   "ci_low": 0.024662542719242283,
+   "ci_high": 0.10159485998687084,
+   "p_one_sided": 0.0007999200079992001,
+   "n_resamples": 10000,
+   "n_undefined": 0,
+   "n_speakers_resampled": 670,
+   "i_uar_mean": 0.6154533323448736,
+   "ii_uar": 0.5529412854918823
+  },
+  "gap_reading": "the gap shrinks",
+  "minus_plain": {
+   "difference": -0.15921947512788204,
+   "ci_low": -0.18634474474810553,
+   "ci_high": -0.13273868240305295
+  },
+  "minus_scale": {
+   "difference": -0.005480799169693795,
+   "ci_low": -0.011889653981863793,
+   "ci_high": 0.0006633851834159538
+  },
+  "coral_reading": "the correlations carry nothing more"
+ },
+ "svc": {
+  "plain_gap": 0.20882192897916818,
+  "scale_gap": 0.05984209355771353,
+  "gap_i_minus_ii": {
+   "difference": 0.07027251834828374,
+   "ci_low": 0.0312729684073654,
+   "ci_high": 0.10935194690129994,
+   "p_one_sided": 0.00029997000299970003,
+   "n_resamples": 10000,
+   "n_undefined": 0,
+   "n_speakers_resampled": 670,
+   "i_uar_mean": 0.6231674697901994,
+   "ii_uar": 0.5528949514419157
+  },
+  "gap_reading": "the gap shrinks",
+  "minus_plain": {
+   "difference": -0.13854941063088444,
+   "ci_low": -0.16475165353520427,
+   "ci_high": -0.11306666278789483
+  },
+  "minus_scale": {
+   "difference": 0.010430424790570214,
+   "ci_low": 0.0017122629976824763,
+   "ci_high": 0.01921253034233537
+  },
+  "coral_reading": "as measured"
+ },
+ "random_forest": {
+  "plain_gap": 0.28574705315442217,
+  "scale_gap": 0.05010160130476693,
+  "gap_i_minus_ii": {
+   "difference": 0.05025098228185931,
+   "ci_low": 0.03197603169599548,
+   "ci_high": 0.06817368936729958,
+   "p_one_sided": 9.999000099990002e-05,
+   "n_resamples": 10000,
+   "n_undefined": 0,
+   "n_speakers_resampled": 670,
+   "i_uar_mean": 0.5591378530654607,
+   "ii_uar": 0.5088868707836014
+  },
+  "gap_reading": "the gap shrinks",
+  "minus_plain": {
+   "difference": -0.23549607087256286,
+   "ci_low": -0.26420935770238374,
+   "ci_high": -0.20745068729990707
+  },
+  "minus_scale": {
+   "difference": 0.00014938097709238374,
+   "ci_low": -0.0072981802191796705,
+   "ci_high": 0.007724416470541183
+  },
+  "coral_reading": "the correlations carry nothing more"
+ },
+ "visibility": {
+  "handcrafted": {
+   "logistic": {
+    "none": 0.9629250489585187,
+    "location": 0.4951931636104682,
+    "scale": 0.49884279864696457,
+    "coral": 0.5114829980416593
+   },
+   "forest": {
+    "none": 0.9898299804165925,
+    "location": 0.9189513975431726,
+    "scale": 0.7877648210788677,
+    "coral": 0.6225075663165389
+   }
+  },
+  "hubert": {
+   "logistic": {
+    "none": 0.9833986113583764,
+    "location": 0.5107263663877515,
+    "scale": 0.49879829090261707,
+    "coral": 0.4975075663165391
+   }
+  },
+  "seconds": 78.0
+ }
+}

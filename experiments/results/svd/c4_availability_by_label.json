@@ -1,0 +1,263 @@
+{
+ "overall_pathological": 0.6733167082294265,
+ "overall_normal": 0.6971080669710806,
+ "within_strata_difference": -0.1219007563797578,
+ "within_strata_ci": [
+  -0.1925328695830073,
+  -0.04674981776089335
+ ],
+ "strata": [
+  {
+   "stratum": "[18, 30)|m|[1997, 1999)",
+   "pathological": 4,
+   "normal": 71,
+   "share_pathological": 1.0,
+   "share_normal": 0.647887323943662
+  },
+  {
+   "stratum": "[18, 30)|m|[1999, 2001)",
+   "pathological": 9,
+   "normal": 48,
+   "share_pathological": 0.4444444444444444,
+   "share_normal": 0.7916666666666666
+  },
+  {
+   "stratum": "[18, 30)|m|[2001, 2005)",
+   "pathological": 13,
+   "normal": 15,
+   "share_pathological": 0.8461538461538461,
+   "share_normal": 0.8
+  },
+  {
+   "stratum": "[18, 30)|w|[1997, 1999)",
+   "pathological": 20,
+   "normal": 154,
+   "share_pathological": 0.45,
+   "share_normal": 0.6753246753246753
+  },
+  {
+   "stratum": "[18, 30)|w|[1999, 2001)",
+   "pathological": 16,
+   "normal": 111,
+   "share_pathological": 0.6875,
+   "share_normal": 0.5855855855855856
+  },
+  {
+   "stratum": "[18, 30)|w|[2001, 2005)",
+   "pathological": 25,
+   "normal": 75,
+   "share_pathological": 0.64,
+   "share_normal": 0.5466666666666666
+  },
+  {
+   "stratum": "[30, 40)|m|[1997, 1999)",
+   "pathological": 7,
+   "normal": 58,
+   "share_pathological": 0.42857142857142855,
+   "share_normal": 0.8103448275862069
+  },
+  {
+   "stratum": "[30, 40)|m|[1999, 2001)",
+   "pathological": 15,
+   "normal": 2,
+   "share_pathological": 0.5333333333333333,
+   "share_normal": 1.0
+  },
+  {
+   "stratum": "[30, 40)|m|[2001, 2005)",
+   "pathological": 21,
+   "normal": 0,
+   "share_pathological": 0.8095238095238095,
+   "share_normal": null
+  },
+  {
+   "stratum": "[30, 40)|w|[1997, 1999)",
+   "pathological": 10,
+   "normal": 14,
+   "share_pathological": 0.4,
+   "share_normal": 0.8571428571428571
+  },
+  {
+   "stratum": "[30, 40)|w|[1999, 2001)",
+   "pathological": 34,
+   "normal": 6,
+   "share_pathological": 0.47058823529411764,
+   "share_normal": 0.6666666666666666
+  },
+  {
+   "stratum": "[30, 40)|w|[2001, 2005)",
+   "pathological": 27,
+   "normal": 5,
+   "share_pathological": 0.8148148148148148,
+   "share_normal": 0.6
+  },
+  {
+   "stratum": "[40, 50)|m|[1997, 1999)",
+   "pathological": 12,
+   "normal": 34,
+   "share_pathological": 0.5833333333333334,
+   "share_normal": 0.8823529411764706
+  },
+  {
+   "stratum": "[40, 50)|m|[1999, 2001)",
+   "pathological": 23,
+   "normal": 2,
+   "share_pathological": 0.4782608695652174,
+   "share_normal": 0.0
+  },
+  {
+   "stratum": "[40, 50)|m|[2001, 2005)",
+   "pathological": 24,
+   "normal": 1,
+   "share_pathological": 0.75,
+   "share_normal": 1.0
+  },
+  {
+   "stratum": "[40, 50)|w|[1997, 1999)",
+   "pathological": 17,
+   "normal": 10,
+   "share_pathological": 0.7058823529411765,
+   "share_normal": 0.9
+  },
+  {
+   "stratum": "[40, 50)|w|[1999, 2001)",
+   "pathological": 35,
+   "normal": 3,
+   "share_pathological": 0.6,
+   "share_normal": 1.0
+  },
+  {
+   "stratum": "[40, 50)|w|[2001, 2005)",
+   "pathological": 54,
+   "normal": 2,
+   "share_pathological": 0.7777777777777778,
+   "share_normal": 1.0
+  },
+  {
+   "stratum": "[50, 60)|m|[1997, 1999)",
+   "pathological": 12,
+   "normal": 7,
+   "share_pathological": 0.5,
+   "share_normal": 0.7142857142857143
+  },
+  {
+   "stratum": "[50, 60)|m|[1999, 2001)",
+   "pathological": 28,
+   "normal": 1,
+   "share_pathological": 0.5,
+   "share_normal": 0.0
+  },
+  {
+   "stratum": "[50, 60)|m|[2001, 2005)",
+   "pathological": 35,
+   "normal": 1,
+   "share_pathological": 0.8,
+   "share_normal": 1.0
+  },
+  {
+   "stratum": "[50, 60)|w|[1997, 1999)",
+   "pathological": 27,
+   "normal": 8,
+   "share_pathological": 0.5185185185185185,
+   "share_normal": 0.875
+  },
+  {
+   "stratum": "[50, 60)|w|[1999, 2001)",
+   "pathological": 39,
+   "normal": 3,
+   "share_pathological": 0.6410256410256411,
+   "share_normal": 0.6666666666666666
+  },
+  {
+   "stratum": "[50, 60)|w|[2001, 2005)",
+   "pathological": 42,
+   "normal": 2,
+   "share_pathological": 0.8571428571428571,
+   "share_normal": 1.0
+  },
+  {
+   "stratum": "[60, 70)|m|[1997, 1999)",
+   "pathological": 17,
+   "normal": 8,
+   "share_pathological": 0.7647058823529411,
+   "share_normal": 0.875
+  },
+  {
+   "stratum": "[60, 70)|m|[1999, 2001)",
+   "pathological": 25,
+   "normal": 0,
+   "share_pathological": 0.48,
+   "share_normal": null
+  },
+  {
+   "stratum": "[60, 70)|m|[2001, 2005)",
+   "pathological": 41,
+   "normal": 3,
+   "share_pathological": 0.8536585365853658,
+   "share_normal": 0.6666666666666666
+  },
+  {
+   "stratum": "[60, 70)|w|[1997, 1999)",
+   "pathological": 19,
+   "normal": 8,
+   "share_pathological": 0.7894736842105263,
+   "share_normal": 1.0
+  },
+  {
+   "stratum": "[60, 70)|w|[1999, 2001)",
+   "pathological": 20,
+   "normal": 0,
+   "share_pathological": 0.55,
+   "share_normal": null
+  },
+  {
+   "stratum": "[60, 70)|w|[2001, 2005)",
+   "pathological": 47,
+   "normal": 1,
+   "share_pathological": 0.8936170212765957,
+   "share_normal": 1.0
+  },
+  {
+   "stratum": "[70, 120)|m|[1997, 1999)",
+   "pathological": 14,
+   "normal": 0,
+   "share_pathological": 0.42857142857142855,
+   "share_normal": null
+  },
+  {
+   "stratum": "[70, 120)|m|[1999, 2001)",
+   "pathological": 13,
+   "normal": 0,
+   "share_pathological": 0.46153846153846156,
+   "share_normal": null
+  },
+  {
+   "stratum": "[70, 120)|m|[2001, 2005)",
+   "pathological": 20,
+   "normal": 0,
+   "share_pathological": 0.8,
+   "share_normal": null
+  },
+  {
+   "stratum": "[70, 120)|w|[1997, 1999)",
+   "pathological": 7,
+   "normal": 4,
+   "share_pathological": 0.5714285714285714,
+   "share_normal": 1.0
+  },
+  {
+   "stratum": "[70, 120)|w|[1999, 2001)",
+   "pathological": 9,
+   "normal": 0,
+   "share_pathological": 0.2222222222222222,
+   "share_normal": null
+  },
+  {
+   "stratum": "[70, 120)|w|[2001, 2005)",
+   "pathological": 21,
+   "normal": 0,
+   "share_pathological": 0.9047619047619048,
+   "share_normal": null
+  }
+ ]
+}

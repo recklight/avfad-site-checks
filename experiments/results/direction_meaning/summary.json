@@ -1,0 +1,184 @@
+{
+ "layers": {
+  "0": {
+   "all_normals": {
+    "speakers": 356,
+    "spearman": {
+     "duration_s": -0.27713447087910675,
+     "lead_s": 0.2260818576504156,
+     "trail_s": 0.06822938172950753,
+     "phonation_rms_dbfs": 0.008145635212464477,
+     "floor_db": -0.6090236062774532,
+     "dc_offset": -0.10564085105477544
+    }
+   },
+   "essua_normals": {
+    "speakers": 274,
+    "spearman": {
+     "duration_s": -0.12597475517183548,
+     "lead_s": 0.2666361184714164,
+     "trail_s": 0.2303722997768185,
+     "phonation_rms_dbfs": 0.03869211080889914,
+     "floor_db": -0.463308662140779,
+     "dc_offset": 0.03668710851192603
+    }
+   },
+   "hsa_everyone": {
+    "speakers": 411,
+    "spearman": {
+     "duration_s": -0.21831111928479077,
+     "lead_s": 0.14457755066023797,
+     "trail_s": 0.09969200635588132,
+     "phonation_rms_dbfs": 0.25013369607865166,
+     "floor_db": -0.29357895846692855,
+     "dc_offset": -0.16044601080976437
+    }
+   }
+  },
+  "3": {
+   "all_normals": {
+    "speakers": 356,
+    "spearman": {
+     "duration_s": -0.4757680568385909,
+     "lead_s": 0.14078069091295542,
+     "trail_s": 0.0025857741197847887,
+     "phonation_rms_dbfs": -0.02780729319738657,
+     "floor_db": -0.5482276341459198,
+     "dc_offset": -0.11793936121687161
+    }
+   },
+   "essua_normals": {
+    "speakers": 274,
+    "spearman": {
+     "duration_s": -0.4106506632054078,
+     "lead_s": 0.13701962463356568,
+     "trail_s": 0.13984896832958327,
+     "phonation_rms_dbfs": -0.019954643896249735,
+     "floor_db": -0.3481764950378089,
+     "dc_offset": 0.027944901813514954
+    }
+   },
+   "hsa_everyone": {
+    "speakers": 411,
+    "spearman": {
+     "duration_s": -0.4540527698577307,
+     "lead_s": 0.14313527237163612,
+     "trail_s": 0.11850227871048342,
+     "phonation_rms_dbfs": 0.3114071188192571,
+     "floor_db": -0.18164759891522092,
+     "dc_offset": -0.0456160303931719
+    }
+   }
+  },
+  "6": {
+   "all_normals": {
+    "speakers": 356,
+    "spearman": {
+     "duration_s": -0.6151202399539512,
+     "lead_s": 0.09711234512857987,
+     "trail_s": -0.02574310751695638,
+     "phonation_rms_dbfs": -0.024707398389012196,
+     "floor_db": -0.42123540981513663,
+     "dc_offset": -0.10959025800540188
+    }
+   },
+   "essua_normals": {
+    "speakers": 274,
+    "spearman": {
+     "duration_s": -0.5632011783836601,
+     "lead_s": 0.09171684039874332,
+     "trail_s": 0.06931764486272182,
+     "phonation_rms_dbfs": -0.025703056068019578,
+     "floor_db": -0.22424961899414453,
+     "dc_offset": 0.028602929916798536
+    }
+   },
+   "hsa_everyone": {
+    "speakers": 411,
+    "spearman": {
+     "duration_s": -0.5876785176689551,
+     "lead_s": 0.14086398227277538,
+     "trail_s": 0.15903527243670587,
+     "phonation_rms_dbfs": 0.17753439195507395,
+     "floor_db": -0.027029769199258147,
+     "dc_offset": -0.039005204381290494
+    }
+   }
+  },
+  "9": {
+   "all_normals": {
+    "speakers": 356,
+    "spearman": {
+     "duration_s": -0.6668886196816486,
+     "lead_s": 0.03442914074082434,
+     "trail_s": -0.10189883644156435,
+     "phonation_rms_dbfs": 0.14217572453890562,
+     "floor_db": -0.29336441650564327,
+     "dc_offset": -0.026777186582814805
+    }
+   },
+   "essua_normals": {
+    "speakers": 274,
+    "spearman": {
+     "duration_s": -0.6278851075931369,
+     "lead_s": -0.009640553852752894,
+     "trail_s": -0.06375794097579424,
+     "phonation_rms_dbfs": 0.16300166986298376,
+     "floor_db": -0.09683367727163347,
+     "dc_offset": 0.08829972946761268
+    }
+   },
+   "hsa_everyone": {
+    "speakers": 411,
+    "spearman": {
+     "duration_s": -0.6175488354806502,
+     "lead_s": 0.07597200453028091,
+     "trail_s": 0.12938688713473803,
+     "phonation_rms_dbfs": 0.19053583867282226,
+     "floor_db": 0.004581964252071123,
+     "dc_offset": -0.009749183736610946
+    }
+   }
+  },
+  "12": {
+   "all_normals": {
+    "speakers": 356,
+    "spearman": {
+     "duration_s": -0.5606674123170903,
+     "lead_s": 0.1266957582601821,
+     "trail_s": 0.014712474923885556,
+     "phonation_rms_dbfs": 0.017653309147681862,
+     "floor_db": -0.39604899722193043,
+     "dc_offset": -0.0704653565809929
+    }
+   },
+   "essua_normals": {
+    "speakers": 274,
+    "spearman": {
+     "duration_s": -0.49852541618964974,
+     "lead_s": 0.11016296247519153,
+     "trail_s": 0.09950239468920458,
+     "phonation_rms_dbfs": 0.038049833378300535,
+     "floor_db": -0.19098594835821114,
+     "dc_offset": 0.06356300633672896
+    }
+   },
+   "hsa_everyone": {
+    "speakers": 411,
+    "spearman": {
+     "duration_s": -0.5021178559173549,
+     "lead_s": 0.13016064545153128,
+     "trail_s": 0.17129141100636344,
+     "phonation_rms_dbfs": 0.09536946613176711,
+     "floor_db": -0.05996117887619242,
+     "dc_offset": -0.05496006402201361
+    }
+   }
+  }
+ },
+ "reading": "the place direction follows the noise floor within one place",
+ "other_columns_at_or_above": [
+  "duration_s",
+  "phonation_rms_dbfs"
+ ]
+}

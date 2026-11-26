@@ -1,0 +1,37 @@
+{
+ "ii": {
+  "uar": 0.5655738008747868,
+  "roc_auc": 0.583008377196234
+ },
+ "i": {
+  "uar_mean": 0.6419608199273482,
+  "uar_range": [
+   0.5997312625101936,
+   0.6800800652383423
+  ]
+ },
+ "gap_i_minus_ii": {
+  "difference": 0.0763870190525614,
+  "ci_low": 0.034963228388130214,
+  "ci_high": 0.11925161922164335,
+  "p_one_sided": 0.00019998000199980003,
+  "n_resamples": 10000,
+  "n_undefined": 0,
+  "n_speakers_resampled": 670
+ },
+ "gap_reading": "the gap shrinks",
+ "ii_erased_minus_plain": {
+  "difference": 0.0016754392467936974,
+  "ci_low": -0.012825366818560623,
+  "ci_high": 0.016506888404100174,
+  "n_resamples": 10000,
+  "seed": 20261133
+ },
+ "ii_loses_pathology": false,
+ "erased_minus_plain_gap": {
+  "difference": -0.14148628512120986,
+  "ci_low": -0.16695353729583073,
+  "ci_high": -0.11588403125827602
+ },
+ "plain_gap": 0.21787330417377127
+}

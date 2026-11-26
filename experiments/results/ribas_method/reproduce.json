@@ -1,0 +1,22 @@
+{
+ "a_n": {
+  "files": 708,
+  "missing_features": [],
+  "compared_files": 708,
+  "uar_mean_over_folds_percent": 86.45782592232577,
+  "paper_uar_percent": 86.7,
+  "agreement_with_their_predictions": 0.9858757062146892,
+  "reproduces": true,
+  "uar_pooled": 0.8634912017372975
+ },
+ "phrase": {
+  "files": 4247,
+  "missing_features": [],
+  "compared_files": 4247,
+  "uar_mean_over_folds_percent": 87.13042546948391,
+  "paper_uar_percent": 87.03,
+  "agreement_with_their_predictions": 0.9868142218036261,
+  "reproduces": true,
+  "uar_pooled": 0.8713145074901332
+ }
+}

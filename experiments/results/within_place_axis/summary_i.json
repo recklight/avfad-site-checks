@@ -1,0 +1,248 @@
+{
+ "speakers": {
+  "hsa_patients": 329,
+  "hsa_normals": 82
+ },
+ "hubert": {
+  "hsa_patients": {
+   "layers": {
+    "0": {
+     "rho_ii": {
+      "rho": -0.047573443681383484,
+      "ci_low": -0.15822454731187593,
+      "ci_high": 0.06575660820338072
+     },
+     "rho_i": {
+      "rho": -0.33801515039190183,
+      "ci_low": -0.4278897044268007,
+      "ci_high": -0.24105369295011528
+     },
+     "rho_outside": {
+      "rho": 0.29440217281421227,
+      "ci_low": 0.19409336756444703,
+      "ci_high": 0.38804772281716116
+     },
+     "i_minus_ii": {
+      "difference": -0.29044170671051833,
+      "ci_low": -0.3790345812142119,
+      "ci_high": -0.20090849029002647
+     },
+     "reading": "inside one place, the (i) score follows the place direction too"
+    },
+    "3": {
+     "rho_ii": {
+      "rho": 0.21736937167658496,
+      "ci_low": 0.11141311492519879,
+      "ci_high": 0.3191125122774276
+     },
+     "rho_i": {
+      "rho": -0.18725291314808698,
+      "ci_low": -0.2890252347919733,
+      "ci_high": -0.0834264096636191
+     },
+     "rho_outside": {
+      "rho": 0.3959674212658125,
+      "ci_low": 0.30471431546776107,
+      "ci_high": 0.4816647188794726
+     },
+     "i_minus_ii": {
+      "difference": -0.40462228482467194,
+      "ci_low": -0.4887398442658633,
+      "ci_high": -0.3247169219873701
+     },
+     "reading": "inside one place, the (i) score follows the place direction too"
+    },
+    "6": {
+     "rho_ii": {
+      "rho": 0.42263527857715716,
+      "ci_low": 0.3314085420077997,
+      "ci_high": 0.5082709097415307
+     },
+     "rho_i": {
+      "rho": 0.04059941096785933,
+      "ci_low": -0.06565070038445611,
+      "ci_high": 0.14445108639846976
+     },
+     "rho_outside": {
+      "rho": 0.41967899770183115,
+      "ci_low": 0.32795285880767844,
+      "ci_high": 0.5056510426198895
+     },
+     "i_minus_ii": {
+      "difference": -0.3820358676092978,
+      "ci_low": -0.4698236234442738,
+      "ci_high": -0.29853385175379765
+     },
+     "reading": "inside one place, the (i) score follows the place direction too"
+    },
+    "9": {
+     "rho_ii": {
+      "rho": 0.3870456735791453,
+      "ci_low": 0.2970425400773517,
+      "ci_high": 0.4737817381284508
+     },
+     "rho_i": {
+      "rho": 0.07136825291988759,
+      "ci_low": -0.03338714942561028,
+      "ci_high": 0.17234657705362316
+     },
+     "rho_outside": {
+      "rho": 0.36518341544288613,
+      "ci_low": 0.2690979698002929,
+      "ci_high": 0.4575387478649772
+     },
+     "i_minus_ii": {
+      "difference": -0.31567742065925775,
+      "ci_low": -0.40716264991129913,
+      "ci_high": -0.22868240503309104
+     },
+     "reading": "inside one place, the (i) score follows the place direction too"
+    },
+    "12": {
+     "rho_ii": {
+      "rho": 0.6431958026405354,
+      "ci_low": 0.5750018889181543,
+      "ci_high": 0.7038328975091598
+     },
+     "rho_i": {
+      "rho": 0.2158913997263764,
+      "ci_low": 0.11243007949822095,
+      "ci_high": 0.314871171878032
+     },
+     "rho_outside": {
+      "rho": 0.37798374433039716,
+      "ci_low": 0.28361550238523836,
+      "ci_high": 0.4673914334398594
+     },
+     "i_minus_ii": {
+      "difference": -0.42730440291415905,
+      "ci_low": -0.5106106712315194,
+      "ci_high": -0.3491501015851828
+     },
+     "reading": "inside one place, the (i) score follows the place direction too"
+    }
+   },
+   "overall": "(i) uses the place direction inside one place too"
+  },
+  "hsa_normals": {
+   "layers": {
+    "0": {
+     "rho_ii": {
+      "rho": -0.22408332517060112,
+      "ci_low": -0.4207541462669083,
+      "ci_high": -0.018906125791036465
+     },
+     "rho_i": {
+      "rho": -0.36287154036199,
+      "ci_low": -0.5230918707098714,
+      "ci_high": -0.17988241014300854
+     },
+     "rho_outside": {
+      "rho": 0.1724730901927493,
+      "ci_low": -0.035908867379015,
+      "ci_high": 0.36817289420227334
+     },
+     "i_minus_ii": {
+      "difference": -0.13878821519138887,
+      "ci_low": -0.26390457631747805,
+      "ci_high": -0.01566428014213227
+     },
+     "reading": "inside one place, the (i) score follows the place direction too"
+    },
+    "3": {
+     "rho_ii": {
+      "rho": 0.019862648425681043,
+      "ci_low": -0.1946396502994149,
+      "ci_high": 0.22597337475575452
+     },
+     "rho_i": {
+      "rho": -0.19389209956356593,
+      "ci_low": -0.386029164634554,
+      "ci_high": 0.012521225051677985
+     },
+     "rho_outside": {
+      "rho": 0.3439340015890119,
+      "ci_low": 0.14705924360128433,
+      "ci_high": 0.5272597354348695
+     },
+     "i_minus_ii": {
+      "difference": -0.21375474798924698,
+      "ci_low": -0.3504754402625422,
+      "ci_high": -0.07800087007021463
+     },
+     "reading": "inside one place, the (i) score follows the place direction too"
+    },
+    "6": {
+     "rho_ii": {
+      "rho": 0.28289853179656294,
+      "ci_low": 0.08679465464432304,
+      "ci_high": 0.4624863536489485
+     },
+     "rho_i": {
+      "rho": 0.09957444955975664,
+      "ci_low": -0.10230727414603874,
+      "ci_high": 0.2964420399097145
+     },
+     "rho_outside": {
+      "rho": 0.3951959599917284,
+      "ci_low": 0.19126165536916934,
+      "ci_high": 0.5764284859628861
+     },
+     "i_minus_ii": {
+      "difference": -0.1833240822368063,
+      "ci_low": -0.31678667815307066,
+      "ci_high": -0.054153021094441464
+     },
+     "reading": "inside one place, the (i) score follows the place direction too"
+    },
+    "9": {
+     "rho_ii": {
+      "rho": 0.30729965934197495,
+      "ci_low": 0.10813639949889355,
+      "ci_high": 0.4874672900190028
+     },
+     "rho_i": {
+      "rho": 0.18936450408680794,
+      "ci_low": -0.015055028020746855,
+      "ci_high": 0.38210472422170716
+     },
+     "rho_outside": {
+      "rho": 0.3987440276009186,
+      "ci_low": 0.18831163540832066,
+      "ci_high": 0.5790878707984098
+     },
+     "i_minus_ii": {
+      "difference": -0.11793515525516701,
+      "ci_low": -0.24861864856496807,
+      "ci_high": 0.009116370583570713
+     },
+     "reading": "not visible inside one place"
+    },
+    "12": {
+     "rho_ii": {
+      "rho": 0.6064474700971909,
+      "ci_low": 0.4460399092289413,
+      "ci_high": 0.7383447950168397
+     },
+     "rho_i": {
+      "rho": 0.38646727832740174,
+      "ci_low": 0.20304908141351155,
+      "ci_high": 0.5492351836039644
+     },
+     "rho_outside": {
+      "rho": 0.2658547469008827,
+      "ci_low": 0.03871948857245529,
+      "ci_high": 0.47031826333185445
+     },
+     "i_minus_ii": {
+      "difference": -0.21998019176978917,
+      "ci_low": -0.3397431308464677,
+      "ci_high": -0.11419380408104338
+     },
+     "reading": "inside one place, the (i) score follows the place direction too"
+    }
+   },
+   "overall": "(i) uses the place direction inside one place too"
+  }
+ }
+}

@@ -1,0 +1,96 @@
+{
+ "a_n": {
+  "uar_per_fold_percent": [
+   87.31854838709677,
+   88.2154213036566,
+   86.9435612082671,
+   86.27470754336426,
+   84.72727272727272
+  ],
+  "uar_mean_over_folds_percent": 86.69590223393149,
+  "paper_uar_percent": 86.7,
+  "reproduces_paper": true,
+  "uar_all": 0.8661897614409351,
+  "uar_all_ci": [
+   0.8416139597980914,
+   0.8903185733170248
+  ],
+  "uar_hsa": 0.5564719400993402,
+  "uar_hsa_ci": [
+   0.5173930875138689,
+   0.601041150455551
+  ],
+  "drop": 0.30971782134159487,
+  "drop_ci": [
+   0.27275452369406344,
+   0.34622513032535
+  ],
+  "uar_essua_normals_vs_hsa_patients": 0.9698776400904061,
+  "uar_essua_normals_vs_hsa_patients_ci": [
+   0.9557999520477265,
+   0.9825090861889927
+  ],
+  "specificity_essua": {
+   "rate": 0.9853479853479854,
+   "files": 273,
+   "speakers": 273
+  },
+  "specificity_hsa": {
+   "rate": 0.15853658536585366,
+   "files": 82,
+   "speakers": 82
+  },
+  "sensitivity_hsa": {
+   "rate": 0.9544072948328267,
+   "files": 329,
+   "speakers": 329
+  }
+ },
+ "phrase": {
+  "uar_per_fold_percent": [
+   87.55775065030144,
+   86.87688319744771,
+   86.78488178488179,
+   87.57786908000666,
+   86.35114732623586
+  ],
+  "uar_mean_over_folds_percent": 87.02970640777468,
+  "paper_uar_percent": 87.03,
+  "reproduces_paper": true,
+  "uar_all": 0.8702878813293822,
+  "uar_all_ci": [
+   0.8489587583843643,
+   0.8907789999341513
+  ],
+  "uar_hsa": 0.5528980403785801,
+  "uar_hsa_ci": [
+   0.5265007544210627,
+   0.5815161999823563
+  ],
+  "drop": 0.317389840950802,
+  "drop_ci": [
+   0.28944265703583566,
+   0.3459416370186833
+  ],
+  "uar_essua_normals_vs_hsa_patients": 0.9736129859214381,
+  "uar_essua_normals_vs_hsa_patients_ci": [
+   0.9647839786163811,
+   0.9815548601196445
+  ],
+  "specificity_essua": {
+   "rate": 0.9816737935247404,
+   "files": 1637,
+   "speakers": 273
+  },
+  "specificity_hsa": {
+   "rate": 0.1402439024390244,
+   "files": 492,
+   "speakers": 82
+  },
+  "sensitivity_hsa": {
+   "rate": 0.9655521783181358,
+   "files": 1974,
+   "speakers": 329
+  }
+ }
+}

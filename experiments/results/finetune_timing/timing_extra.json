@@ -1,0 +1,49 @@
+[
+ {
+  "mode": "end_to_end",
+  "trainable_layers": 2,
+  "batch": 8,
+  "audio_seconds_per_item": 4.0,
+  "threads": 4,
+  "seconds_per_step": 4.359847299929243,
+  "peak_gb": 3.4307327270507812
+ },
+ {
+  "mode": "end_to_end",
+  "trainable_layers": 2,
+  "batch": 8,
+  "audio_seconds_per_item": 10.0,
+  "threads": 4,
+  "seconds_per_step": 12.971158800006378,
+  "peak_gb": 8.731742858886719
+ },
+ {
+  "mode": "end_to_end",
+  "trainable_layers": 12,
+  "batch": 8,
+  "audio_seconds_per_item": 4.0,
+  "threads": 4,
+  "seconds_per_step": 5.421149850008078,
+  "peak_gb": 4.579734802246094
+ },
+ {
+  "mode": "end_to_end",
+  "trainable_layers": 12,
+  "batch": 8,
+  "audio_seconds_per_item": 10.0,
+  "threads": 4,
+  "seconds_per_step": 14.227380049938802,
+  "peak_gb": 10.184947967529297
+ },
+ {
+  "mode": "cached",
+  "trainable_layers": 1,
+  "batch": 8,
+  "audio_seconds_per_item": 4.0,
+  "threads": 4,
+  "seconds_per_step": 0.34953419998055324,
+  "peak_gb": 1.2590408325195312,
+  "extract_seconds_per_audio_second": 0.054017956525030275,
+  "infer_seconds_per_audio_second": 0.002384239126839839
+ }
+]

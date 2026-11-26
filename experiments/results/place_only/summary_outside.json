@@ -1,0 +1,45 @@
+{
+ "hubert_svd": {
+  "auc": 0.6573008118971977,
+  "ci_low": 0.62939056468418,
+  "ci_high": 0.684609158230755,
+  "reading": "the place direction carries some pathology outside",
+  "speakers": {
+   "all": 1459,
+   "pathological": 802
+  },
+  "trained_on": {
+   "ESSUA": 274,
+   "HSA": 82
+  }
+ },
+ "hubert_voiced": {
+  "auc": 0.5973045195770884,
+  "ci_low": 0.5122545602416637,
+  "ci_high": 0.6797955152782619,
+  "reading": "as measured",
+  "speakers": {
+   "all": 208,
+   "pathological": 151
+  },
+  "trained_on": {
+   "ESSUA": 274,
+   "HSA": 82
+  }
+ },
+ "handcrafted_svd": {
+  "auc": 0.5101477660491086,
+  "ci_low": 0.48071208014970185,
+  "ci_high": 0.5401924697388948,
+  "reading": "the place direction carries no pathology outside",
+  "speakers": {
+   "all": 1459,
+   "pathological": 802
+  },
+  "trained_on": {
+   "ESSUA": 274,
+   "HSA": 82
+  }
+ },
+ "seconds": 2.4
+}

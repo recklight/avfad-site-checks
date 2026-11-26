@@ -1,0 +1,88 @@
+{
+ "hubert": {
+  "a": {
+   "draws": 50,
+   "place_ii": 0.6430795462969827,
+   "place_i_mean": 0.8776113870561199,
+   "real_ii": 0.6664949217881236,
+   "real_i_mean": 0.8576162799317963,
+   "place_gap": 0.23453184075913713,
+   "real_gap": 0.1911213581436727,
+   "reading": "a detector that never saw a patient reproduces most of the C1 gap"
+  },
+  "i": {
+   "draws": 50,
+   "place_ii": 0.5362517606938987,
+   "place_i_mean": 0.8451820001482688,
+   "real_ii": 0.6266550522648083,
+   "real_i_mean": 0.8383358291941582,
+   "place_gap": 0.30893023945437015,
+   "real_gap": 0.21168077692934983,
+   "reading": "a detector that never saw a patient reproduces most of the C1 gap"
+  },
+  "u": {
+   "draws": 50,
+   "place_ii": 0.5543776410408481,
+   "place_i_mean": 0.8463422047594337,
+   "real_ii": 0.5821150567128771,
+   "real_i_mean": 0.8277325227963527,
+   "place_gap": 0.2919645637185856,
+   "real_gap": 0.24561746608347557,
+   "reading": "a detector that never saw a patient reproduces most of the C1 gap"
+  },
+  "cape_v": {
+   "draws": 50,
+   "place_ii": 0.560197197716658,
+   "place_i_mean": 0.8566795166431908,
+   "real_ii": 0.6263881681370005,
+   "real_i_mean": 0.8654384313144046,
+   "place_gap": 0.29648231892653276,
+   "real_gap": 0.23905026317740408,
+   "reading": "a detector that never saw a patient reproduces most of the C1 gap"
+  },
+  "reading": {
+   "draws": 50,
+   "place_ii": 0.5499330755502677,
+   "place_i_mean": 0.8542920880428316,
+   "real_ii": 0.6444043723973826,
+   "real_i_mean": 0.8674375371802501,
+   "place_gap": 0.3043590124925639,
+   "real_gap": 0.2230331647828675,
+   "reading": "a detector that never saw a patient reproduces most of the C1 gap"
+  }
+ },
+ "handcrafted": {
+  "a": {
+   "draws": 50,
+   "place_ii": 0.512973533990659,
+   "place_i_mean": 0.8317925717251093,
+   "real_ii": 0.5799688635184225,
+   "real_i_mean": 0.8217044999629327,
+   "place_gap": 0.3188190377344503,
+   "real_gap": 0.24173563644451024,
+   "reading": "a detector that never saw a patient reproduces most of the C1 gap"
+  },
+  "cape_v": {
+   "draws": 50,
+   "place_ii": 0.5126399288308993,
+   "place_i_mean": 0.8342797835273186,
+   "real_ii": 0.4949217881236564,
+   "real_i_mean": 0.812866854474016,
+   "place_gap": 0.3216398546964193,
+   "real_gap": 0.3179450663503596,
+   "reading": "a detector that never saw a patient reproduces most of the C1 gap"
+  },
+  "reading": {
+   "draws": 50,
+   "place_ii": 0.4931216537775134,
+   "place_i_mean": 0.8242281380130875,
+   "real_ii": 0.5646378643664486,
+   "real_i_mean": 0.8226786882807852,
+   "place_gap": 0.3311064842355741,
+   "real_gap": 0.2580408239143366,
+   "reading": "a detector that never saw a patient reproduces most of the C1 gap"
+  }
+ },
+ "overall": "the same on every material",
+ "seconds": 35.6
+}

@@ -1,0 +1,152 @@
+{
+ "hubert": {
+  "a_phonation": {
+   "speakers": {
+    "all": 709,
+    "pathological": 346
+   },
+   "all_avfad": {
+    "auc": 0.8706269208108409,
+    "ci_low": 0.8431344448160003,
+    "ci_high": 0.8961135925731302,
+    "reading": "a detector that never saw a patient gets most of the full score"
+   },
+   "hsa_only": {
+    "auc": 0.5698717473496924,
+    "ci_low": 0.5017421602787456,
+    "ci_high": 0.6371867818222254
+   }
+  },
+  "i": {
+   "speakers": {
+    "all": 709,
+    "pathological": 346
+   },
+   "all_avfad": {
+    "auc": 0.8763674580805427,
+    "ci_low": 0.8494321167534515,
+    "ci_high": 0.9016783706746923,
+    "reading": "a detector that never saw a patient gets most of the full score"
+   },
+   "hsa_only": {
+    "auc": 0.5362517606938987,
+    "ci_low": 0.46589721254355404,
+    "ci_high": 0.6051986804062569
+   }
+  },
+  "u": {
+   "speakers": {
+    "all": 709,
+    "pathological": 346
+   },
+   "all_avfad": {
+    "auc": 0.8848309686459975,
+    "ci_low": 0.8587459593305626,
+    "ci_high": 0.9095453351168012,
+    "reading": "a detector that never saw a patient gets most of the full score"
+   },
+   "hsa_only": {
+    "auc": 0.5543776410408481,
+    "ci_low": 0.4863953962487953,
+    "ci_high": 0.6213590703536214
+   }
+  },
+  "cape_v": {
+   "speakers": {
+    "all": 709,
+    "pathological": 346
+   },
+   "all_avfad": {
+    "auc": 0.8927132597652829,
+    "ci_low": 0.8668209286772083,
+    "ci_high": 0.9172042946543735,
+    "reading": "a detector that never saw a patient gets most of the full score",
+    "real_detector_auc": 0.9116498670360993,
+    "share_of_full": 0.9539982670050134
+   },
+   "hsa_only": {
+    "auc": 0.560197197716658,
+    "ci_low": 0.4915088220031137,
+    "ci_high": 0.6271424864704573
+   }
+  },
+  "reading": {
+   "speakers": {
+    "all": 708,
+    "pathological": 345
+   },
+   "all_avfad": {
+    "auc": 0.8878987503493432,
+    "ci_low": 0.86099712540424,
+    "ci_high": 0.9127242783566895,
+    "reading": "a detector that never saw a patient gets most of the full score",
+    "real_detector_auc": 0.9165840220385674,
+    "share_of_full": 0.9311416900992701
+   },
+   "hsa_only": {
+    "auc": 0.5499330755502677,
+    "ci_low": 0.4807759518143962,
+    "ci_high": 0.617939470553242
+   }
+  }
+ },
+ "handcrafted": {
+  "a_phonation": {
+   "speakers": {
+    "all": 709,
+    "pathological": 346
+   },
+   "all_avfad": {
+    "auc": 0.7653943534132709,
+    "ci_low": 0.7300910444433829,
+    "ci_high": 0.8002597573209764,
+    "reading": "as measured"
+   },
+   "hsa_only": {
+    "auc": 0.5100822892727408,
+    "ci_low": 0.4436207280005931,
+    "ci_high": 0.5744310178664097
+   }
+  },
+  "cape_v": {
+   "speakers": {
+    "all": 709,
+    "pathological": 346
+   },
+   "all_avfad": {
+    "auc": 0.8541537285625568,
+    "ci_low": 0.8241916670647622,
+    "ci_high": 0.8828886606474626,
+    "reading": "a detector that never saw a patient gets most of the full score",
+    "real_detector_auc": 0.8626992468032931,
+    "share_of_full": 0.9764391067363563
+   },
+   "hsa_only": {
+    "auc": 0.5126399288308993,
+    "ci_low": 0.44450941507895325,
+    "ci_high": 0.5805480391430053
+   }
+  },
+  "reading": {
+   "speakers": {
+    "all": 708,
+    "pathological": 345
+   },
+   "all_avfad": {
+    "auc": 0.8562941669661037,
+    "ci_low": 0.8272034574999001,
+    "ci_high": 0.883196191160618,
+    "reading": "a detector that never saw a patient gets most of the full score",
+    "real_detector_auc": 0.8817359364394939,
+    "share_of_full": 0.9333524380473863
+   },
+   "hsa_only": {
+    "auc": 0.4931216537775134,
+    "ci_low": 0.42809060826888756,
+    "ci_high": 0.5587829045211185
+   }
+  }
+ },
+ "overall": "as measured",
+ "seconds": 38.0
+}

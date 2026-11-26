@@ -1,0 +1,70 @@
+{
+ "same_path_check": {
+  "max_abs_difference": 0.0,
+  "same_path": true
+ },
+ "arms": {
+  "ii": {
+   "uar": 0.6209263103269331,
+   "roc_auc": 0.6664949217881236,
+   "sensitivity": 0.6723404255319149,
+   "specificity_hsa_normals": 0.5695121951219513
+  },
+  "ii_essua": {
+   "uar": 0.5823393135147157,
+   "roc_auc": 0.6792571725109349,
+   "sensitivity": 0.8854103343465045,
+   "specificity_hsa_normals": 0.27926829268292686
+  },
+  "ii_svd": {
+   "uar": 0.5302672548002075,
+   "roc_auc": 0.6456260656831493,
+   "sensitivity": 0.9446808510638298,
+   "specificity_hsa_normals": 0.11585365853658539
+  }
+ },
+ "ii_essua_minus_ii": {
+  "roc_auc": {
+   "difference": 0.01276225072281123,
+   "ci_low": -0.03034681964094117,
+   "ci_high": 0.055509674549632994,
+   "n_resamples": 10000,
+   "seed": 20261122
+  },
+  "uar": {
+   "difference": -0.038586996812217444,
+   "ci_low": -0.08147867812766248,
+   "ci_high": 0.0030079719737816377,
+   "n_resamples": 10000,
+   "seed": 20261122
+  }
+ },
+ "readings": {
+  "ii_essua": {
+   "auc": "does not help",
+   "uar": "does not help",
+   "reaches_0_70": false
+  },
+  "ii_svd": {
+   "auc": "does not help",
+   "uar": "worse",
+   "reaches_0_70": false
+  }
+ },
+ "ii_svd_minus_ii": {
+  "roc_auc": {
+   "difference": -0.020868856104974354,
+   "ci_low": -0.0509500035615876,
+   "ci_high": 0.00795058187135409,
+   "n_resamples": 10000,
+   "seed": 20261122
+  },
+  "uar": {
+   "difference": -0.0906590555267256,
+   "ci_low": -0.13630567442699715,
+   "ci_high": -0.045633906571510674,
+   "n_resamples": 10000,
+   "seed": 20261122
+  }
+ }
+}

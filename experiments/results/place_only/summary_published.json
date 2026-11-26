@@ -1,0 +1,75 @@
+{
+ "handcrafted": {
+  "speakers": 708,
+  "called_pathological": 404,
+  "everyone": {
+   "auc": 0.9434031396560709,
+   "ci_low": 0.9234776006383534,
+   "ci_high": 0.9613818639265241,
+   "called_pathological": 404,
+   "n": 708
+  },
+  "true_normals": {
+   "auc": 0.9645477329687856,
+   "ci_low": 0.9457279562542721,
+   "ci_high": 0.9807712462975621,
+   "called_pathological": 77,
+   "n": 362
+  },
+  "true_patients": {
+   "auc": 0.7078705939159826,
+   "ci_low": 0.5784604860775793,
+   "ci_high": 0.8266537904394012,
+   "called_pathological": 327,
+   "n": 346
+  },
+  "reading": "which normals it calls pathological follows place",
+  "called_normals_by_place": {
+   "ESSUA": [
+    4,
+    273
+   ],
+   "HSA": [
+    69,
+    82
+   ]
+  }
+ },
+ "hubert": {
+  "speakers": 708,
+  "called_pathological": 404,
+  "everyone": {
+   "auc": 0.9831943720687858,
+   "ci_low": 0.9754095557582073,
+   "ci_high": 0.9896106777618551,
+   "called_pathological": 404,
+   "n": 708
+  },
+  "true_normals": {
+   "auc": 0.9822282980177717,
+   "ci_low": 0.970334928229665,
+   "ci_high": 0.9918432444748234,
+   "called_pathological": 77,
+   "n": 362
+  },
+  "true_patients": {
+   "auc": 0.8924835023338162,
+   "ci_low": 0.8316393046837277,
+   "ci_high": 0.9433446000321906,
+   "called_pathological": 327,
+   "n": 346
+  },
+  "reading": "which normals it calls pathological follows place",
+  "called_normals_by_place": {
+   "ESSUA": [
+    4,
+    273
+   ],
+   "HSA": [
+    69,
+    82
+   ]
+  }
+ },
+ "seconds": 10.5
+}

@@ -1,0 +1,32 @@
+{
+  "band_low_hz": 300.0,
+  "band_high_hz": 3500.0,
+  "frame_s": 0.03,
+  "hop_s": 0.01,
+  "floor_percentile": 2.0,
+  "margin_db": 8.0,
+  "min_range_db": 20.0,
+  "voiced_veto_range_db": 25.0,
+  "vad_only_within_db": 20.0,
+  "quiet_voice_min_prob": 0.1,
+  "fill_gap_s": 0.05,
+  "min_nonphonation_s": 0.1,
+  "phonation_bridge_s": 0.15,
+  "min_phonation_s": 0.1,
+  "min_kept_s": 0.05,
+  "guards_s": [
+    0.05,
+    0.1,
+    0.2
+  ],
+  "f0_min_hz": 60.0,
+  "f0_max_hz": 800.0,
+  "target_rate": 16000,
+  "versions": {
+    "python": "3.9.13",
+    "kudio": "3.9.1",
+    "librosa": "0.11.0",
+    "numpy": "2.0.2"
+  },
+  "segment_py_sha256": "8826c2a971012d88c2062faf8d7af6a9ae06f688b494eb5cf45b883c114da8ae"
+}

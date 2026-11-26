@@ -1,0 +1,479 @@
+# numbers of the paper, read again from the results
+
+C1.gap                             22.2  first_batch/summary.json
+C1.gap.low                         17.5  first_batch/summary.json
+C1.gap.high                        27.1  first_batch/summary.json
+C1.i                              0.775  first_batch/summary.json
+C1.i.min                          0.721  first_batch/summary.json
+C1.i.max                          0.829  first_batch/summary.json
+C1.ii                             0.553  first_batch/summary.json
+C1.patients                         329  first_batch/summary.json
+C1.normals                           82  first_batch/summary.json
+C1.draws                             50  first_batch/summary.json
+C1.resamples                     10,000  first_batch/summary.json
+C2.uar                            0.761  first_batch/summary.json
+C2.above_chance                    26.1  first_batch/summary.json (UAR - 0.5)
+gate.uar                          0.958  first_batch/summary.json
+gate.min                           0.90  first_batch/summary.json
+C3.gap                              1.4  svd/c3.json
+C3.gap.low                         -0.4  svd/c3.json
+C3.gap.high                         3.2  svd/c3.json
+C4.uar                            0.682  svd/c4.json
+C4.null                           0.645  svd/c4.json
+C4.minus_null                       3.7  svd/c4.json
+C4.avail_diff                      12.2  svd/c4.json (minus sign)
+C4.avail_low                        4.7  svd/c4.json
+C4.avail_high                      19.3  svd/c4.json
+C1.p_holm                        0.0004  final_family.json, Holm recomputed
+C1.smallest                          10  final_family.json
+C2.p_holm                         0.003  final_family.json, Holm recomputed
+C2.smallest                          10  final_family.json
+C4.p_holm                         0.003  final_family.json, Holm recomputed
+C4.smallest                           8  final_family.json
+C3.p_holm                         0.119  final_family.json, Holm recomputed
+C3.smallest                           3  final_family.json
+C1.no_surgery                      25.4  sensitivity/c1_no_surgery/summary.json
+C1.no_surgery.low                  20.2  sensitivity/c1_no_surgery/summary.json
+C1.no_surgery.high                 30.7  sensitivity/c1_no_surgery/summary.json
+C1.hubert                          18.0  sensitivity/hubert/c1_summary.json
+C1.hubert.low                      13.4  sensitivity/hubert/c1_summary.json
+C1.hubert.high                     22.8  sensitivity/hubert/c1_summary.json
+C1.hubert.i                       0.801  sensitivity/hubert/c1_summary.json
+C1.hubert.ii                      0.621  sensitivity/hubert/c1_summary.json
+C2.hubert                         0.858  sensitivity/hubert
+voiced.tech                       0.568  exploratory/section8.json
+voiced.tech.low                   0.504  exploratory/section8.json
+voiced.tech.high                  0.631  exploratory/section8.json
+voiced.normals                       57  exploratory/section8.json
+place.handcrafted                 0.853  place_only/summary.json
+place.handcrafted.low             0.823  place_only/summary.json
+place.handcrafted.high            0.882  place_only/summary.json
+place.hubert                      0.907  place_only/summary.json
+place.hubert.low                  0.883  place_only/summary.json
+place.hubert.high                 0.928  place_only/summary.json
+place_c1.handcrafted.i            0.832  place_only/summary_c1.json
+place_c1.handcrafted.real_i       0.822  place_only/summary_c1.json
+place_c1.hubert.i                 0.878  place_only/summary_c1.json
+place_c1.hubert.real_i            0.858  place_only/summary_c1.json
+oracle.uar                        0.877  place_only
+full.handcrafted.uar              0.820  exploratory/avfad_all.json
+full.handcrafted.auc              0.872  exploratory/avfad_all.json
+full.hubert.uar                   0.835  exploratory/avfad_all.json
+full.hubert.auc                   0.908  exploratory/avfad_all.json
+room.uar                          0.827  place_only/summary_room.json
+flagged.min                          72  place_only/summary_inside_hsa.json
+flagged.max                          83  place_only/summary_inside_hsa.json
+outside.a                          -4.1  outside_view/summary.json
+outside.a.low                      -8.8  outside_view/summary.json
+outside.a.high                      0.5  outside_view/summary.json
+learned.a                         +24.0  outside_view/summary.json
+learned.a.low                      19.2  outside_view/summary.json
+learned.a.high                     28.9  outside_view/summary.json
+outside.i                          -5.8  outside_view/summary_i
+outside.u                         -12.7  outside_view/summary_u
+learned.a.hand                    +27.6  outside_view
+outside_erased.a                   -1.0  outside_view/summary_a_outside_erased
+outside_erased.i                   -0.2  outside_view/summary_i_outside_erased
+outside_erased.u                   +0.4  outside_view/summary_u_outside_erased
+dext.hubert                       -11.1  cross_database/summary.json
+dext.hubert.low                   -12.5  cross_database/summary.json
+dext.hubert.high                   -9.7  cross_database/summary.json
+dext.hand                          +1.9  cross_database/summary.json
+svd.speakers                      1,459  cross_database/summary.json
+dext.voiced                        -2.4  cross_database/voiced.json
+dext.voiced.low                    -7.0  cross_database/voiced.json
+dext.voiced.high                    2.0  cross_database/voiced.json
+voiced.speakers                     208  cross_database/voiced.json
+dext.i                             +0.8  cross_vowels/summary.json
+dext.i.low                         -1.3  cross_vowels/summary.json
+dext.i.high                         3.0  cross_vowels/summary.json
+dext.u                             -7.7  cross_vowels/summary.json
+dext.u.low                         -9.9  cross_vowels/summary.json
+dext.u.high                        -5.5  cross_vowels/summary.json
+external.min                       0.59  cross_database (HuBERT and VOICED AUCs)
+external.max                       0.71  cross_database (HuBERT and VOICED AUCs)
+external.svd_ii                   0.715  cross_database/summary.json
+external.svd_all                  0.590  cross_database/summary.json
+external.hand.min                 0.546  cross_database/summary.json, handcrafted
+external.hand.max                 0.569  cross_database/summary.json, handcrafted
+mixed_contrast.i                   0.64  cross_vowels, ESSUA normals vs HSA patients
+mixed_contrast.u                   0.64  cross_vowels, ESSUA normals vs HSA patients
+published.all                      86.6  published_splits
+published.hsa                      55.6  published_splits
+published.hsa.low                  51.7  published_splits
+published.hsa.high                 60.1  published_splits
+dose.slope                        +31.4  dose_response/summary.json
+dose.erased                        +9.5  dose_response
+placebo.hand.min                   -4.0  placebo_c1/summary.json
+placebo.hand.max                   +9.2  placebo_c1/summary.json
+placebo.hubert.min                 -2.5  placebo_c1/summary.json
+placebo.hubert.max                 +5.4  placebo_c1/summary.json
+placebo.hand.splits                  23  placebo_c1/summary.json
+placebo.hand.above_zero               2  placebo_c1/summary.json, CI above 0
+by_day.handcrafted                 21.4  c1_by_day
+by_day.hubert                      16.7  c1_by_day
+strata.handcrafted                0.573  exploratory/within_strata_auc.json
+strata.hubert                     0.656  exploratory/within_strata_auc.json
+svd_small.handcrafted             0.611  svd_inside/summary_small
+svd_small.hubert                  0.638  svd_inside/summary_small
+free.voiced                        13.5  channel_free_c1/summary.json
+free.voiced.low                     8.9  channel_free_c1/summary.json
+free.voiced.high                   18.1  channel_free_c1/summary.json
+free.columns                         40  channel_free_c1/summary.json
+smoke.essua                        16.8  s0_audit/out/avfad_speakers.csv
+smoke.hsa                           1.2  s0_audit/out/avfad_speakers.csv
+age.hsa_normal                       56  s0_audit/out/avfad_speakers.csv
+age.hsa_patient                      54  s0_audit/out/avfad_speakers.csv
+age.v1_a                             23  simulated_place/people.csv
+age.v1_patient                       53  simulated_place/people.csv
+surgery.hsa_normal                  7.3  s0_audit/out/avfad_speakers.csv
+surgery.hsa_patient                32.5  s0_audit/out/avfad_speakers.csv
+n.essua                             274  s0_audit/out/avfad_speakers.csv
+n.hsa_normal                         82  s0_audit/out/avfad_speakers.csv
+n.hsa_patient                       329  s0_audit/out/avfad_speakers.csv
+n.avfad                             709  s0_audit/out/avfad_speakers.csv
+v1.handcrafted.none                -2.2  simulated_place/summary.json
+v1.handcrafted.noise_12             5.5  simulated_place/summary.json
+v1.handcrafted.silence_1x          12.4  simulated_place/summary.json
+v1.handcrafted.reverb_0.5           1.2  simulated_place/summary.json
+v1.handcrafted.channel_1x          -1.7  simulated_place/summary.json
+v1.handcrafted.all                 11.2  simulated_place/summary.json
+v1.handcrafted.all.low              6.1  simulated_place/summary.json
+v1.handcrafted.all.high            16.8  simulated_place/summary.json
+v1.handcrafted.ii                 0.704  simulated_place/summary.json
+v1.handcrafted.i_all              0.816  simulated_place/summary.json
+v1.handcrafted.i_none             0.682  simulated_place/summary.json
+v1.hubert.none                     -1.0  simulated_place/summary.json
+v1.hubert.noise_12                  5.5  simulated_place/summary.json
+v1.hubert.silence_1x               12.3  simulated_place/summary.json
+v1.hubert.reverb_0.5                5.1  simulated_place/summary.json
+v1.hubert.channel_1x               -1.4  simulated_place/summary.json
+v1.hubert.all                      11.1  simulated_place/summary.json
+v1.hubert.all.low                   6.4  simulated_place/summary.json
+v1.hubert.all.high                 16.1  simulated_place/summary.json
+v1.hubert.ii                      0.716  simulated_place/summary.json
+v1.hubert.i_all                   0.828  simulated_place/summary.json
+v1.hubert.i_none                  0.706  simulated_place/summary.json
+v1.handcrafted.minus_none          13.4  simulated_place/summary.json
+v1.hubert.minus_none               12.2  simulated_place/summary.json
+v1.handcrafted.reverb_1.0           6.0  simulated_place/summary.json
+avfad.hand.gap.low                 17.5  first_batch
+v1.free.reverb_0.5                  1.3  simulated_place/summary.json
+v1.free.reverb_1.0                  8.0  simulated_place/summary.json
+v1.place.handcrafted.all          0.824  simulated_place/summary.json
+v1.place.hubert.all               0.806  simulated_place/summary.json
+avfad.hubert.gap.low               13.4  sensitivity/hubert/c1_summary.json
+avfad.half.hand                    11.1  first_batch (half of the C1 gap)
+avfad.half.hubert                   9.0  sensitivity/hubert (half of the gap)
+v1b.handcrafted                     8.4  silence_both/summary.json
+v1b.hubert                         10.7  silence_both/summary.json
+v2.handcrafted.gap                 -2.9  dirty_normals/summary.json
+v2.handcrafted.place              0.508  dirty_normals/summary.json
+v2.handcrafted.ii                 0.696  dirty_normals/summary.json
+v2.hubert.gap                      +2.0  dirty_normals/summary.json
+v2.hubert.place                   0.602  dirty_normals/summary.json
+v2.hubert.ii                      0.650  dirty_normals/summary.json
+dev.sections                         96  deviations.md headings
+dev.exploratory                      81  deviations.md headings
+dev.after                             2  deviations.md headings with 事後
+posthoc.items                         7  work log list of results-first items
+plan.section8_items                   9  analysis_plan.md §8
+intervention.0db                  +48.1  intervention
+hsa_to_essua.hubert               +19.1  exploratory/hsa_to_essua.json, matched minus HSA
+curve.essua16                     0.866  exploratory/learning_curve.json
+phonation_c1.hand                  15.4  phonation_c1/summary.json
+finetune.ii                       0.597  finetune/summary.json
+erased.svd                        0.487  site_erasure
+diagnosis.flagged                    73  diagnosis_breakdown
+axis.min                          -0.35  within_place_axis/summary.json, HuBERT /a/
+axis.max                          -0.12  within_place_axis/summary.json, HuBERT /a/
+days.essua                           22  s0_audit/out/avfad_speakers.csv, recording days
+days.hsa                             56  s0_audit/out/avfad_speakers.csv, recording days
+n.other_normals                       7  s0_audit/out/avfad_speakers.csv
+n.patients                          346  s0_audit/out/avfad_speakers.csv
+n.normals_outside_essua              89  s0_audit/out/avfad_speakers.csv
+belo.stroboscopy                    436  Belo 2015, section 3.2
+belo.form                           273  Belo 2015, section 3.2
+cites.openalex                       22  OpenAlex, 2026-11-11
+belo.stroboscopy_normals             90  436 minus the patients
+year.essua_2015                    85.8  s0_audit/out/avfad_speakers.csv
+year.hsa_patient_2014              66.6  s0_audit/out/avfad_speakers.csv
+days.hsa_patient                     92  s0_audit/out/avfad_speakers.csv
+length.essua                      10.89  s0_audit/out/avfad_describe_a_normal_by_place.csv
+length.hsa                        14.82  s0_audit/out/avfad_describe_a_normal_by_place.csv
+floor.essua                      -64.75  s0_audit/out/avfad_describe_a_normal_by_place.csv
+floor.hsa                        -53.46  s0_audit/out/avfad_describe_a_normal_by_place.csv
+age_median.essua                     50  s0_audit/out/avfad_describe_a_normal_by_place.csv
+age_median.hsa                       56  s0_audit/out/avfad_describe_a_normal_by_place.csv
+former.essua                        9.9  field_count/summary.json
+current.essua                      16.8  field_count/summary.json
+surgery.essua                       5.8  field_count/summary.json
+former.hsa                         17.1  field_count/summary.json
+current.hsa                         1.2  field_count/summary.json
+surgery.hsa                         7.3  field_count/summary.json
+former.hsa_patient                 18.2  field_count/summary.json
+current.hsa_patient                17.3  field_count/summary.json
+year.essua.2013                       0  s0_audit/out/avfad_speakers.csv
+year.essua.2014                      14  s0_audit/out/avfad_speakers.csv
+year.essua.2015                      86  s0_audit/out/avfad_speakers.csv
+year.hsa.2013                        26  s0_audit/out/avfad_speakers.csv
+year.hsa.2014                        45  s0_audit/out/avfad_speakers.csv
+year.hsa.2015                        29  s0_audit/out/avfad_speakers.csv
+year.hsa_patient.2013                 9  s0_audit/out/avfad_speakers.csv
+year.hsa_patient.2014                67  s0_audit/out/avfad_speakers.csv
+year.hsa_patient.2015                24  s0_audit/out/avfad_speakers.csv
+length.hsa_patient                15.24  s0_audit/out/avfad_describe_a_hsa.csv
+floor.hsa_patient                -53.33  s0_audit/out/avfad_describe_a_hsa.csv
+age_median.hsa_patient               54  s0_audit/out/avfad_describe_a_hsa.csv
+oracle.sensitivity                1.000  place_only/summary_oracle.json
+oracle.specificity                0.755  place_only/summary_oracle.json
+oracle.real.compare               0.858  place_only/summary_oracle.json
+published.phrase.all               87.0  published_splits/published_predictions.json
+published.phrase.hsa               55.3  published_splits/published_predictions.json
+published.paper.a                 86.70  published_splits/published_predictions.json, their Table 3
+ribas_method.a_n.ii               0.505  ribas_method/hsa.json
+ribas_method.phrase.ii            0.502  ribas_method/hsa.json
+inside.min                        0.505  first_batch/summary.json, sensitivity/hubert/ii_summary.json, ribas_method/hsa.json, ribas_method/hsa_balanced.json, finetune/summary.json
+inside.max                        0.621  first_batch/summary.json, sensitivity/hubert/ii_summary.json, ribas_method/hsa.json, ribas_method/hsa_balanced.json, finetune/summary.json
+gaps.min                           18.0  first_batch/summary.json, sensitivity/hubert/c1_summary.json, speech/c1_handcrafted.json, speech/c1_hubert.json, ribas_method/c1.json, ribas_method/c1_balanced.json, finetune/summary.json
+gaps.max                           30.4  first_batch/summary.json, sensitivity/hubert/c1_summary.json, speech/c1_handcrafted.json, speech/c1_hubert.json, ribas_method/c1.json, ribas_method/c1_balanced.json, finetune/summary.json
+C1.essua_share                     66.8  first_batch/summary.json
+C2.essua                             76  first_batch/summary.json
+C2.n                                158  first_batch/summary.json
+n.normals                           363  s0_audit/out/avfad_speakers.csv
+room.n                              609  place_only/summary_room.json
+room.auc                          0.864  place_only/summary_room.json
+ribas.reproduce.gap                 0.2  ribas_method/reproduce.json
+ribas.reproduce.agree              98.6  ribas_method/reproduce.json
+everyone.min                      0.820  exploratory/avfad_all.json, ribas_method/hsa.json, finetune/summary.json
+everyone.max                      0.863  exploratory/avfad_all.json, ribas_method/hsa.json, finetune/summary.json
+inside.normal_called.min             17  place_only/summary_inside_hsa.json
+inside.normal_called.max             28  place_only/summary_inside_hsa.json
+s8.leak.all                       0.588  exploratory/section8.json
+s8.leak.hsa                       0.575  exploratory/section8.json
+s8.leak.hsa.low                   0.517  exploratory/section8.json
+s8.leak.hsa.high                  0.633  exploratory/section8.json
+s8.leak.hsa.p                     0.011  exploratory/section8.json
+s8.quiet.all                      0.814  exploratory/section8.json
+s8.quiet.hsa                      0.474  exploratory/section8.json
+s8.year.uar                       0.683  exploratory/section8.json
+s8.year.minus_null                 12.4  exploratory/section8.json
+s8.phrase.minus_null                2.0  exploratory/section8.json
+s8.agesex.uar                     0.826  exploratory/section8.json
+s8.rooms.essua                    -60.3  exploratory/section8.json
+s8.rooms.hsa                      -51.3  exploratory/section8.json
+s8.rooms.low_band                  21.2  exploratory/section8.json
+intervention.0db.low               43.0  exploratory/intervention.json
+intervention.0db.high              53.2  exploratory/intervention.json
+intervention.control               +9.1  exploratory/intervention.json
+h2e.handcrafted_full               -0.6  exploratory/hsa_to_essua.json
+h2e.handcrafted_phonation         +21.8  exploratory/hsa_to_essua.json
+h2e.hubert_full                   +19.1  exploratory/hsa_to_essua.json
+h2e.hubert_phonation              +11.9  exploratory/hsa_to_essua.json
+c4s.guard50                        +3.9  svd/c4_sensitivity.json
+c4s.min05                          +3.8  svd/c4_sensitivity.json
+c4s.bands                          +4.0  svd/c4_sensitivity.json
+c4s.guard200                        0.0  svd/c4_sensitivity.json
+c4s.guard200.n                      540  svd/c4_sensitivity.json
+C4.n                                998  svd/c4.json
+C4.left_out                         461  svd/c4.json
+C4.avail_alone                    0.534  svd/c4.json
+negative.min                      0.495  first_batch/summary.json
+negative.max                      0.501  first_batch/summary.json
+ribas_method.ii.sens              0.997  ribas_method/hsa.json
+ribas_method.ii.spec              0.012  ribas_method/hsa.json
+ribas_method.balanced.ii          0.593  ribas_method/hsa_balanced.json
+published.spec_hsa                0.159  published_splits/published_predictions.json
+pub.a.all                         0.866  published_splits/published_predictions.json
+pub.a.hsa                         0.556  published_splits/published_predictions.json
+pub.phrase.all                    0.870  published_splits/published_predictions.json
+pub.phrase.hsa                    0.553  published_splits/published_predictions.json
+pub.a.hsa.low                     0.517  published_splits/published_predictions.json
+pub.a.hsa.high                    0.601  published_splits/published_predictions.json
+pub.paper.a                       0.867  published_splits/published_predictions.json, their Table 3
+outside.a.ii_auc                  0.647  outside_view/summary.json
+outside.a.i_auc                   0.606  outside_view/summary.json
+inside_view.a.gap                 +19.9  outside_view/summary.json
+phonation_c1.hubert                13.5  phonation_c1
+outside.u.ii                      0.526  outside_view/summary_u.json
+outside.u.i                       0.399  outside_view/summary_u.json
+diag.structural.n                   158  diagnosis_breakdown/summary.json
+diag.structural.ii                0.686  diagnosis_breakdown/summary.json
+diag.inflammatory.n                 104  diagnosis_breakdown/summary.json
+diag.inflammatory.ii              0.647  diagnosis_breakdown/summary.json
+diag.neurological.n                  36  diagnosis_breakdown/summary.json
+diag.neurological.ii              0.743  diagnosis_breakdown/summary.json
+diag.other.n                         31  diagnosis_breakdown/summary.json
+diag.other.ii                     0.717  diagnosis_breakdown/summary.json
+diag.reflux                         100  s0_audit/out/avfad_speakers.csv, CMVD-I name
+svd_small.hsa.handcrafted         0.573  svd_inside/summary_small.json
+svd_small.hsa.hubert              0.656  svd_inside/summary_small.json
+place.handcrafted.hsa             0.513  place_only/summary.json
+place.handcrafted.hsa.low         0.441  place_only/summary.json
+place.handcrafted.hsa.high        0.584  place_only/summary.json
+place.hubert.hsa                  0.643  place_only/summary.json
+place.hubert.hsa.low              0.573  place_only/summary.json
+place.hubert.hsa.high             0.713  place_only/summary.json
+pooled.hsa_auc.handcrafted        0.587  place_only/summary_inside_hsa.json
+trained_hsa_auc.handcrafted       0.580  place_only/summary_inside_hsa.json
+pooled.hsa_auc.hubert             0.675  place_only/summary_inside_hsa.json
+trained_hsa_auc.hubert            0.666  place_only/summary_inside_hsa.json
+finetune.shuffled                 0.543  finetune/summary.json
+finetune.shuffled_five            0.498  finetune/summary.json
+n.other_patients                     17  s0_audit/out/avfad_speakers.csv
+iv.m6                             +17.3  exploratory/intervention.json
+iv.p6                             +81.5  exploratory/intervention.json
+iv.own                            +17.6  exploratory/intervention.json
+iv.logit                           1.88  exploratory/intervention.json
+iv.logit.control                   0.27  exploratory/intervention.json
+iv.logit.own                       1.22  exploratory/intervention.json
+iv.hsa_clean                       82.7  exploratory/intervention.json
+iv.headroom                        17.3  exploratory/intervention.json
+c2.draws.min                      0.722  first_batch/summary.json
+c2.draws.max                      0.769  first_batch/summary.json
+C2.permutations                    1000  first_batch/summary.json
+C4.permutations                    1000  svd/c4.json
+C1.ii.low                         0.508  first_batch/post_hoc.json
+C1.ii.high                        0.598  first_batch/post_hoc.json
+C1.hubert.ii.low                  0.571  sensitivity/hubert/ii_summary.json
+C1.hubert.ii.high                 0.669  sensitivity/hubert/ii_summary.json
+spec.pooled.min                    0.17  place_only/summary_inside_hsa.json
+spec.pooled.max                    0.28  place_only/summary_inside_hsa.json
+ribas.reproduce.ours              86.46  ribas_method/reproduce.json
+ribas.list                          708  published_splits/composition.json
+ribas.phrase.both                   708  published_splits/composition.json
+svd.normal                          657  svd/c3.json
+svd.pathological                    802  svd/c3.json
+v2.handcrafted.gap.low             -6.6  dirty_normals/summary.json
+v2.handcrafted.gap.high             1.1  dirty_normals/summary.json
+v2.hubert.gap.low                  -1.5  dirty_normals/summary.json
+v2.hubert.gap.high                  5.7  dirty_normals/summary.json
+v2.swapped                           62  dirty_normals/swaps.csv
+age.v2_swapped                       27  dirty_normals/swaps.csv, median age
+
+allowed without a result file:
+  1 個 BLAS: one BLAS thread per worker (analysis_plan.md §6)
+  底噪高 12 dB: V1 noise dose, the middle of 6, 12, 24 dB (deviations.md, before the run)
+  迴響 0.5 s: V1 reverb dose, RT60 0.5 s, an assumed value (deviations.md, before the run)
+  0.5 s 迴響: same V1 reverb dose
+  1 s 才有: V1 reverb dose, RT60 1.0 s (deviations.md, before the run)
+  82 位正常人裡的 62 位: V2 dose: 62 of the 82 A-site normals swapped (deviations.md)
+  82 位裡 62 位: same V2 dose
+  最後 2 層: fine-tuning the last two HuBERT layers (deviations.md, 2026-11-09)
+  CI 在 0 以上: an interval above zero
+  都在 0 以下: intervals below zero
+  Ribas 2023: citation year
+  Jesus et al. 2017: citation year
+  Belo 2015: citation year
+  Belo (2015): citation year
+  8 頁: page count of the built PDF (pdflatex log)
+  249 字: abstract word count
+  39 條: a count in the working notes
+  9 項: plan section 8 items
+  41 項: a count in the working notes
+  et al. 2016: citation year
+  et al. 2019: citation year
+  et al. 2005: citation year
+  et al. 2006: citation year
+  et al. 2023: citation year
+  et al. 2025: citation year
+  et al. 2026: citation year
+  Godino-Llorente 2005: citation year
+  §5.1（p. 334）: where Ribas et al. 2023 say it
+  handle 10773/15717: repository handle
+  10 篇: count of studies in the related-work notes
+  5 歲: matching band of AVFAD (Jesus et al. 2017)
+  門檻 10 點: C1 and C2 thresholds (analysis_plan.md)
+  2015 年: calendar year
+  2014 年: calendar year
+  95%: 95% intervals
+  12 November 2026: date of the editorial office reply
+  95\%: 95% intervals
+  4 November 2026: freeze date of the analysis plan (analysis_plan.yaml)
+  11 November 2026: query date of the OpenAlex citation count
+  over 55: age group of Estevez et al. 2025
+  48~kHz: AVFAD sampling rate (Jesus et al. 2017)
+  mostly in 2015: Table I, year.essua.2015
+  mostly in 2014: Table I, year.hsa_patient.2014
+  $\alpha = 0.05$: analysis_plan.md section 5
+  78 handcrafted features: analysis_plan.md section 4
+  13 mel-frequency: analysis_plan.md section 4
+  52 values: analysis_plan.md section 4
+  21 one-third-octave: analysis_plan.md section 4
+  63 to 6300~Hz: analysis_plan.md section 4
+  inner 3-fold: analysis_plan.md section 4
+  300--3500~Hz: analysis_plan.md section 3
+  $-26$~dBFS: analysis_plan.md section 4
+  L2 logistic: regularization type
+  182 normal sessions: SVD index sessions without recordings (analysis_plan.md section 2)
+  687 normal sessions: SVD normal sessions with recordings (analysis_plan.md section 2)
+  more than 10 points: C4 availability rule (analysis_plan.md section 5)
+  200~ms: C4 sensitivity setting (analysis_plan.md section 9)
+  50~ms: C4 sensitivity setting (analysis_plan.md section 9)
+  0.5~s: C4 sensitivity setting (analysis_plan.md section 9)
+  (0 dB): intervention dose (deviations.md, before the run)
+  includes 0.5: VOICED negative-control rule (deviations.md, before the run)
+  2013/14/15: calendar years in a table row label
+  in 2015: calendar year
+  CC BY-NC-ND 4.0: licence name in the AVFAD release README
+  in 2014: calendar year
+  at least 10 points: reading threshold (deviations.md, before the run)
+  Claude Opus 5.5: name of the AI system (acknowledgment)
+  Claude Haiku 5.5: name of the AI system used for auxiliary steps (acknowledgment)
+  30~cm: microphone distance (Jesus et al. 2017)
+  (AUC) of 0.861: hospital-sorting AUC reported by Zech et al. 2018 (abstract)
+  100~ms: guard band around phonation (analysis_plan.md section 3)
+  at 0~dB: intervention dose (deviations.md, before the run)
+  $-6$ and $+6$~dB: intervention doses (analysis_plan.md section 8)
+  CC BY 4.0: licence of the SVD release (Zenodo)
+  under 18: SVD exclusion (analysis_plan.md section 2)
+  AUC of 0.846 fell to 0.619: unadjusted and matched AUCs reported by Coppock et al. 2024 (abstract)
+  0~dB is the median: intervention dose definition (deviations.md, before the run)
+
+numbers in main.tex: 43
+matched: 43
+unmatched: 0 []
+each number in the order it appears:
+  95\%: fixed
+  95\%: fixed
+  95\%: fixed
+  4 November 2026: fixed
+  11 November 2026: fixed
+  over 55: fixed
+  48~kHz: fixed
+  $\alpha = 0.05$: fixed
+  78 handcrafted features: fixed
+  13 mel-frequency: fixed
+  52 values: fixed
+  21 one-third-octave: fixed
+  63 to 6300~Hz: fixed
+  inner 3-fold: fixed
+  300--3500~Hz: fixed
+  $-26$~dBFS: fixed
+  L2 logistic: fixed
+  182 normal sessions: fixed
+  687 normal sessions: fixed
+  more than 10 points: fixed
+  200~ms: fixed
+  200~ms: fixed
+  50~ms: fixed
+  0.5~s: fixed
+  (0 dB): fixed
+  includes 0.5: fixed
+  2013/14/15: fixed
+  in 2015: fixed
+  CC BY-NC-ND 4.0: fixed
+  in 2014: fixed
+  at least 10 points: fixed
+  Claude Opus 5.5: fixed
+  Claude Haiku 5.5: fixed
+  30~cm: fixed
+  30~cm: fixed
+  (AUC) of 0.861: fixed
+  100~ms: fixed
+  at 0~dB: fixed
+  $-6$ and $+6$~dB: fixed
+  CC BY 4.0: fixed
+  under 18: fixed
+  AUC of 0.846 fell to 0.619: fixed
+  0~dB is the median: fixed

@@ -1,0 +1,40 @@
+{
+ "all_handcrafted": {
+  "arm": "all_handcrafted",
+  "n_speakers": 709,
+  "normal": 363,
+  "pathological": 346,
+  "uar": 0.8195437029252058,
+  "roc_auc": 0.8722615009793149,
+  "sensitivity": 0.8875722543352602,
+  "specificity": 0.7515151515151516,
+  "worst_share_deviation": 0.004946462980988886,
+  "chosen_c": "{\"0.01\": 43, \"0.1\": 7}",
+  "roc_auc_interval": {
+   "estimate": 0.8722615009793149,
+   "low": 0.8455113674084496,
+   "high": 0.89726918457325,
+   "ci_level": 0.95,
+   "n_undefined": 0
+  }
+ },
+ "all_hubert": {
+  "arm": "all_hubert",
+  "n_speakers": 709,
+  "normal": 363,
+  "pathological": 346,
+  "uar": 0.834664166626857,
+  "roc_auc": 0.9083894648003948,
+  "sensitivity": 0.8627167630057804,
+  "specificity": 0.8066115702479341,
+  "worst_share_deviation": 0.004946462980988886,
+  "chosen_c": "{\"C\": {\"0.001\": 29, \"0.01\": 19, \"0.1\": 2}, \"layer\": {\"l00\": 16, \"l03\": 19, \"l06\": 12, \"l09\": 3}}",
+  "roc_auc_interval": {
+   "estimate": 0.9083894648003948,
+   "low": 0.8870940716412893,
+   "high": 0.9278446301929524,
+   "ci_level": 0.95,
+   "n_undefined": 0
+  }
+ }
+}

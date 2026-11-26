@@ -1,0 +1,94 @@
+{
+ "a_n": {
+  "split": "their folds",
+  "missing_features": [],
+  "everyone": {
+   "items": 708,
+   "speakers": 708,
+   "uar": 0.8634912017372975,
+   "roc_auc": 0.908943569763357,
+   "sensitivity": 0.9479768786127167,
+   "specificity": 0.7790055248618785
+  },
+  "everyone_scored_in_hsa": {
+   "items": 411,
+   "speakers": 411,
+   "uar": 0.5457965749870265,
+   "roc_auc": 0.6488991029727926,
+   "sensitivity": 0.9574468085106383,
+   "specificity": 0.13414634146341464
+  },
+  "ii": {
+   "items": 411,
+   "speakers": 411,
+   "uar": 0.504577804136704,
+   "roc_auc": 0.5991177996886352,
+   "sensitivity": 0.9969604863221885,
+   "specificity": 0.012195121951219513
+  },
+  "everyone_minus_ii": {
+   "difference": 0.3589133976005936,
+   "ci_low": 0.3330414889638324,
+   "ci_high": 0.38478079525387476,
+   "p_one_sided": 9.999000099990002e-05,
+   "n_resamples": 10000,
+   "n_undefined": 0,
+   "n_speakers_resampled": 708
+  },
+  "everyone_minus_everyone_hsa": {
+   "difference": 0.31769462675027105,
+   "ci_low": 0.28153223470601957,
+   "ci_high": 0.35356031458254983,
+   "p_one_sided": 9.999000099990002e-05,
+   "n_resamples": 10000,
+   "n_undefined": 0,
+   "n_speakers_resampled": 708
+  }
+ },
+ "phrase": {
+  "split": "speaker_fixed (each speaker in the fold of 004)",
+  "missing_features": [],
+  "everyone": {
+   "items": 4247,
+   "speakers": 708,
+   "uar": 0.8506047043307783,
+   "roc_auc": 0.9007755942095357,
+   "sensitivity": 0.9402697495183044,
+   "specificity": 0.760939659143252
+  },
+  "everyone_scored_in_hsa": {
+   "items": 2466,
+   "speakers": 411,
+   "uar": 0.5208966565349544,
+   "roc_auc": 0.6171479229989869,
+   "sensitivity": 0.9584599797365755,
+   "specificity": 0.08333333333333333
+  },
+  "ii": {
+   "items": 2466,
+   "speakers": 411,
+   "uar": 0.502288902068352,
+   "roc_auc": 0.5836967982141827,
+   "sensitivity": 0.9984802431610942,
+   "specificity": 0.006097560975609756
+  },
+  "everyone_minus_ii": {
+   "difference": 0.3483158022624263,
+   "ci_low": 0.32496967513645114,
+   "ci_high": 0.3703699756680319,
+   "p_one_sided": 9.999000099990002e-05,
+   "n_resamples": 10000,
+   "n_undefined": 0,
+   "n_speakers_resampled": 708
+  },
+  "everyone_minus_everyone_hsa": {
+   "difference": 0.32970804779582386,
+   "ci_low": 0.3030937921074776,
+   "ci_high": 0.35634636189311575,
+   "p_one_sided": 9.999000099990002e-05,
+   "n_resamples": 10000,
+   "n_undefined": 0,
+   "n_speakers_resampled": 708
+  }
+ }
+}

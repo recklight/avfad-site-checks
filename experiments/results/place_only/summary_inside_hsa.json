@@ -1,0 +1,24 @@
+{
+ "handcrafted": {
+  "speakers": 411,
+  "full_auc": 0.5867002742975758,
+  "ii_auc": 0.5799688635184225,
+  "difference": -0.007821187634368787,
+  "ci_low": -0.07094669730891834,
+  "ci_high": 0.056972347838979864,
+  "full_specificity_hsa_normals": 0.17317073170731706,
+  "ii_specificity_hsa_normals": 0.4353658536585366,
+  "reading": "the ESSUA normals do not help the ranking inside HSA"
+ },
+ "hubert": {
+  "speakers": 411,
+  "full_auc": 0.6746126473422789,
+  "ii_auc": 0.6664949217881236,
+  "difference": 0.010971903032100161,
+  "ci_low": -0.03306490473719332,
+  "ci_high": 0.05571484172288536,
+  "full_specificity_hsa_normals": 0.27926829268292686,
+  "ii_specificity_hsa_normals": 0.5695121951219512,
+  "reading": "the ESSUA normals do not help the ranking inside HSA"
+ }
+}

@@ -1,0 +1,204 @@
+{
+ "handcrafted": {
+  "ii": {
+   "auc": 0.5503023263758412,
+   "auc_ci": [
+    0.5225573812804367,
+    0.5815627170657831
+   ],
+   "within_strata_auc": 0.5373034582985751,
+   "within_strata_auc_ci": [
+    0.4945868907340499,
+    0.5822108716759339
+   ],
+   "uar_at_half": 0.5298065718504348
+  },
+  "all": {
+   "auc": 0.5581347240726191,
+   "auc_ci": [
+    0.5307892274640643,
+    0.5852483517234311
+   ],
+   "within_strata_auc": 0.5208869266764061,
+   "within_strata_auc_ci": [
+    0.4785599366152233,
+    0.5634216425987381
+   ],
+   "uar_at_half": 0.553605521963736
+  },
+  "essua_normals_hsa_patients": {
+   "auc": 0.5456507133991505,
+   "auc_ci": [
+    0.5188979131319342,
+    0.5722578067768174
+   ],
+   "within_strata_auc": 0.5195763020893572,
+   "within_strata_auc_ci": [
+    0.47863835949501454,
+    0.5635601323127961
+   ],
+   "uar_at_half": 0.521951400038716
+  },
+  "i": {
+   "draws": 50,
+   "auc": 0.5689364867891155,
+   "auc_ci": [
+    0.5491557189598301,
+    0.5888499892771875
+   ],
+   "auc_range": [
+    0.5255487612779315,
+    0.6170532572677895
+   ],
+   "within_strata_auc": 0.5361960737754263,
+   "within_strata_auc_ci": [
+    0.5049187953183475,
+    0.5665835007888388
+   ],
+   "uar_at_half_mean": 0.5494828567849782
+  },
+  "d_ext": {
+   "auc": 0.01863416041327426,
+   "auc_ci": [
+    -0.007097928694246255,
+    0.04349036892168357
+   ],
+   "within_strata_auc": -0.0011073845231487356,
+   "within_strata_auc_ci": [
+    -0.04345564586583185,
+    0.03746017124725695
+   ]
+  },
+  "svd": {
+   "speakers": 1459,
+   "pathological": 802,
+   "strata": 36
+  },
+  "internal": {
+   "auc_i": 0.8217044999629327,
+   "auc_ii": 0.5799688635184224,
+   "d_int": 0.24173563644451035
+  },
+  "d_ext_over_d_int": 0.07708487125584262,
+  "reading": "does not travel: consistent with a place shortcut",
+  "reading_within_strata": "does not travel: consistent with a place shortcut",
+  "svd_internal_reference": {
+   "arm": "svd_a_n",
+   "n_speakers": 1459,
+   "normal": 657,
+   "pathological": 802,
+   "uar": 0.6997300318458042,
+   "roc_auc": 0.7670771700884774,
+   "sensitivity": 0.6886533665835411,
+   "specificity": 0.7108066971080669,
+   "worst_share_deviation": 0.0017463640887454002,
+   "chosen_c": "{\"0.01\": 29, \"0.1\": 15, \"1.0\": 4, \"10.0\": 2}",
+   "null_mean": 0.6644690779709782,
+   "null_sd": 0.008242344471030423,
+   "uar_minus_null": 0.03526095387482597,
+   "p_one_sided": 0.004975124378109453,
+   "n_permutations": 200
+  }
+ },
+ "hubert": {
+  "ii": {
+   "auc": 0.7146498290043537,
+   "auc_ci": [
+    0.6898417483688041,
+    0.7386135593284672
+   ],
+   "within_strata_auc": 0.6182215391924442,
+   "within_strata_auc_ci": [
+    0.5754855316494936,
+    0.6609787945490349
+   ],
+   "uar_at_half": 0.5243142144638404
+  },
+  "all": {
+   "auc": 0.589580083277347,
+   "auc_ci": [
+    0.5621588627366136,
+    0.616526321183343
+   ],
+   "within_strata_auc": 0.558853467588943,
+   "within_strata_auc_ci": [
+    0.5171661498539588,
+    0.6016052591741061
+   ],
+   "uar_at_half": 0.5117077929225642
+  },
+  "essua_normals_hsa_patients": {
+   "auc": 0.49286790633765665,
+   "auc_ci": [
+    0.46747510030099787,
+    0.5191597680076825
+   ],
+   "within_strata_auc": 0.4952860872649875,
+   "within_strata_auc_ci": [
+    0.45034813639734284,
+    0.539278435110051
+   ],
+   "uar_at_half": 0.49972481277779673
+  },
+  "i": {
+   "draws": 50,
+   "auc": 0.6036483372998249,
+   "auc_ci": [
+    0.5860603096520496,
+    0.6234497716894976
+   ],
+   "auc_range": [
+    0.4653226143165678,
+    0.707677154146597
+   ],
+   "within_strata_auc": 0.5517860690953035,
+   "within_strata_auc_ci": [
+    0.5223439390873648,
+    0.5845148828112132
+   ],
+   "uar_at_half_mean": 0.5136627798843834
+  },
+  "d_ext": {
+   "auc": -0.11100149170452878,
+   "auc_ci": [
+    -0.12519089927388546,
+    -0.0974488303594133
+   ],
+   "within_strata_auc": -0.06643547009714068,
+   "within_strata_auc_ci": [
+    -0.09122594940022728,
+    -0.04123545416115218
+   ]
+  },
+  "svd": {
+   "speakers": 1459,
+   "pathological": 802,
+   "strata": 36
+  },
+  "internal": {
+   "auc_i": 0.8576162799317963,
+   "auc_ii": 0.6664949217881236,
+   "d_int": 0.1911213581436727
+  },
+  "d_ext_over_d_int": -0.5807906179752292,
+  "reading": "does not travel: consistent with a place shortcut",
+  "reading_within_strata": "does not travel: consistent with a place shortcut",
+  "svd_internal_reference": {
+   "arm": "svd_a_n",
+   "n_speakers": 1459,
+   "normal": 657,
+   "pathological": 802,
+   "uar": 0.6997300318458042,
+   "roc_auc": 0.7670771700884774,
+   "sensitivity": 0.6886533665835411,
+   "specificity": 0.7108066971080669,
+   "worst_share_deviation": 0.0017463640887454002,
+   "chosen_c": "{\"0.01\": 29, \"0.1\": 15, \"1.0\": 4, \"10.0\": 2}",
+   "null_mean": 0.6644690779709782,
+   "null_sd": 0.008242344471030423,
+   "uar_minus_null": 0.03526095387482597,
+   "p_one_sided": 0.004975124378109453,
+   "n_permutations": 200
+  }
+ }
+}

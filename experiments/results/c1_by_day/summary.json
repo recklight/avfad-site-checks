@@ -1,0 +1,56 @@
+{
+ "handcrafted": {
+  "ii": {
+   "uar": 0.5549429164504411,
+   "roc_auc": 0.5694084068500259
+  },
+  "i_uar_mean": 0.7684975164949218,
+  "i_uar_range": [
+   0.7184038846467493,
+   0.8197920527837498
+  ],
+  "gap_i_minus_ii": {
+   "difference": 0.21355460004448068,
+   "ci_low": 0.1675126369312996,
+   "ci_high": 0.2627992297033057,
+   "p_one_sided": 9.999000099990002e-05,
+   "n_resamples": 10000,
+   "n_undefined": 0,
+   "n_speakers_resampled": 670
+  },
+  "speaker_folds_gap": 0.22173152198087343,
+  "minus_speaker_folds": {
+   "difference": -0.008176921936392745,
+   "ci_low": -0.027384165824104693,
+   "ci_high": 0.010537906683372168
+  },
+  "reading": "grouped by recording day, C1 still holds"
+ },
+ "hubert": {
+  "ii": {
+   "uar": 0.6232096523092889,
+   "roc_auc": 0.6604714952924606
+  },
+  "i_uar_mean": 0.7906699532952776,
+  "i_uar_range": [
+   0.7378938394247163,
+   0.8367391948995477
+  ],
+  "gap_i_minus_ii": {
+   "difference": 0.16746030098598863,
+   "ci_low": 0.12282586523321366,
+   "ci_high": 0.21565250923207369,
+   "p_one_sided": 9.999000099990002e-05,
+   "n_resamples": 10000,
+   "n_undefined": 0,
+   "n_speakers_resampled": 670
+  },
+  "speaker_folds_gap": 0.17965201275113052,
+  "minus_speaker_folds": {
+   "difference": -0.012191711765141888,
+   "ci_low": -0.029587265868981808,
+   "ci_high": 0.004559535425187799
+  },
+  "reading": "grouped by recording day, C1 still holds"
+ }
+}

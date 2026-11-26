@@ -1,0 +1,30 @@
+{
+ "handcrafted": {
+  "all_avfad": {
+   "auc": 0.8474816477969395,
+   "ci_low": 0.8166999076418414,
+   "ci_high": 0.8765268953327282
+  },
+  "hsa_only": {
+   "auc": 0.5130106012306324,
+   "ci_low": 0.4419851360367707,
+   "ci_high": 0.5826608718214841
+  },
+  "random_parts_auc": 0.8532460707973057
+ },
+ "hubert": {
+  "all_avfad": {
+   "auc": 0.8992579499673562,
+   "ci_low": 0.8745583130304623,
+   "ci_high": 0.9218458892657526
+  },
+  "hsa_only": {
+   "auc": 0.6357031655422937,
+   "ci_low": 0.5652735562310031,
+   "ci_high": 0.706724924012158
+  },
+  "random_parts_auc": 0.906543097820029
+ },
+ "verdict": "the place cue holds across recording days",
+ "seconds": 10.3
+}

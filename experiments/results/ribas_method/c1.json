@@ -1,0 +1,68 @@
+{
+ "a": {
+  "items_ii": 411,
+  "speakers_ii": 411,
+  "ii": {
+   "items": 411,
+   "speakers": 411,
+   "uar": 0.5038160723552524,
+   "roc_auc": 0.6405923344947735,
+   "sensitivity": 0.9966565349544074,
+   "specificity": 0.01097560975609756
+  },
+  "all": {
+   "items": 709,
+   "speakers": 709,
+   "uar": 0.8582951161642702,
+   "roc_auc": 0.909870380101594,
+   "sensitivity": 0.9424855491329479,
+   "specificity": 0.7741046831955922
+  },
+  "i_uar_mean": 0.7772049818370524,
+  "i_uar_min": 0.7275947067981318,
+  "i_uar_max": 0.8442230706501593,
+  "i_roc_auc_mean": 0.8622855660167543,
+  "gap_i_minus_ii": {
+   "difference": 0.27338890948180006,
+   "ci_low": 0.24205502610934757,
+   "ci_high": 0.3040898623778045,
+   "p_one_sided": 9.999000099990002e-05,
+   "n_resamples": 10000,
+   "n_undefined": 0,
+   "n_speakers_resampled": 670
+  }
+ },
+ "sentences": {
+  "items_ii": 2463,
+  "speakers_ii": 411,
+  "ii": {
+   "items": 2463,
+   "speakers": 411,
+   "uar": 0.5020915009728872,
+   "roc_auc": 0.5976284066544659,
+   "sensitivity": 0.9980730223123733,
+   "specificity": 0.006109979633401222
+  },
+  "all": {
+   "items": 4249,
+   "speakers": 709,
+   "uar": 0.8525550937164013,
+   "roc_auc": 0.9023933982863921,
+   "sensitivity": 0.9427193828351011,
+   "specificity": 0.7623908045977011
+  },
+  "i_uar_mean": 0.8058314734406433,
+  "i_uar_min": 0.7638541202856247,
+  "i_uar_max": 0.8604288449701111,
+  "i_roc_auc_mean": 0.8621686550093604,
+  "gap_i_minus_ii": {
+   "difference": 0.3037399724677561,
+   "ci_low": 0.27460708228329755,
+   "ci_high": 0.33320661369787885,
+   "p_one_sided": 9.999000099990002e-05,
+   "n_resamples": 10000,
+   "n_undefined": 0,
+   "n_speakers_resampled": 670
+  }
+ }
+}

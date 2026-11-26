@@ -1,0 +1,11 @@
+Copyright (c) 2026 Fu-Kai Chuang
+
+The documents in this record (analysis_plan.md, analysis_plan.yaml, the freeze records, the
+files in experiments/results/, paper/numbers.txt, the package lists, README.md and
+README.zh-TW.md) are licensed
+under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
+
+To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/
+The full legal code is at https://creativecommons.org/licenses/by/4.0/legalcode
+
+The code (*.py, including the tests) is licensed under the MIT License; see LICENSE.

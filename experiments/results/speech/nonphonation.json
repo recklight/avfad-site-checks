@@ -1,0 +1,284 @@
+{
+ "cape_v": {
+  "non_phonation": {
+   "all": {
+    "arm": "quiet_cape_v_all",
+    "n_speakers": 698,
+    "normal": 357,
+    "pathological": 341,
+    "uar": 0.8346094449510011,
+    "roc_auc": 0.870469126066849,
+    "sensitivity": 0.9131964809384163,
+    "specificity": 0.7560224089635854,
+    "worst_share_deviation": 0.004318460908718791,
+    "chosen_c": "{\"0.01\": 43, \"0.1\": 6, \"1.0\": 1}",
+    "uar_ci": [
+     0.808352322899496,
+     0.8596409709902096
+    ],
+    "left_out": 11,
+    "negative": {
+     "arm": "all",
+     "shuffles": 20,
+     "mean_uar": 0.5000580965524041,
+     "sd_uar": 0.018073311605691658,
+     "min_uar": 0.4690032611284983,
+     "max_uar": 0.5396259970263765,
+     "worst_share_deviation": 0.004318460908718791,
+     "n_undefined": 0,
+     "passed": true
+    }
+   },
+   "hsa": {
+    "arm": "quiet_cape_v_hsa",
+    "n_speakers": 409,
+    "normal": 82,
+    "pathological": 327,
+    "uar": 0.5120627284254493,
+    "roc_auc": 0.4979861266502573,
+    "sensitivity": 0.6131498470948011,
+    "specificity": 0.4109756097560976,
+    "worst_share_deviation": 0.006828075615719464,
+    "chosen_c": "{\"0.01\": 21, \"0.1\": 13, \"1.0\": 6, \"10.0\": 10}",
+    "uar_ci": [
+     0.46919791616657863,
+     0.5549392832869026
+    ],
+    "left_out": 2,
+    "negative": {
+     "arm": "hsa",
+     "shuffles": 20,
+     "mean_uar": 0.49386934064294774,
+     "sd_uar": 0.02820518835291103,
+     "min_uar": 0.44145036175132396,
+     "max_uar": 0.5471973595882748,
+     "worst_share_deviation": 0.006828075615719464,
+     "n_undefined": 0,
+     "passed": true
+    }
+   }
+  },
+  "pauses_alone": {
+   "all": {
+    "arm": "pauses_cape_v_all",
+    "n_speakers": 709,
+    "normal": 363,
+    "pathological": 346,
+    "uar": 0.5891865316326692,
+    "roc_auc": 0.6216404719820379,
+    "sensitivity": 0.5852601156069366,
+    "specificity": 0.5931129476584023,
+    "worst_share_deviation": 0.004946462980988886,
+    "chosen_c": "{\"0.01\": 23, \"0.1\": 11, \"1.0\": 9, \"10.0\": 7}",
+    "uar_ci": [
+     0.5537543103659698,
+     0.6245761381073933
+    ]
+   },
+   "hsa": {
+    "arm": "pauses_cape_v_hsa",
+    "n_speakers": 411,
+    "normal": 82,
+    "pathological": 329,
+    "uar": 0.5264734227889392,
+    "roc_auc": 0.5021721402624361,
+    "sensitivity": 0.433434650455927,
+    "specificity": 0.6195121951219511,
+    "worst_share_deviation": 0.007803691175597871,
+    "chosen_c": "{\"0.01\": 23, \"0.1\": 12, \"1.0\": 6, \"10.0\": 9}",
+    "uar_ci": [
+     0.47463435274836435,
+     0.5774902320367439
+    ]
+   }
+  }
+ },
+ "reading": {
+  "non_phonation": {
+   "all": {
+    "arm": "quiet_reading_all",
+    "n_speakers": 681,
+    "normal": 341,
+    "pathological": 340,
+    "uar": 0.8261044505778852,
+    "roc_auc": 0.8673529411764707,
+    "sensitivity": 0.9032352941176469,
+    "specificity": 0.7489736070381232,
+    "worst_share_deviation": 0.00291542064589434,
+    "chosen_c": "{\"0.01\": 48, \"0.1\": 2}",
+    "uar_ci": [
+     0.7988891278217447,
+     0.8523897524741963
+    ],
+    "left_out": 28,
+    "negative": {
+     "arm": "all",
+     "shuffles": 20,
+     "mean_uar": 0.5006809125409694,
+     "sd_uar": 0.015999406224455875,
+     "min_uar": 0.47252630671036744,
+     "max_uar": 0.5207124374676557,
+     "worst_share_deviation": 0.00291542064589434,
+     "n_undefined": 0,
+     "passed": true
+    }
+   },
+   "hsa": {
+    "arm": "quiet_reading_hsa",
+    "n_speakers": 406,
+    "normal": 82,
+    "pathological": 324,
+    "uar": 0.49088376994881067,
+    "roc_auc": 0.48588903944594997,
+    "sensitivity": 0.6049382716049382,
+    "specificity": 0.37682926829268293,
+    "worst_share_deviation": 0.007906099860122917,
+    "chosen_c": "{\"0.01\": 23, \"0.1\": 11, \"1.0\": 5, \"10.0\": 11}",
+    "uar_ci": [
+     0.4458613298078577,
+     0.5364520448808
+    ],
+    "left_out": 5,
+    "negative": {
+     "arm": "hsa",
+     "shuffles": 20,
+     "mean_uar": 0.5039997365251431,
+     "sd_uar": 0.022823272878886986,
+     "min_uar": 0.46435561577838,
+     "max_uar": 0.5596431797651309,
+     "worst_share_deviation": 0.007906099860122917,
+     "n_undefined": 0,
+     "passed": true
+    }
+   }
+  },
+  "pauses_alone": {
+   "all": {
+    "arm": "pauses_reading_all",
+    "n_speakers": 709,
+    "normal": 363,
+    "pathological": 346,
+    "uar": 0.6639484705170464,
+    "roc_auc": 0.7259255720632494,
+    "sensitivity": 0.5780346820809249,
+    "specificity": 0.7498622589531679,
+    "worst_share_deviation": 0.004946462980988886,
+    "chosen_c": "{\"0.01\": 2, \"0.1\": 17, \"1.0\": 18, \"10.0\": 13}",
+    "uar_ci": [
+     0.6304111678600491,
+     0.6980719856420144
+    ]
+   },
+   "hsa": {
+    "arm": "pauses_reading_hsa",
+    "n_speakers": 411,
+    "normal": 82,
+    "pathological": 329,
+    "uar": 0.5480131959374305,
+    "roc_auc": 0.544224924012158,
+    "sensitivity": 0.4033434650455927,
+    "specificity": 0.6926829268292682,
+    "worst_share_deviation": 0.007803691175597871,
+    "chosen_c": "{\"0.01\": 31, \"0.1\": 14, \"1.0\": 3, \"10.0\": 2}",
+    "uar_ci": [
+     0.49251568173297555,
+     0.6017431264728987
+    ]
+   }
+  }
+ },
+ "connected": {
+  "non_phonation": {
+   "all": {
+    "arm": "quiet_connected_all",
+    "n_speakers": 707,
+    "normal": 362,
+    "pathological": 345,
+    "uar": 0.8291368404195693,
+    "roc_auc": 0.8791640643766515,
+    "sensitivity": 0.8997101449275362,
+    "specificity": 0.7585635359116022,
+    "worst_share_deviation": 0.002061876207741453,
+    "chosen_c": "{\"0.01\": 32, \"0.1\": 18}",
+    "uar_ci": [
+     0.8035009311634239,
+     0.8541623036697967
+    ],
+    "left_out": 2,
+    "negative": {
+     "arm": "all",
+     "shuffles": 20,
+     "mean_uar": 0.5087795860357115,
+     "sd_uar": 0.016611297291045917,
+     "min_uar": 0.4794863479862279,
+     "max_uar": 0.5308231243494276,
+     "worst_share_deviation": 0.002061876207741453,
+     "n_undefined": 0,
+     "passed": true
+    }
+   },
+   "hsa": {
+    "arm": "quiet_connected_hsa",
+    "n_speakers": 410,
+    "normal": 82,
+    "pathological": 328,
+    "uar": 0.5260670731707318,
+    "roc_auc": 0.5170397085068411,
+    "sensitivity": 0.6033536585365853,
+    "specificity": 0.4487804878048781,
+    "worst_share_deviation": 0.007317073170731714,
+    "chosen_c": "{\"0.01\": 35, \"0.1\": 9, \"1.0\": 3, \"10.0\": 3}",
+    "uar_ci": [
+     0.4794894036203987,
+     0.5730819042515184
+    ],
+    "left_out": 1,
+    "negative": {
+     "arm": "hsa",
+     "shuffles": 20,
+     "mean_uar": 0.4991310975609756,
+     "sd_uar": 0.027271054666119187,
+     "min_uar": 0.43612804878048783,
+     "max_uar": 0.5504573170731708,
+     "worst_share_deviation": 0.007317073170731714,
+     "n_undefined": 0,
+     "passed": true
+    }
+   }
+  },
+  "pauses_alone": {
+   "all": {
+    "arm": "pauses_connected_all",
+    "n_speakers": 709,
+    "normal": 363,
+    "pathological": 346,
+    "uar": 0.6520366566346598,
+    "roc_auc": 0.702499243618529,
+    "sensitivity": 0.6046242774566475,
+    "specificity": 0.6994490358126721,
+    "worst_share_deviation": 0.004946462980988886,
+    "chosen_c": "{\"0.1\": 4, \"1.0\": 22, \"10.0\": 24}",
+    "uar_ci": [
+     0.6189272819780659,
+     0.6856854806085836
+    ]
+   },
+   "hsa": {
+    "arm": "pauses_connected_hsa",
+    "n_speakers": 411,
+    "normal": 82,
+    "pathological": 329,
+    "uar": 0.5484302023871303,
+    "roc_auc": 0.5270294313885389,
+    "sensitivity": 0.42978723404255315,
+    "specificity": 0.6670731707317072,
+    "worst_share_deviation": 0.007803691175597871,
+    "chosen_c": "{\"0.01\": 26, \"0.1\": 14, \"1.0\": 3, \"10.0\": 7}",
+    "uar_ci": [
+     0.4946536097160618,
+     0.6022713273704465
+    ]
+   }
+  }
+ }
+}

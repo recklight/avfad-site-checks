@@ -1,0 +1,159 @@
+{
+ "rows": [
+  {
+   "detector": "handcrafted",
+   "material": "/a/",
+   "hsa_uar": 0.5529412854918823,
+   "hsa_auc": 0.5799688635184224,
+   "hsa_within_strata_auc": 0.5725260492252982,
+   "hsa_within_strata_ci": [
+    0.5193553336451849,
+    0.6261091304566473
+   ],
+   "all_uar": 0.8195437029252058,
+   "all_auc": 0.8722615009793149,
+   "non_phonation_all_to_hsa": [
+    0.8142436202422145,
+    0.4743640699523052
+   ]
+  },
+  {
+   "detector": "HuBERT (frozen)",
+   "material": "/a/",
+   "hsa_uar": 0.6209263103269331,
+   "hsa_auc": 0.6664949217881236,
+   "hsa_within_strata_auc": 0.6558483278301559,
+   "hsa_within_strata_ci": [
+    0.602201629341635,
+    0.7115883747919798
+   ],
+   "all_uar": 0.834664166626857,
+   "all_auc": 0.9083894648003948,
+   "non_phonation_all_to_hsa": null
+  },
+  {
+   "detector": "handcrafted",
+   "material": "six sentences",
+   "hsa_uar": 0.47712024612647347,
+   "hsa_auc": 0.4949217881236564,
+   "hsa_within_strata_auc": 0.4855802757922024,
+   "hsa_within_strata_ci": [
+    0.4374473680831372,
+    0.5337990755214297
+   ],
+   "all_uar": 0.8200182327744072,
+   "all_auc": 0.8626992468032931,
+   "non_phonation_all_to_hsa": [
+    0.8346094449510011,
+    0.5120627284254493
+   ]
+  },
+  {
+   "detector": "handcrafted",
+   "material": "reading",
+   "hsa_uar": 0.5407012195121952,
+   "hsa_auc": 0.5646378643664486,
+   "hsa_within_strata_auc": 0.5604597737464986,
+   "hsa_within_strata_ci": [
+    0.5087631295392232,
+    0.6045515401256053
+   ],
+   "all_uar": 0.8297772188286021,
+   "all_auc": 0.8817359364394939,
+   "non_phonation_all_to_hsa": [
+    0.8261044505778852,
+    0.49088376994881067
+   ]
+  },
+  {
+   "detector": "HuBERT (frozen)",
+   "material": "six sentences",
+   "hsa_uar": 0.6002909778337905,
+   "hsa_auc": 0.6263881681370005,
+   "hsa_within_strata_auc": 0.61032240092232,
+   "hsa_within_strata_ci": [
+    0.5657128653984066,
+    0.6554450461214139
+   ],
+   "all_uar": 0.8594969665122056,
+   "all_auc": 0.9116498670360993,
+   "non_phonation_all_to_hsa": null
+  },
+  {
+   "detector": "HuBERT (frozen)",
+   "material": "reading",
+   "hsa_uar": 0.6094512195121953,
+   "hsa_auc": 0.6444043723973826,
+   "hsa_within_strata_auc": 0.6217653156315897,
+   "hsa_within_strata_ci": [
+    0.5683270641841623,
+    0.6712970690044703
+   ],
+   "all_uar": 0.8606108515989938,
+   "all_auc": 0.9165840220385674,
+   "non_phonation_all_to_hsa": null
+  },
+  {
+   "detector": "ComParE + SVM (their setting)",
+   "material": "/a/",
+   "hsa_uar": 0.5038160723552524,
+   "hsa_auc": 0.6405923344947735,
+   "hsa_within_strata_auc": 0.6332563686562394,
+   "hsa_within_strata_ci": [
+    0.5738331123597405,
+    0.6898772401269738
+   ],
+   "all_uar": 0.8582951161642702,
+   "all_auc": 0.909870380101594,
+   "non_phonation_all_to_hsa": null
+  },
+  {
+   "detector": "ComParE + SVM (their setting)",
+   "material": "six sentences",
+   "hsa_uar": null,
+   "hsa_auc": null,
+   "hsa_within_strata_auc": null,
+   "hsa_within_strata_ci": null,
+   "all_uar": null,
+   "all_auc": null,
+   "non_phonation_all_to_hsa": null
+  },
+  {
+   "detector": "ComParE + SVM, class weight",
+   "material": "/a/",
+   "hsa_uar": null,
+   "hsa_auc": null,
+   "hsa_within_strata_auc": null,
+   "hsa_within_strata_ci": null,
+   "all_uar": null,
+   "all_auc": null,
+   "non_phonation_all_to_hsa": null
+  },
+  {
+   "detector": "ComParE + SVM, class weight",
+   "material": "six sentences",
+   "hsa_uar": null,
+   "hsa_auc": null,
+   "hsa_within_strata_auc": null,
+   "hsa_within_strata_ci": null,
+   "all_uar": null,
+   "all_auc": null,
+   "non_phonation_all_to_hsa": null
+  },
+  {
+   "detector": "HuBERT, last 2 layers fine-tuned",
+   "material": "/a/",
+   "hsa_uar": 0.5965478043838189,
+   "hsa_auc": 0.6506412632515384,
+   "hsa_within_strata_auc": 0.646624185064884,
+   "hsa_within_strata_ci": [
+    0.5929853033484401,
+    0.7026758486086734
+   ],
+   "all_uar": 0.8279630248889314,
+   "all_auc": 0.9142422650042197,
+   "non_phonation_all_to_hsa": null
+  }
+ ],
+ "split_seed": 20261104
+}

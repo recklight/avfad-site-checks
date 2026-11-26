@@ -1,0 +1,35 @@
+{
+ "a": {
+  "items_ii": 411,
+  "speakers_ii": 411,
+  "ii": {
+   "items": 411,
+   "speakers": 411,
+   "uar": 0.6251649492178812,
+   "roc_auc": 0.6723144784639337,
+   "sensitivity": 0.7917933130699087,
+   "specificity": 0.45853658536585373
+  },
+  "all": {
+   "items": 709,
+   "speakers": 709,
+   "uar": 0.8588233889074667,
+   "roc_auc": 0.9094882084109621,
+   "sensitivity": 0.9473988439306359,
+   "specificity": 0.7702479338842976
+  },
+  "i_uar_mean": 0.8087568018385352,
+  "i_uar_min": 0.7714452516865594,
+  "i_uar_max": 0.8768589220846618,
+  "i_roc_auc_mean": 0.8648517310401067,
+  "gap_i_minus_ii": {
+   "difference": 0.18359185262065392,
+   "ci_low": 0.1325877449132908,
+   "ci_high": 0.23792100977567254,
+   "p_one_sided": 9.999000099990002e-05,
+   "n_resamples": 10000,
+   "n_undefined": 0,
+   "n_speakers_resampled": 670
+  }
+ }
+}

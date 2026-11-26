@@ -1,0 +1,11 @@
+{
+ "auc": 0.5390727898670371,
+ "ci_low": 0.508892627639425,
+ "ci_high": 0.5686532337345374,
+ "reading": "as measured",
+ "source": "as measured",
+ "speakers": {
+  "all": 1459,
+  "pathological": 802
+ }
+}

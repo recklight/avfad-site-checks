@@ -1,0 +1,106 @@
+{
+ "handcrafted_full": {
+  "essua_normals": 274,
+  "models": 50,
+  "specificity_essua": 0.45051094890510945,
+  "specificity_essua_ci": [
+   0.4121149635036494,
+   0.4887591240875912
+  ],
+  "specificity_essua_per_model": [
+   0.12408759124087591,
+   0.7664233576642335
+  ],
+  "specificity_essua_matched": 0.4297368421052632,
+  "specificity_essua_matched_ci": [
+   0.35551973684210525,
+   0.5052631578947369
+  ],
+  "essua_matched_speakers": 76,
+  "specificity_hsa_out_of_fold": 0.43536585365853653,
+  "specificity_hsa_ci": [
+   0.3524390243902439,
+   0.5195426829268289
+  ],
+  "specificity_hsa_per_model_mean": 0.4367647058823529,
+  "difference_essua_minus_hsa": 0.015145095246572926
+ },
+ "handcrafted_phonation": {
+  "essua_normals": 274,
+  "models": 50,
+  "specificity_essua": 0.6945255474452554,
+  "specificity_essua_ci": [
+   0.6516788321167883,
+   0.7351824817518247
+  ],
+  "specificity_essua_per_model": [
+   0.4416058394160584,
+   0.7992700729927007
+  ],
+  "specificity_essua_matched": 0.7005263157894737,
+  "specificity_essua_matched_ci": [
+   0.616578947368421,
+   0.7771052631578946
+  ],
+  "essua_matched_speakers": 76,
+  "specificity_hsa_out_of_fold": 0.4829268292682927,
+  "specificity_hsa_ci": [
+   0.4012195121951219,
+   0.5646341463414634
+  ],
+  "specificity_hsa_per_model_mean": 0.48389705882352935,
+  "difference_essua_minus_hsa": 0.21159871817696269
+ },
+ "hubert_full": {
+  "essua_normals": 274,
+  "models": 50,
+  "specificity_essua": 0.8058394160583942,
+  "specificity_essua_ci": [
+   0.7683193430656935,
+   0.8406569343065692
+  ],
+  "specificity_essua_per_model": [
+   0.572992700729927,
+   0.9014598540145985
+  ],
+  "specificity_essua_matched": 0.7602631578947368,
+  "specificity_essua_matched_ci": [
+   0.6836842105263158,
+   0.8297368421052632
+  ],
+  "essua_matched_speakers": 76,
+  "specificity_hsa_out_of_fold": 0.5695121951219512,
+  "specificity_hsa_ci": [
+   0.4817073170731707,
+   0.6561280487804875
+  ],
+  "specificity_hsa_per_model_mean": 0.57,
+  "difference_essua_minus_hsa": 0.23632722093644298
+ },
+ "hubert_phonation": {
+  "essua_normals": 274,
+  "models": 50,
+  "specificity_essua": 0.8079562043795621,
+  "specificity_essua_ci": [
+   0.7697080291970804,
+   0.8435054744525549
+  ],
+  "specificity_essua_per_model": [
+   0.5985401459854015,
+   0.8759124087591241
+  ],
+  "specificity_essua_matched": 0.7321052631578947,
+  "specificity_essua_matched_ci": [
+   0.646842105263158,
+   0.8121052631578948
+  ],
+  "essua_matched_speakers": 76,
+  "specificity_hsa_out_of_fold": 0.6134146341463416,
+  "specificity_hsa_ci": [
+   0.5207317073170732,
+   0.702439024390244
+  ],
+  "specificity_hsa_per_model_mean": 0.6133823529411765,
+  "difference_essua_minus_hsa": 0.1945415702332205
+ }
+}

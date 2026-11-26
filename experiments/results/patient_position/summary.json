@@ -1,0 +1,81 @@
+{
+ "speakers": {
+  "hsa_patients": 329,
+  "hsa_normals": 82,
+  "essua_normals": 274
+ },
+ "chapter_counts": {
+  "inflammatory": 104,
+  "neurological": 36,
+  "other": 31,
+  "structural": 158
+ },
+ "layers": {
+  "0": {
+   "position": -0.1376815897762407,
+   "ci_low": -0.279475096161542,
+   "ci_high": -0.020281365667028293,
+   "reading": "the patients sit with the HSA normals: the direction is place",
+   "by_chapter": {
+    "inflammatory": -0.09583586218075328,
+    "neurological": -0.08188791263987891,
+    "other": -0.20983185060864012,
+    "structural": -0.1637820325676038
+   },
+   "normals_auc_out_of_part": 0.9096937867188891
+  },
+  "3": {
+   "position": -0.09042905593003896,
+   "ci_low": -0.2262828860256944,
+   "ci_high": 0.024969020057132245,
+   "reading": "the patients sit with the HSA normals: the direction is place",
+   "by_chapter": {
+    "inflammatory": -0.12993481908252957,
+    "neurological": 0.11589154823711907,
+    "other": -0.09067713871389613,
+    "structural": -0.11138634590383081
+   },
+   "normals_auc_out_of_part": 0.9230016022787965
+  },
+  "6": {
+   "position": 0.012214541270692757,
+   "ci_low": -0.15926348004613256,
+   "ci_high": 0.14673190762565794,
+   "reading": "the patients sit with the HSA normals: the direction is place",
+   "by_chapter": {
+    "inflammatory": -0.022741474985653275,
+    "neurological": 0.22433019003838786,
+    "other": -0.015621817093157601,
+    "structural": -0.007645019208406916
+   },
+   "normals_auc_out_of_part": 0.8567295709453445
+  },
+  "9": {
+   "position": -0.08210358774722824,
+   "ci_low": -0.33637890105170093,
+   "ci_high": 0.09198663255821407,
+   "reading": "the patients sit with the HSA normals: the direction is place",
+   "by_chapter": {
+    "inflammatory": -0.14495200970010946,
+    "neurological": 0.1910830035337678,
+    "other": -0.15420117947483528,
+    "structural": -0.08883432230077512
+   },
+   "normals_auc_out_of_part": 0.7911251557771052
+  },
+  "12": {
+   "position": -0.07464809679820789,
+   "ci_low": -0.275013044742037,
+   "ci_high": 0.07188123841007978,
+   "reading": "the patients sit with the HSA normals: the direction is place",
+   "by_chapter": {
+    "inflammatory": -0.07111449850800987,
+    "neurological": 0.10002589089712469,
+    "other": -0.09966306816299164,
+    "structural": -0.11186514532291796
+   },
+   "normals_auc_out_of_part": 0.8273099519316361
+  }
+ },
+ "overall": "the direction is place"
+}

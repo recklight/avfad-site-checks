@@ -1,0 +1,31 @@
+{
+ "published": {
+  "a_n": {
+   "verdict": "falls past the threshold inside one place",
+   "hsa_separates": false,
+   "reproduces_paper": true
+  },
+  "phrase": {
+   "verdict": "falls past the threshold inside one place",
+   "hsa_separates": false,
+   "reproduces_paper": true
+  }
+ },
+ "mine": {
+  "a_n_handcrafted": "same as C1",
+  "phrase_handcrafted": {
+   "listed": "overlap matters little",
+   "inside_hsa": "overlap raises the score"
+  },
+  "a_n_hubert": "same as C1",
+  "phrase_hubert": {
+   "listed": "overlap matters little",
+   "inside_hsa": "overlap raises the score"
+  }
+ },
+ "lists_mixed": {
+  "a_n": true,
+  "phrase": true,
+  "wbr_rebuilt": true
+ }
+}

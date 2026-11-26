@@ -1,0 +1,52 @@
+{
+ "handcrafted": {
+  "auc": 0.7670771700884774,
+  "within_strata": {
+   "auc": 0.6374540467401105,
+   "ci": [
+    0.5984612282647828,
+    0.6776586489898198
+   ],
+   "strata_with_both_labels": 28,
+   "strata": 36,
+   "speakers": 1459
+  },
+  "hsa_within_strata": {
+   "auc": 0.5725260492252982,
+   "ci": [
+    0.5193553336451849,
+    0.6261091304566473
+   ],
+   "strata_with_both_labels": 24,
+   "strata": 31,
+   "speakers": 411
+  },
+  "reading": "inside HSA is harder than inside SVD",
+  "seconds": 30.6
+ },
+ "hubert": {
+  "auc": 0.8089680668951669,
+  "within_strata": {
+   "auc": 0.6927777240233711,
+   "ci": [
+    0.6589780087955914,
+    0.7340585094317906
+   ],
+   "strata_with_both_labels": 28,
+   "strata": 36,
+   "speakers": 1459
+  },
+  "hsa_within_strata": {
+   "auc": 0.6558483278301559,
+   "ci": [
+    0.602201629341635,
+    0.7115883747919798
+   ],
+   "strata_with_both_labels": 24,
+   "strata": 31,
+   "speakers": 411
+  },
+  "reading": "inside HSA is harder than inside SVD",
+  "seconds": 413.5
+ }
+}

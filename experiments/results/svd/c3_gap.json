@@ -1,0 +1,25 @@
+{
+ "speakers": 1458,
+ "uar_a_n": 0.7019412216410194,
+ "uar_iau": 0.7498272231007846,
+ "roc_auc_a_n": 0.7678251018794476,
+ "roc_auc_iau": 0.8317375387750138,
+ "contrast": {
+  "first": "iau",
+  "second": "a_n",
+  "difference": 0.04788600145976529,
+  "ci_low": 0.024539265189515894,
+  "ci_high": 0.07104868978251971,
+  "better": true,
+  "fold_mean_difference": 0.0478890352304516,
+  "n_pairs": 50,
+  "t_statistic": 3.0903771432661884,
+  "p_corrected_t": 0.0032920738838584703,
+  "p_corrected_t_adjusted": 0.0032920738838584703,
+  "p_wilcoxon": 7.638334409421077e-14,
+  "p_wilcoxon_adjusted": 7.638334409421077e-14,
+  "n_undefined": 0,
+  "p_one_sided": 0.0016460369419292352
+ },
+ "worst_share_deviation": 0.002123381626172094
+}

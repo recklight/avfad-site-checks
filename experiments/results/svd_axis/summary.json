@@ -1,0 +1,416 @@
+{
+ "speakers": {
+  "svd_patients": 802,
+  "svd_normals": 657
+ },
+ "svd_patients": {
+  "layers": {
+   "0": {
+    "rho_ii": {
+     "rho": -0.6173129147457986,
+     "ci_low": -0.6592985169361688,
+     "ci_high": -0.572878120605332
+    },
+    "rho_i": {
+     "rho": -0.43341712416409084,
+     "ci_low": -0.489439871394761,
+     "ci_high": -0.37664442790528035
+    },
+    "rho_all": {
+     "rho": -0.444283726809673,
+     "ci_low": -0.49636978263158343,
+     "ci_high": -0.38979326192847086
+    },
+    "rho_all_aligned": {
+     "rho": -0.29605015311405025,
+     "ci_low": -0.3590389971365024,
+     "ci_high": -0.22893045919435362
+    },
+    "i_minus_ii": {
+     "difference": 0.1838957905817078,
+     "ci_low": 0.14295417513737604,
+     "ci_high": 0.22548543581236946
+    },
+    "i_reading": "as measured",
+    "all_minus_ii": {
+     "difference": 0.17302918793612565,
+     "ci_low": 0.1331541227539644,
+     "ci_high": 0.21377449633882653
+    },
+    "all_reading": "as measured",
+    "all_aligned_minus_ii": {
+     "difference": 0.3212627616317484,
+     "ci_low": 0.2458377166628191,
+     "ci_high": 0.3970022096750278
+    },
+    "all_aligned_reading": "as measured"
+   },
+   "3": {
+    "rho_ii": {
+     "rho": -0.006955189114075414,
+     "ci_low": -0.0768588672720158,
+     "ci_high": 0.06388027658417786
+    },
+    "rho_i": {
+     "rho": 0.05818185028424782,
+     "ci_low": -0.012107997767095615,
+     "ci_high": 0.1280318385590794
+    },
+    "rho_all": {
+     "rho": -0.12303911002946084,
+     "ci_low": -0.19230696606375744,
+     "ci_high": -0.05271939049479177
+    },
+    "rho_all_aligned": {
+     "rho": -0.3817878566534862,
+     "ci_low": -0.4437181693135631,
+     "ci_high": -0.31598640732666355
+    },
+    "i_minus_ii": {
+     "difference": 0.06513703939832323,
+     "ci_low": 0.019151373526599718,
+     "ci_high": 0.11083266017862665
+    },
+    "i_reading": "as measured",
+    "all_minus_ii": {
+     "difference": -0.11608392091538543,
+     "ci_low": -0.1657106662775142,
+     "ci_high": -0.06910385960478303
+    },
+    "all_reading": "on SVD, the (i) score follows the place direction too",
+    "all_aligned_minus_ii": {
+     "difference": -0.3748326675394108,
+     "ci_low": -0.4536300601323891,
+     "ci_high": -0.29512904746464486
+    },
+    "all_aligned_reading": "on SVD, the (i) score follows the place direction too"
+   },
+   "6": {
+    "rho_ii": {
+     "rho": 0.2795947733569049,
+     "ci_low": 0.21309682087047138,
+     "ci_high": 0.3445315880575292
+    },
+    "rho_i": {
+     "rho": 0.3358522574539021,
+     "ci_low": 0.27059965695160604,
+     "ci_high": 0.39839727409189757
+    },
+    "rho_all": {
+     "rho": 0.04348368308523331,
+     "ci_low": -0.028217084224566244,
+     "ci_high": 0.1134905472777403
+    },
+    "rho_all_aligned": {
+     "rho": -0.3417664787616083,
+     "ci_low": -0.40393258965108275,
+     "ci_high": -0.2769015518814967
+    },
+    "i_minus_ii": {
+     "difference": 0.05625748409699721,
+     "ci_low": 0.011821259849107216,
+     "ci_high": 0.10098642706572707
+    },
+    "i_reading": "as measured",
+    "all_minus_ii": {
+     "difference": -0.2361110902716716,
+     "ci_low": -0.28192403362004614,
+     "ci_high": -0.19046598328025013
+    },
+    "all_reading": "on SVD, the (i) score follows the place direction too",
+    "all_aligned_minus_ii": {
+     "difference": -0.6213612521185132,
+     "ci_low": -0.7001277742147994,
+     "ci_high": -0.5414417189910183
+    },
+    "all_aligned_reading": "on SVD, the (i) score follows the place direction too"
+   },
+   "9": {
+    "rho_ii": {
+     "rho": 0.1973782178338511,
+     "ci_low": 0.12892316075529986,
+     "ci_high": 0.26353463454314313
+    },
+    "rho_i": {
+     "rho": 0.35397742880498206,
+     "ci_low": 0.29060480083383383,
+     "ci_high": 0.41257207335048474
+    },
+    "rho_all": {
+     "rho": -0.06096806202552304,
+     "ci_low": -0.13283985603735476,
+     "ci_high": 0.008616093486123634
+    },
+    "rho_all_aligned": {
+     "rho": -0.520799402606352,
+     "ci_low": -0.5751608635189681,
+     "ci_high": -0.4633948881171277
+    },
+    "i_minus_ii": {
+     "difference": 0.15659921097113097,
+     "ci_low": 0.11291281819275914,
+     "ci_high": 0.20021039287187503
+    },
+    "i_reading": "as measured",
+    "all_minus_ii": {
+     "difference": -0.25834627985937414,
+     "ci_low": -0.3044935293223717,
+     "ci_high": -0.2124261596654064
+    },
+    "all_reading": "on SVD, the (i) score follows the place direction too",
+    "all_aligned_minus_ii": {
+     "difference": -0.7181776204402032,
+     "ci_low": -0.792812204511228,
+     "ci_high": -0.6440197732446208
+    },
+    "all_aligned_reading": "on SVD, the (i) score follows the place direction too"
+   },
+   "12": {
+    "rho_ii": {
+     "rho": 0.012059452164361509,
+     "ci_low": -0.05973208776883705,
+     "ci_high": 0.08284216106490029
+    },
+    "rho_i": {
+     "rho": 0.18193743769177204,
+     "ci_low": 0.1124561738761354,
+     "ci_high": 0.2503082127419408
+    },
+    "rho_all": {
+     "rho": -0.21890743312101416,
+     "ci_low": -0.2874985386012976,
+     "ci_high": -0.15037661858856866
+    },
+    "rho_all_aligned": {
+     "rho": -0.5659108068188492,
+     "ci_low": -0.6159528273980374,
+     "ci_high": -0.5141747614111148
+    },
+    "i_minus_ii": {
+     "difference": 0.1698779855274105,
+     "ci_low": 0.1267366950554869,
+     "ci_high": 0.21383965380047207
+    },
+    "i_reading": "as measured",
+    "all_minus_ii": {
+     "difference": -0.23096688528537568,
+     "ci_low": -0.27913154876362745,
+     "ci_high": -0.18462596732408115
+    },
+    "all_reading": "on SVD, the (i) score follows the place direction too",
+    "all_aligned_minus_ii": {
+     "difference": -0.5779702589832107,
+     "ci_low": -0.6536893951226954,
+     "ci_high": -0.5015258869481668
+    },
+    "all_aligned_reading": "on SVD, the (i) score follows the place direction too"
+   }
+  },
+  "overall": "as measured"
+ },
+ "svd_normals": {
+  "layers": {
+   "0": {
+    "rho_ii": {
+     "rho": -0.3828314276709824,
+     "ci_low": -0.4470719543521988,
+     "ci_high": -0.3187424309953174
+    },
+    "rho_i": {
+     "rho": -0.09985245884436193,
+     "ci_low": -0.17382342587112462,
+     "ci_high": -0.025021699847839248
+    },
+    "rho_all": {
+     "rho": -0.12573660560896735,
+     "ci_low": -0.1990056123833746,
+     "ci_high": -0.05069746274265764
+    },
+    "rho_all_aligned": {
+     "rho": -0.3283166039908723,
+     "ci_low": -0.39649717391184586,
+     "ci_high": -0.2570048961409051
+    },
+    "i_minus_ii": {
+     "difference": 0.28297896882662044,
+     "ci_low": 0.2204089047076241,
+     "ci_high": 0.345507267582288
+    },
+    "i_reading": "as measured",
+    "all_minus_ii": {
+     "difference": 0.25709482206201506,
+     "ci_low": 0.1982901896083086,
+     "ci_high": 0.318089576475139
+    },
+    "all_reading": "as measured",
+    "all_aligned_minus_ii": {
+     "difference": 0.05451482368011007,
+     "ci_low": -0.029408970579434725,
+     "ci_high": 0.13682471358124823
+    },
+    "all_aligned_reading": "not visible on SVD"
+   },
+   "3": {
+    "rho_ii": {
+     "rho": 0.011036135989040283,
+     "ci_low": -0.06569577440473456,
+     "ci_high": 0.08832887629817819
+    },
+    "rho_i": {
+     "rho": 0.1351192295701114,
+     "ci_low": 0.060535074561314205,
+     "ci_high": 0.20928581452040126
+    },
+    "rho_all": {
+     "rho": 0.020310477910125316,
+     "ci_low": -0.05410823151803022,
+     "ci_high": 0.09359315654862889
+    },
+    "rho_all_aligned": {
+     "rho": -0.437835149628092,
+     "ci_low": -0.5013204707057951,
+     "ci_high": -0.3702540832493344
+    },
+    "i_minus_ii": {
+     "difference": 0.12408309358107113,
+     "ci_low": 0.05836858187781035,
+     "ci_high": 0.19007183118075047
+    },
+    "i_reading": "as measured",
+    "all_minus_ii": {
+     "difference": 0.009274341921085033,
+     "ci_low": -0.05226801387848638,
+     "ci_high": 0.07064614540145171
+    },
+    "all_reading": "not visible on SVD",
+    "all_aligned_minus_ii": {
+     "difference": -0.4488712856171323,
+     "ci_low": -0.5371371191973361,
+     "ci_high": -0.3609622562282956
+    },
+    "all_aligned_reading": "on SVD, the (i) score follows the place direction too"
+   },
+   "6": {
+    "rho_ii": {
+     "rho": 0.08342375878061982,
+     "ci_low": 0.006488356759105959,
+     "ci_high": 0.159316563950949
+    },
+    "rho_i": {
+     "rho": 0.21972571257960571,
+     "ci_low": 0.1469333151876705,
+     "ci_high": 0.29072548586496444
+    },
+    "rho_all": {
+     "rho": -0.039977272196421845,
+     "ci_low": -0.11380457661327742,
+     "ci_high": 0.033497988019427834
+    },
+    "rho_all_aligned": {
+     "rho": -0.474582790442136,
+     "ci_low": -0.5348003438032463,
+     "ci_high": -0.4091975473454463
+    },
+    "i_minus_ii": {
+     "difference": 0.1363019537989859,
+     "ci_low": 0.06772424189055994,
+     "ci_high": 0.20418084113029392
+    },
+    "i_reading": "as measured",
+    "all_minus_ii": {
+     "difference": -0.12340103097704166,
+     "ci_low": -0.18455957498306463,
+     "ci_high": -0.06285365859538179
+    },
+    "all_reading": "on SVD, the (i) score follows the place direction too",
+    "all_aligned_minus_ii": {
+     "difference": -0.5580065492227558,
+     "ci_low": -0.6424527795182524,
+     "ci_high": -0.4740613727466479
+    },
+    "all_aligned_reading": "on SVD, the (i) score follows the place direction too"
+   },
+   "9": {
+    "rho_ii": {
+     "rho": -0.053077410276122165,
+     "ci_low": -0.1262021352596159,
+     "ci_high": 0.021077506155200303
+    },
+    "rho_i": {
+     "rho": 0.2446382829777417,
+     "ci_low": 0.17426679908043485,
+     "ci_high": 0.3135560237640734
+    },
+    "rho_all": {
+     "rho": -0.205228401900957,
+     "ci_low": -0.2778178510405633,
+     "ci_high": -0.13129711286009757
+    },
+    "rho_all_aligned": {
+     "rho": -0.6311775348152782,
+     "ci_low": -0.6776044757403021,
+     "ci_high": -0.5811360830888139
+    },
+    "i_minus_ii": {
+     "difference": 0.2977156932538639,
+     "ci_low": 0.23221388943464105,
+     "ci_high": 0.36264235216267343
+    },
+    "i_reading": "as measured",
+    "all_minus_ii": {
+     "difference": -0.15215099162483484,
+     "ci_low": -0.21169132594863965,
+     "ci_high": -0.09250963381468753
+    },
+    "all_reading": "on SVD, the (i) score follows the place direction too",
+    "all_aligned_minus_ii": {
+     "difference": -0.578100124539156,
+     "ci_low": -0.6566604629863764,
+     "ci_high": -0.4996991010554615
+    },
+    "all_aligned_reading": "on SVD, the (i) score follows the place direction too"
+   },
+   "12": {
+    "rho_ii": {
+     "rho": -0.19022467486614325,
+     "ci_low": -0.2644664149678951,
+     "ci_high": -0.11473642692768804
+    },
+    "rho_i": {
+     "rho": 0.09533270979126912,
+     "ci_low": 0.021133446599373853,
+     "ci_high": 0.17038801553634064
+    },
+    "rho_all": {
+     "rho": -0.3615799665616259,
+     "ci_low": -0.4307582652447185,
+     "ci_high": -0.29100714621136337
+    },
+    "rho_all_aligned": {
+     "rho": -0.5596757598191796,
+     "ci_low": -0.6109929174530225,
+     "ci_high": -0.5053580036248025
+    },
+    "i_minus_ii": {
+     "difference": 0.28555738465741237,
+     "ci_low": 0.21963294701254463,
+     "ci_high": 0.3522286356330591
+    },
+    "i_reading": "as measured",
+    "all_minus_ii": {
+     "difference": -0.17135529169548264,
+     "ci_low": -0.22877458676658305,
+     "ci_high": -0.11310678714945721
+    },
+    "all_reading": "on SVD, the (i) score follows the place direction too",
+    "all_aligned_minus_ii": {
+     "difference": -0.36945108495303636,
+     "ci_low": -0.4527580506944588,
+     "ci_high": -0.2848851653316089
+    },
+    "all_aligned_reading": "on SVD, the (i) score follows the place direction too"
+   }
+  },
+  "overall": "as measured"
+ }
+}

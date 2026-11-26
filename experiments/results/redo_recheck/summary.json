@@ -1,0 +1,49 @@
+{
+ "arms": {
+  "hand_A_place": {
+   "uar_new": 0.7614409499358152,
+   "max_abs_score_change": 0.0
+  },
+  "hand_B_s0_place": {
+   "uar_new": 0.6561777920410783,
+   "max_abs_score_change": 0.0
+  },
+  "hand_B_s1_place": {
+   "uar_new": 0.66946405648267,
+   "max_abs_score_change": 0.0
+  },
+  "hand_B_s2_place": {
+   "uar_new": 0.668196405648267,
+   "max_abs_score_change": 0.0
+  },
+  "hand_C_s0_place": {
+   "uar_new": 0.8157734274711169,
+   "max_abs_score_change": 0.0
+  },
+  "hand_D_s0_place": {
+   "uar_new": 0.6318677792041079,
+   "max_abs_score_change": 0.0
+  },
+  "hand_B_s0_original_spans_place": {
+   "uar_new": 0.6875641848523749,
+   "max_abs_score_change": 0.0
+  },
+  "hand_A_sex": {
+   "uar_new": 0.910545884738888,
+   "max_abs_score_change": 0.0
+  },
+  "hand_A_age_group": {
+   "uar_new": 0.645005666180994,
+   "max_abs_score_change": 0.0
+  },
+  "hand_B_s0_sex": {
+   "uar_new": 0.9091853980057462,
+   "max_abs_score_change": 0.0
+  },
+  "hand_B_s0_age_group": {
+   "uar_new": 0.6499190545572284,
+   "max_abs_score_change": 0.0
+  }
+ },
+ "same": true
+}

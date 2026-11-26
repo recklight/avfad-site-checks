@@ -1,0 +1,23 @@
+{
+ "handcrafted": {
+  "rerun_auc": 0.8722615009793149,
+  "stored_auc": 0.8722615009793149,
+  "place_auc": 0.8532460707973057,
+  "full_auc": 0.8760967531330117,
+  "difference": -0.022850682335705974,
+  "ci_low": -0.04237388334209147,
+  "ci_high": -0.00394910746986421,
+  "reading": "below the full detector"
+ },
+ "hubert": {
+  "rerun_auc": 0.9083894648003948,
+  "stored_auc": 0.9083894648003948,
+  "place_auc": 0.906543097820029,
+  "full_auc": 0.9194095447379735,
+  "difference": -0.012866446917944585,
+  "ci_low": -0.02722177104730961,
+  "ci_high": 0.0010511711969936387,
+  "reading": "no better or worse than the full detector"
+ },
+ "seconds": 109.6
+}

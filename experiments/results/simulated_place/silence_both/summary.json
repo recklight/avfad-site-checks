@@ -1,0 +1,94 @@
+{
+ "shares": {
+  "A": 0.24389115820084184,
+  "B": 0.30421624405824127
+ },
+ "handcrafted": {
+  "ii": {
+   "uar": 0.6694399140040033,
+   "roc_auc": 0.7351545703906888
+  },
+  "i_uar_mean": 0.7530266513455408,
+  "i_uar_range": [
+   0.708506931573875,
+   0.7773333827563199
+  ],
+  "gap_i_minus_ii": {
+   "difference": 0.08358673734153754,
+   "ci_low": 0.03849379451844646,
+   "ci_high": 0.12987663832359636,
+   "p_one_sided": 9.999000099990002e-05,
+   "n_resamples": 10000,
+   "n_undefined": 0,
+   "n_speakers_resampled": 647
+  },
+  "reading": "a gap, less than half",
+  "place": {
+   "auc": 0.8176121034117687,
+   "ci_low": 0.7835791554250197,
+   "ci_high": 0.8496053328096718,
+   "visibility_a_vs_b": 0.9581627203133345,
+   "ceiling": 0.8848314606741573,
+   "reading": "as measured"
+  },
+  "only_b_padded_gap": 0.12437882719252724
+ },
+ "free": {
+  "ii": {
+   "uar": 0.6542219586329602,
+   "roc_auc": 0.6949366150196455
+  },
+  "i_uar_mean": 0.6893460968196308,
+  "i_uar_range": [
+   0.6502520572318184,
+   0.735578990288383
+  ],
+  "gap_i_minus_ii": {
+   "difference": 0.035124138186670595,
+   "ci_low": -0.008589810676947474,
+   "ci_high": 0.07920121326920256,
+   "p_one_sided": 0.057194280571942806,
+   "n_resamples": 10000,
+   "n_undefined": 0,
+   "n_speakers_resampled": 647
+  },
+  "place": {
+   "auc": 0.7176411324749837,
+   "ci_low": 0.6791938458385984,
+   "ci_high": 0.7553191489361702,
+   "visibility_a_vs_b": 0.7399412497774612,
+   "ceiling": 0.8848314606741573
+  },
+  "only_b_padded_gap": 0.1718499518125881
+ },
+ "hubert": {
+  "ii": {
+   "uar": 0.7133386463043961,
+   "roc_auc": 0.7679368374230855
+  },
+  "i_uar_mean": 0.8200048558084366,
+  "i_uar_range": [
+   0.7774464378382386,
+   0.8665542293720809
+  ],
+  "gap_i_minus_ii": {
+   "difference": 0.10666620950404049,
+   "ci_low": 0.06459875160240244,
+   "ci_high": 0.15171267934271465,
+   "p_one_sided": 9.999000099990002e-05,
+   "n_resamples": 10000,
+   "n_undefined": 0,
+   "n_speakers_resampled": 647
+  },
+  "reading": "the measured silence difference alone reaches half of AVFAD's gap or more",
+  "place": {
+   "auc": 0.8138895529524265,
+   "ci_low": 0.7788235118336123,
+   "ci_high": 0.8486486544175404,
+   "visibility_a_vs_b": 0.9996884457895674,
+   "ceiling": 0.8848314606741573,
+   "reading": "short of AVFAD's place detector"
+  },
+  "only_b_padded_gap": 0.12292264067017566
+ }
+}

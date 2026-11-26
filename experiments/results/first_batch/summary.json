@@ -1,0 +1,144 @@
+{
+ "gate": {
+  "arm": "gate",
+  "n_speakers": 141,
+  "ESSUA": 67,
+  "HSA": 74,
+  "uar": 0.9581988705123035,
+  "roc_auc": 0.9746672045179509,
+  "sensitivity": 0.9716216216216218,
+  "specificity": 0.944776119402985,
+  "worst_share_deviation": 0.024822695035460973,
+  "chosen_c": "{\"0.01\": 26, \"0.1\": 14, \"1.0\": 9, \"10.0\": 1}",
+  "normal_speakers": {
+   "ESSUA": 274,
+   "HSA": 82
+  },
+  "reach_minimum": {
+   "ESSUA": 212,
+   "HSA": 74
+  },
+  "cells_short": 4,
+  "min_uar": 0.9,
+  "passed": true,
+  "negative": {
+   "arm": "gate",
+   "shuffles": 20,
+   "mean_uar": 0.5009192214602664,
+   "sd_uar": 0.045316021884809064,
+   "min_uar": 0.4403590157321501,
+   "max_uar": 0.6118999596611536,
+   "worst_share_deviation": 0.024822695035460973,
+   "n_undefined": 0,
+   "passed": true
+  },
+  "seconds": 15.4
+ },
+ "c1": {
+  "difference": 0.22173152198087343,
+  "ci_low": 0.17475535235211506,
+  "ci_high": 0.271013749294495,
+  "p_one_sided": 9.999000099990002e-05,
+  "n_resamples": 10000,
+  "n_undefined": 0,
+  "n_speakers_resampled": 670,
+  "uar_i_mean": 0.7746728074727557,
+  "uar_i_min": 0.7205222774112239,
+  "uar_i_max": 0.8292423456149456,
+  "uar_ii": 0.5529412854918823,
+  "sensitivity_i_mean": 0.8746382978723405,
+  "specificity_i_mean": 0.6747073170731709,
+  "sensitivity_ii": 0.670516717325228,
+  "specificity_ii": 0.4353658536585366,
+  "roc_auc_i_mean": 0.8217044999629327,
+  "roc_auc_ii": 0.5799688635184224,
+  "patients": 329,
+  "normals_per_arm": 82,
+  "draws": 50,
+  "draw_place_share": {
+   "ESSUA": 0.6680487804878049,
+   "HSA": 0.31682926829268293,
+   "ULSM": 0.012926829268292682,
+   "HSJ": 0.0021951219512195124
+  },
+  "worst_share_deviation": 0.007803691175597871,
+  "smallest_gap": 0.1,
+  "reaches_smallest_gap": true,
+  "negative": [
+   {
+    "arm": "ii",
+    "shuffles": 20,
+    "mean_uar": 0.5011048817555045,
+    "sd_uar": 0.026901709426056998,
+    "min_uar": 0.44771295129364674,
+    "max_uar": 0.5468437245162725,
+    "worst_share_deviation": 0.007803691175597871,
+    "n_undefined": 0,
+    "passed": true
+   },
+   {
+    "arm": "i_00",
+    "shuffles": 20,
+    "mean_uar": 0.49689265327303733,
+    "sd_uar": 0.028147292257829304,
+    "min_uar": 0.45108236340722085,
+    "max_uar": 0.5453072874193787,
+    "worst_share_deviation": 0.007803691175597871,
+    "n_undefined": 0,
+    "passed": true
+   }
+  ],
+  "seconds": 63.7
+ },
+ "c2": {
+  "arm": "c2",
+  "n_speakers": 158,
+  "ESSUA": 76,
+  "HSA": 82,
+  "uar": 0.7614409499358152,
+  "roc_auc": 0.8378048780487803,
+  "sensitivity": 0.776829268292683,
+  "specificity": 0.7460526315789474,
+  "worst_share_deviation": 0.01898734177215189,
+  "chosen_c": "{\"0.01\": 11, \"0.1\": 14, \"1.0\": 9, \"10.0\": 16}",
+  "p_one_sided": 0.000999000999000999,
+  "n_permutations": 1000,
+  "n_undefined": 0,
+  "cells_short": [
+   {
+    "cell": "12_M",
+    "wanted": 4,
+    "found": 3
+   },
+   {
+    "cell": "13_M",
+    "wanted": 5,
+    "found": 4
+   },
+   {
+    "cell": "14_M",
+    "wanted": 7,
+    "found": 4
+   },
+   {
+    "cell": "3_F",
+    "wanted": 1,
+    "found": 0
+   }
+  ],
+  "other_draws_uar_min": 0.7222079589216944,
+  "other_draws_uar_max": 0.7688863928112966,
+  "other_draws_uar_mean": 0.7486938382541719,
+  "worst_share_deviation_permuted": 0.01898734177215189,
+  "smallest_gap": 0.1,
+  "reaches_smallest_gap": true,
+  "negative": {
+   "arm": "c2",
+   "shuffles": 1000,
+   "mean_uar": 0.49470957958921696,
+   "sd_uar": 0.03794730481867802,
+   "passed": true
+  },
+  "seconds": 350.8
+ }
+}

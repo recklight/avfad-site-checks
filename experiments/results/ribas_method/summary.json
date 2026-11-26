@@ -1,0 +1,16 @@
+{
+ "reproduces": {
+  "a_n": true,
+  "phrase": true
+ },
+ "name": "their method",
+ "primary": "their method does not separate inside one place either",
+ "mixed_training_higher": {
+  "a_n": true,
+  "phrase": true
+ },
+ "c1": {
+  "a": "same as C1",
+  "sentences": "same as C1"
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "speakers": 709,
+ "sensitivity": 1.0,
+ "specificity": 0.7548209366391184,
+ "uar": 0.8774104683195592,
+ "patients_at_essua": 0,
+ "real_uar": {
+  "handcrafted": 0.82,
+  "hubert": 0.835,
+  "hubert_finetuned": 0.828,
+  "compare": 0.858
+ },
+ "reading": "knowing the place alone beats every detector"
+}

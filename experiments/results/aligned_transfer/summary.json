@@ -1,0 +1,204 @@
+{
+ "hubert": {
+  "plain": {
+   "ii": 0.7146498290043537,
+   "all": 0.589580083277347,
+   "essua_normals_hsa_patients": 0.49286790633765665,
+   "i": 0.603648337299825
+  },
+  "location": {
+   "auc": {
+    "all": 0.5051241758617155,
+    "essua_normals_hsa_patients": 0.5141692951790994,
+    "i": 0.5578554754665846
+   },
+   "all_minus_plain_all": {
+    "difference": -0.08445590741563147,
+    "ci_low": -0.11405072744318796,
+    "ci_high": -0.05314093001894045
+   },
+   "all_reading": "the alignment makes it worse",
+   "all_minus_ii": {
+    "difference": -0.20952565314263816,
+    "ci_low": -0.23933559366424123,
+    "ci_high": -0.17619972139666062
+   },
+   "versus_ii_reading": "still below training inside HSA",
+   "essua_normals_minus_plain": {
+    "difference": 0.021301388841442725,
+    "ci_low": -0.019638024421442572,
+    "ci_high": 0.059331693597057596
+   },
+   "essua_normals_reading": "the alignment does not change the outside score",
+   "d_ext": {
+    "difference": -0.15679435353776905,
+    "ci_low": -0.17406197500920428,
+    "ci_high": -0.13891529689854507
+   },
+   "d_ext_reading": "does not travel: consistent with a place shortcut"
+  },
+  "scale": {
+   "auc": {
+    "all": 0.5233187958566293,
+    "essua_normals_hsa_patients": 0.44242513958634616,
+    "i": 0.5621890479281249
+   },
+   "all_minus_plain_all": {
+    "difference": -0.06626128742071768,
+    "ci_low": -0.09456514725363153,
+    "ci_high": -0.035887972230762524
+   },
+   "all_reading": "the alignment makes it worse",
+   "all_minus_ii": {
+    "difference": -0.19133103314772437,
+    "ci_low": -0.22070655742682865,
+    "ci_high": -0.15895150821576193
+   },
+   "versus_ii_reading": "still below training inside HSA",
+   "essua_normals_minus_plain": {
+    "difference": -0.050442766751310486,
+    "ci_low": -0.0868999020713058,
+    "ci_high": -0.01468280402494521
+   },
+   "essua_normals_reading": "the alignment makes it worse",
+   "d_ext": {
+    "difference": -0.15246078107622885,
+    "ci_low": -0.16858970534090975,
+    "ci_high": -0.13443439773853058
+   },
+   "d_ext_reading": "does not travel: consistent with a place shortcut"
+  },
+  "coral": {
+   "auc": {
+    "all": 0.5245144368910296,
+    "essua_normals_hsa_patients": 0.5275699639789415,
+    "i": 0.49759862140690886
+   },
+   "all_minus_plain_all": {
+    "difference": -0.0650656463863174,
+    "ci_low": -0.09350714727640559,
+    "ci_high": -0.03601574450479589
+   },
+   "all_reading": "the alignment makes it worse",
+   "all_minus_ii": {
+    "difference": -0.1901353921133241,
+    "ci_low": -0.21873635925407178,
+    "ci_high": -0.15839852423735173
+   },
+   "versus_ii_reading": "still below training inside HSA",
+   "essua_normals_minus_plain": {
+    "difference": 0.03470205764128487,
+    "ci_low": 0.005320460264863103,
+    "ci_high": 0.06414723275525042
+   },
+   "essua_normals_reading": "the alignment makes mixed training better outside",
+   "d_ext": {
+    "difference": -0.21705120759744484,
+    "ci_low": -0.24383656346196925,
+    "ci_high": -0.18905597023423162
+   },
+   "d_ext_reading": "does not travel: consistent with a place shortcut"
+  }
+ },
+ "handcrafted": {
+  "plain": {
+   "ii": 0.5503023263758412,
+   "all": 0.5581347240726191,
+   "essua_normals_hsa_patients": 0.5456507133991505,
+   "i": 0.5689364867891156
+  },
+  "location": {
+   "auc": {
+    "all": 0.5382813893728389,
+    "essua_normals_hsa_patients": 0.5683773822673149,
+    "i": 0.5505437699510736
+   },
+   "all_minus_plain_all": {
+    "difference": -0.019853334699780234,
+    "ci_low": -0.04546263716659644,
+    "ci_high": 0.005220206713049907
+   },
+   "all_reading": "the alignment does not change the outside score",
+   "all_minus_ii": {
+    "difference": -0.01202093700300233,
+    "ci_low": -0.027794810917910615,
+    "ci_high": 0.0034976533172396272
+   },
+   "versus_ii_reading": "catches up with training inside HSA",
+   "essua_normals_minus_plain": {
+    "difference": 0.022726668868164435,
+    "ci_low": -0.005414783057576813,
+    "ci_high": 0.04987521682855262
+   },
+   "essua_normals_reading": "the alignment does not change the outside score",
+   "d_ext": {
+    "difference": 0.0002414435752323696,
+    "ci_low": -0.018163813259848685,
+    "ci_high": 0.016410101079113486
+   },
+   "d_ext_reading": "does not travel: consistent with a place shortcut"
+  },
+  "scale": {
+   "auc": {
+    "all": 0.5532914289618419,
+    "essua_normals_hsa_patients": 0.5563469560497539,
+    "i": 0.5569897554439625
+   },
+   "all_minus_plain_all": {
+    "difference": -0.0048432951107771904,
+    "ci_low": -0.02867884986923865,
+    "ci_high": 0.01982657511472458
+   },
+   "all_reading": "the alignment does not change the outside score",
+   "all_minus_ii": {
+    "difference": 0.0029891025860007137,
+    "ci_low": -0.007994615819659458,
+    "ci_high": 0.013593964100403503
+   },
+   "versus_ii_reading": "catches up with training inside HSA",
+   "essua_normals_minus_plain": {
+    "difference": 0.010696242650603427,
+    "ci_low": -0.016069652732704064,
+    "ci_high": 0.03661517818847104
+   },
+   "essua_normals_reading": "the alignment does not change the outside score",
+   "d_ext": {
+    "difference": 0.006687429068121253,
+    "ci_low": -0.010684398687451765,
+    "ci_high": 0.023482634262896856
+   },
+   "d_ext_reading": "does not travel: consistent with a place shortcut"
+  },
+  "coral": {
+   "auc": {
+    "all": 0.5384028513191906,
+    "essua_normals_hsa_patients": 0.5494653776517611,
+    "i": 0.5540726190611751
+   },
+   "all_minus_plain_all": {
+    "difference": -0.01973187275342847,
+    "ci_low": -0.045487783585177015,
+    "ci_high": 0.006164098885207017
+   },
+   "all_reading": "the alignment does not change the outside score",
+   "all_minus_ii": {
+    "difference": -0.011899475056650566,
+    "ci_low": -0.018299973999552157,
+    "ci_high": -0.006098718196897293
+   },
+   "versus_ii_reading": "still below training inside HSA",
+   "essua_normals_minus_plain": {
+    "difference": 0.0038146642526105667,
+    "ci_low": -0.02200207244445968,
+    "ci_high": 0.030570406176340104
+   },
+   "essua_normals_reading": "the alignment does not change the outside score",
+   "d_ext": {
+    "difference": 0.003770292685333909,
+    "ci_low": -0.010793148881980543,
+    "ci_high": 0.017177138014932054
+   },
+   "d_ext_reading": "does not travel: consistent with a place shortcut"
+  }
+ }
+}

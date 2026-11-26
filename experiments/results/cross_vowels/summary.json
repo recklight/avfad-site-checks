@@ -1,0 +1,167 @@
+{
+ "i": {
+  "ii": {
+   "auc": 0.556495691361408,
+   "auc_ci": [
+    0.5292792355592095,
+    0.5842300306781157
+   ],
+   "within_strata_auc": 0.48397696802457546,
+   "within_strata_auc_ci": [
+    0.44153203567465854,
+    0.5222681381555818
+   ],
+   "uar_at_half": 0.5012484394506866
+  },
+  "all": {
+   "auc": 0.6436219207697695,
+   "auc_ci": [
+    0.6155479240887914,
+    0.6712228521512743
+   ],
+   "within_strata_auc": 0.6214922735716332,
+   "within_strata_auc_ci": [
+    0.5772424664744262,
+    0.6618034548334317
+   ],
+   "uar_at_half": 0.5149812734082397
+  },
+  "essua_normals_hsa_patients": {
+   "auc": 0.638881276453214,
+   "auc_ci": [
+    0.612281427940684,
+    0.664705227459578
+   ],
+   "within_strata_auc": 0.5721403666293202,
+   "within_strata_auc_ci": [
+    0.5276831908303713,
+    0.6162914888033787
+   ],
+   "uar_at_half": 0.5139431274930727
+  },
+  "i": {
+   "draws": 50,
+   "auc": 0.5641555905727597,
+   "auc_ci": [
+    0.5478596932949665,
+    0.5799141203069336
+   ],
+   "auc_range": [
+    0.38997556408148354,
+    0.6887865016290613
+   ],
+   "within_strata_auc": 0.5367706328922812,
+   "within_strata_auc_ci": [
+    0.5094018034669662,
+    0.5617145037685407
+   ],
+   "uar_at_half_mean": 0.5121296930665936
+  },
+  "d_ext": {
+   "auc": 0.007659899211351684,
+   "auc_ci": [
+    -0.01320207115343637,
+    0.030208267676075574
+   ],
+   "within_strata_auc": 0.05279366486770576,
+   "within_strata_auc_ci": [
+    0.019742936250939792,
+    0.08723820855186719
+   ]
+  },
+  "svd": {
+   "speakers": 1457,
+   "pathological": 801,
+   "strata": 36
+  },
+  "reading": "does not travel: consistent with a place shortcut",
+  "reversed": false,
+  "mixed_contrast_stays_inside": false,
+  "all_minus_ii": 0.08712622940836157
+ },
+ "u": {
+  "ii": {
+   "auc": 0.6197778691270058,
+   "auc_ci": [
+    0.593290208885235,
+    0.6469038321001188
+   ],
+   "within_strata_auc": 0.5756714316541823,
+   "within_strata_auc_ci": [
+    0.5327960640215139,
+    0.6173053208057329
+   ],
+   "uar_at_half": 0.5024968789013733
+  },
+  "all": {
+   "auc": 0.5847149904083311,
+   "auc_ci": [
+    0.5566585023294053,
+    0.6116553526841448
+   ],
+   "within_strata_auc": 0.5190794285100413,
+   "within_strata_auc_ci": [
+    0.47346853722038534,
+    0.5673928013160724
+   ],
+   "uar_at_half": 0.5272686961420177
+  },
+  "essua_normals_hsa_patients": {
+   "auc": 0.6362226332937487,
+   "auc_ci": [
+    0.6103128996528729,
+    0.6610987884808623
+   ],
+   "within_strata_auc": 0.6281876024205836,
+   "within_strata_auc_ci": [
+    0.583831420420054,
+    0.6731265387860734
+   ],
+   "uar_at_half": 0.5220579839225359
+  },
+  "i": {
+   "draws": 50,
+   "auc": 0.5430061127858471,
+   "auc_ci": [
+    0.5272474821869005,
+    0.558908133126275
+   ],
+   "auc_range": [
+    0.44063822660698515,
+    0.623374744983405
+   ],
+   "within_strata_auc": 0.5259351081566168,
+   "within_strata_auc_ci": [
+    0.5003413257125747,
+    0.5507944196451756
+   ],
+   "uar_at_half_mean": 0.5102868746384093
+  },
+  "d_ext": {
+   "auc": -0.07677175634115874,
+   "auc_ci": [
+    -0.09933290989159889,
+    -0.05466264730063047
+   ],
+   "within_strata_auc": -0.049736323497565516,
+   "within_strata_auc_ci": [
+    -0.086149411167459,
+    -0.014039662032924305
+   ]
+  },
+  "svd": {
+   "speakers": 1457,
+   "pathological": 801,
+   "strata": 36
+  },
+  "reading": "does not travel: consistent with a place shortcut",
+  "reversed": true,
+  "mixed_contrast_stays_inside": false,
+  "all_minus_ii": -0.03506287871867475
+ },
+ "both": {
+  "reading": "repeats",
+  "reversed_in_both": false,
+  "mixed_contrast_stays_inside_in_both": false
+ }
+}

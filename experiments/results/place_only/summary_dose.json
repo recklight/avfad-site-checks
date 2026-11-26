@@ -1,0 +1,25 @@
+{
+ "handcrafted": {
+  "arms": 41,
+  "place_slope": 0.4604217235895821,
+  "real_slope": 0.394554033324203,
+  "place_at_0": 0.512973533990659,
+  "place_at_top": 0.9469234190822151,
+  "real_at_0": 0.5799688635184225,
+  "real_at_top": 0.9271417451256581,
+  "top_share": 0.926829268292683,
+  "reading": "the place detector draws the dose curve too"
+ },
+ "hubert": {
+  "arms": 41,
+  "place_slope": 0.3189983849567813,
+  "real_slope": 0.2976578028039112,
+  "place_at_0": 0.6430795462969827,
+  "place_at_top": 0.9557305952998739,
+  "real_at_0": 0.6664949217881236,
+  "real_at_top": 0.9369634517013864,
+  "top_share": 0.926829268292683,
+  "reading": "the place detector draws the dose curve too"
+ },
+ "seconds": 10.2
+}

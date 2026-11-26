@@ -1,0 +1,1526 @@
+{
+ "hubert": {
+  "location": {
+   "hsa_patients": {
+    "layers": {
+     "0": {
+      "rho_ii": {
+       "rho": -0.3050475471596385,
+       "ci_low": -0.4018647447114962,
+       "ci_high": -0.20419483345154085
+      },
+      "rho_i": {
+       "rho": -0.1712664864974154,
+       "ci_low": -0.27382471664281416,
+       "ci_high": -0.06462643681563494
+      },
+      "rho_i_plain": {
+       "rho": -0.4228435290708254,
+       "ci_low": -0.5111471658022755,
+       "ci_high": -0.3293519147494258
+      },
+      "i_minus_ii": {
+       "difference": 0.1337810606622231,
+       "ci_low": 0.09124616721362148,
+       "ci_high": 0.17877955015023994
+      },
+      "reading": "as measured",
+      "minus_plain_i": {
+       "difference": 0.25157704257340996,
+       "ci_low": 0.20151561018923522,
+       "ci_high": 0.3054107241178938
+      },
+      "change_reading": "after the alignment (i) follows the direction less"
+     },
+     "3": {
+      "rho_ii": {
+       "rho": 0.0995457578228725,
+       "ci_low": -0.004508394923055185,
+       "ci_high": 0.20413587155128055
+      },
+      "rho_i": {
+       "rho": 0.12050694505287136,
+       "ci_low": 0.015523007671523488,
+       "ci_high": 0.2276412208732532
+      },
+      "rho_i_plain": {
+       "rho": -0.2264188328537057,
+       "ci_low": -0.32525135138669115,
+       "ci_high": -0.12220422517681583
+      },
+      "i_minus_ii": {
+       "difference": 0.02096118722999886,
+       "ci_low": -0.020176766395282552,
+       "ci_high": 0.06417846335543924
+      },
+      "reading": "not visible inside one place",
+      "minus_plain_i": {
+       "difference": 0.3469257779065771,
+       "ci_low": 0.29486847569669283,
+       "ci_high": 0.40151332489664876
+      },
+      "change_reading": "after the alignment (i) follows the direction less"
+     },
+     "6": {
+      "rho_ii": {
+       "rho": 0.33771322087357375,
+       "ci_low": 0.24213786970850934,
+       "ci_high": 0.42903334068644394
+      },
+      "rho_i": {
+       "rho": 0.36879005789228936,
+       "ci_low": 0.2756176332493825,
+       "ci_high": 0.4584867066238118
+      },
+      "rho_i_plain": {
+       "rho": 0.0814175186515612,
+       "ci_low": -0.02402332018468134,
+       "ci_high": 0.1863060925417305
+      },
+      "i_minus_ii": {
+       "difference": 0.03107683701871561,
+       "ci_low": -0.007454466122156143,
+       "ci_high": 0.0701725391964994
+      },
+      "reading": "not visible inside one place",
+      "minus_plain_i": {
+       "difference": 0.28737253924072814,
+       "ci_low": 0.2357573080831452,
+       "ci_high": 0.3421176146786407
+      },
+      "change_reading": "after the alignment (i) follows the direction less"
+     },
+     "9": {
+      "rho_ii": {
+       "rho": 0.26570909630068945,
+       "ci_low": 0.166716960129179,
+       "ci_high": 0.36325168149704595
+      },
+      "rho_i": {
+       "rho": 0.2651372498803739,
+       "ci_low": 0.16361440469310148,
+       "ci_high": 0.3633479648699692
+      },
+      "rho_i_plain": {
+       "rho": 0.04395197433599094,
+       "ci_low": -0.06080137900130321,
+       "ci_high": 0.14906519695809453
+      },
+      "i_minus_ii": {
+       "difference": -0.0005718464203155471,
+       "ci_low": -0.043064764822736815,
+       "ci_high": 0.04175517974109383
+      },
+      "reading": "not visible inside one place",
+      "minus_plain_i": {
+       "difference": 0.22118527554438297,
+       "ci_low": 0.17196266041322347,
+       "ci_high": 0.27219691721150047
+      },
+      "change_reading": "after the alignment (i) follows the direction less"
+     },
+     "12": {
+      "rho_ii": {
+       "rho": 0.21251861786371387,
+       "ci_low": 0.10707855195192856,
+       "ci_high": 0.3164143894015876
+      },
+      "rho_i": {
+       "rho": 0.2251103592826478,
+       "ci_low": 0.11964196554155236,
+       "ci_high": 0.3292233455012811
+      },
+      "rho_i_plain": {
+       "rho": 0.00030091859360152043,
+       "ci_low": -0.10920806122551194,
+       "ci_high": 0.10955256681318278
+      },
+      "i_minus_ii": {
+       "difference": 0.012591741418933933,
+       "ci_low": -0.02678250336677048,
+       "ci_high": 0.05240407572863509
+      },
+      "reading": "not visible inside one place",
+      "minus_plain_i": {
+       "difference": 0.2248094406890463,
+       "ci_low": 0.1742249943524467,
+       "ci_high": 0.27715881102472206
+      },
+      "change_reading": "after the alignment (i) follows the direction less"
+     }
+    },
+    "overall": "not visible inside one place",
+    "overall_change": "after the alignment (i) follows the direction less"
+   },
+   "hsa_normals": {
+    "layers": {
+     "0": {
+      "rho_ii": {
+       "rho": -0.3646999923814499,
+       "ci_low": -0.5396204167761941,
+       "ci_high": -0.1673457156688597
+      },
+      "rho_i": {
+       "rho": -0.12752364471435879,
+       "ci_low": -0.3315471028483729,
+       "ci_high": 0.09185957017453432
+      },
+      "rho_i_plain": {
+       "rho": -0.5185947040193294,
+       "ci_low": -0.6540797501771359,
+       "ci_high": -0.35699529665451
+      },
+      "i_minus_ii": {
+       "difference": 0.23717634766709111,
+       "ci_low": 0.0995766492719044,
+       "ci_high": 0.38329175091175605
+      },
+      "reading": "as measured",
+      "minus_plain_i": {
+       "difference": 0.3910710593049706,
+       "ci_low": 0.2486989729898493,
+       "ci_high": 0.5451810987485591
+      },
+      "change_reading": "after the alignment (i) follows the direction less"
+     },
+     "3": {
+      "rho_ii": {
+       "rho": -0.16979571402139723,
+       "ci_low": -0.35763342997095,
+       "ci_high": 0.03125534465386019
+      },
+      "rho_i": {
+       "rho": -0.0675112373613696,
+       "ci_low": -0.25963940439532446,
+       "ci_high": 0.13248743914416344
+      },
+      "rho_i_plain": {
+       "rho": -0.5177240125814913,
+       "ci_low": -0.6501826916807432,
+       "ci_high": -0.3666137962664052
+      },
+      "i_minus_ii": {
+       "difference": 0.10228447666002763,
+       "ci_low": -0.035661666339952096,
+       "ci_high": 0.2468288666732657
+      },
+      "reading": "not visible inside one place",
+      "minus_plain_i": {
+       "difference": 0.45021277522012165,
+       "ci_low": 0.3033432609814994,
+       "ci_high": 0.6084354600190353
+      },
+      "change_reading": "after the alignment (i) follows the direction less"
+     },
+     "6": {
+      "rho_ii": {
+       "rho": 0.02602279034838541,
+       "ci_low": -0.16749181823636577,
+       "ci_high": 0.21214833829280041
+      },
+      "rho_i": {
+       "rho": 0.0973324191073236,
+       "ci_low": -0.09873951788227335,
+       "ci_high": 0.2915074417012846
+      },
+      "rho_i_plain": {
+       "rho": -0.22425746345816872,
+       "ci_low": -0.4145378236042565,
+       "ci_high": -0.024567891690113502
+      },
+      "i_minus_ii": {
+       "difference": 0.07130962875893819,
+       "ci_low": -0.05650962110505393,
+       "ci_high": 0.20315922987798365
+      },
+      "reading": "not visible inside one place",
+      "minus_plain_i": {
+       "difference": 0.3215898825654923,
+       "ci_low": 0.1594198010909489,
+       "ci_high": 0.48757979999043793
+      },
+      "change_reading": "after the alignment (i) follows the direction less"
+     },
+     "9": {
+      "rho_ii": {
+       "rho": 0.014790870800274268,
+       "ci_low": -0.19472668406443414,
+       "ci_high": 0.2240906374065296
+      },
+      "rho_i": {
+       "rho": 0.005430937843514981,
+       "ci_low": -0.22103082165669885,
+       "ci_high": 0.22740110128927823
+      },
+      "rho_i_plain": {
+       "rho": -0.24312970037330894,
+       "ci_low": -0.4470938032318591,
+       "ci_high": -0.034130581650822646
+      },
+      "i_minus_ii": {
+       "difference": -0.009359932956759288,
+       "ci_low": -0.15670841809677724,
+       "ci_high": 0.13086929357030172
+      },
+      "reading": "not visible inside one place",
+      "minus_plain_i": {
+       "difference": 0.24856063821682392,
+       "ci_low": 0.09175266997776928,
+       "ci_high": 0.4154179022620046
+      },
+      "change_reading": "after the alignment (i) follows the direction less"
+     },
+     "12": {
+      "rho_ii": {
+       "rho": 0.007760037439731827,
+       "ci_low": -0.19866033859603247,
+       "ci_high": 0.20965389774107687
+      },
+      "rho_i": {
+       "rho": 0.03220469955703573,
+       "ci_low": -0.1739205674670786,
+       "ci_high": 0.2346528208220385
+      },
+      "rho_i_plain": {
+       "rho": -0.23990814205330807,
+       "ci_low": -0.442022649426656,
+       "ci_high": -0.031152102526886525
+      },
+      "i_minus_ii": {
+       "difference": 0.024444662117303905,
+       "ci_low": -0.10374525509684365,
+       "ci_high": 0.15015681339994488
+      },
+      "reading": "not visible inside one place",
+      "minus_plain_i": {
+       "difference": 0.2721128416103438,
+       "ci_low": 0.11597024008783507,
+       "ci_high": 0.43386357266558645
+      },
+      "change_reading": "after the alignment (i) follows the direction less"
+     }
+    },
+    "overall": "not visible inside one place",
+    "overall_change": "after the alignment (i) follows the direction less"
+   }
+  },
+  "scale": {
+   "hsa_patients": {
+    "layers": {
+     "0": {
+      "rho_ii": {
+       "rho": -0.3050475471596385,
+       "ci_low": -0.4018647447114962,
+       "ci_high": -0.20419483345154085
+      },
+      "rho_i": {
+       "rho": -0.17114652342986542,
+       "ci_low": -0.27386818954098247,
+       "ci_high": -0.06389196887140633
+      },
+      "rho_i_plain": {
+       "rho": -0.4228435290708254,
+       "ci_low": -0.5111471658022755,
+       "ci_high": -0.3293519147494258
+      },
+      "i_minus_ii": {
+       "difference": 0.13390102372977308,
+       "ci_low": 0.0930559648374599,
+       "ci_high": 0.17812416969450806
+      },
+      "reading": "as measured",
+      "minus_plain_i": {
+       "difference": 0.25169700564096,
+       "ci_low": 0.20102858163432177,
+       "ci_high": 0.3059060811425835
+      },
+      "change_reading": "after the alignment (i) follows the direction less"
+     },
+     "3": {
+      "rho_ii": {
+       "rho": 0.0995457578228725,
+       "ci_low": -0.004508394923055185,
+       "ci_high": 0.20413587155128055
+      },
+      "rho_i": {
+       "rho": 0.11430391093079209,
+       "ci_low": 0.00988996041478293,
+       "ci_high": 0.2212494441092231
+      },
+      "rho_i_plain": {
+       "rho": -0.2264188328537057,
+       "ci_low": -0.32525135138669115,
+       "ci_high": -0.12220422517681583
+      },
+      "i_minus_ii": {
+       "difference": 0.014758153107919586,
+       "ci_low": -0.02631313329594495,
+       "ci_high": 0.05680012121571101
+      },
+      "reading": "not visible inside one place",
+      "minus_plain_i": {
+       "difference": 0.3407227437844978,
+       "ci_low": 0.28859127184756744,
+       "ci_high": 0.3956841900926381
+      },
+      "change_reading": "after the alignment (i) follows the direction less"
+     },
+     "6": {
+      "rho_ii": {
+       "rho": 0.33771322087357375,
+       "ci_low": 0.24213786970850934,
+       "ci_high": 0.42903334068644394
+      },
+      "rho_i": {
+       "rho": 0.3610480593614999,
+       "ci_low": 0.2668061727662382,
+       "ci_high": 0.4521248490445606
+      },
+      "rho_i_plain": {
+       "rho": 0.0814175186515612,
+       "ci_low": -0.02402332018468134,
+       "ci_high": 0.1863060925417305
+      },
+      "i_minus_ii": {
+       "difference": 0.02333483848792617,
+       "ci_low": -0.015663971156755975,
+       "ci_high": 0.062384545276245436
+      },
+      "reading": "not visible inside one place",
+      "minus_plain_i": {
+       "difference": 0.2796305407099387,
+       "ci_low": 0.2281377899616775,
+       "ci_high": 0.3349948169248406
+      },
+      "change_reading": "after the alignment (i) follows the direction less"
+     },
+     "9": {
+      "rho_ii": {
+       "rho": 0.26570909630068945,
+       "ci_low": 0.166716960129179,
+       "ci_high": 0.36325168149704595
+      },
+      "rho_i": {
+       "rho": 0.26207549585857837,
+       "ci_low": 0.1603436709884236,
+       "ci_high": 0.3603794133276049
+      },
+      "rho_i_plain": {
+       "rho": 0.04395197433599094,
+       "ci_low": -0.06080137900130321,
+       "ci_high": 0.14906519695809453
+      },
+      "i_minus_ii": {
+       "difference": -0.0036336004421110846,
+       "ci_low": -0.046284266118116694,
+       "ci_high": 0.0385939860740236
+      },
+      "reading": "not visible inside one place",
+      "minus_plain_i": {
+       "difference": 0.21812352152258743,
+       "ci_low": 0.16817004819810388,
+       "ci_high": 0.2695783866402434
+      },
+      "change_reading": "after the alignment (i) follows the direction less"
+     },
+     "12": {
+      "rho_ii": {
+       "rho": 0.21251861786371387,
+       "ci_low": 0.10707855195192856,
+       "ci_high": 0.3164143894015876
+      },
+      "rho_i": {
+       "rho": 0.2201170650833339,
+       "ci_low": 0.1135689090922022,
+       "ci_high": 0.3239507808551399
+      },
+      "rho_i_plain": {
+       "rho": 0.00030091859360152043,
+       "ci_low": -0.10920806122551194,
+       "ci_high": 0.10955256681318278
+      },
+      "i_minus_ii": {
+       "difference": 0.007598447219620025,
+       "ci_low": -0.03147131127216338,
+       "ci_high": 0.04747741439606799
+      },
+      "reading": "not visible inside one place",
+      "minus_plain_i": {
+       "difference": 0.21981614648973238,
+       "ci_low": 0.1691981021311503,
+       "ci_high": 0.27223090581759807
+      },
+      "change_reading": "after the alignment (i) follows the direction less"
+     }
+    },
+    "overall": "not visible inside one place",
+    "overall_change": "after the alignment (i) follows the direction less"
+   },
+   "hsa_normals": {
+    "layers": {
+     "0": {
+      "rho_ii": {
+       "rho": -0.3646999923814499,
+       "ci_low": -0.5396204167761941,
+       "ci_high": -0.1673457156688597
+      },
+      "rho_i": {
+       "rho": -0.06777244479272101,
+       "ci_low": -0.2797336335221716,
+       "ci_high": 0.15336431212326732
+      },
+      "rho_i_plain": {
+       "rho": -0.5185947040193294,
+       "ci_low": -0.6540797501771359,
+       "ci_high": -0.35699529665451
+      },
+      "i_minus_ii": {
+       "difference": 0.29692754758872886,
+       "ci_low": 0.15079270102878634,
+       "ci_high": 0.45201893992060876
+      },
+      "reading": "as measured",
+      "minus_plain_i": {
+       "difference": 0.45082225922660835,
+       "ci_low": 0.2917994172917553,
+       "ci_high": 0.6189748946234487
+      },
+      "change_reading": "after the alignment (i) follows the direction less"
+     },
+     "3": {
+      "rho_ii": {
+       "rho": -0.16979571402139723,
+       "ci_low": -0.35763342997095,
+       "ci_high": 0.03125534465386019
+      },
+      "rho_i": {
+       "rho": -0.002252914095406014,
+       "ci_low": -0.19919663001967133,
+       "ci_high": 0.1930598603210521
+      },
+      "rho_i_plain": {
+       "rho": -0.5177240125814913,
+       "ci_low": -0.6501826916807432,
+       "ci_high": -0.3666137962664052
+      },
+      "i_minus_ii": {
+       "difference": 0.16754279992599122,
+       "ci_low": 0.02339228732535449,
+       "ci_high": 0.3221360202218452
+      },
+      "reading": "as measured",
+      "minus_plain_i": {
+       "difference": 0.5154710984860852,
+       "ci_low": 0.35712845752261546,
+       "ci_high": 0.6808153856788692
+      },
+      "change_reading": "after the alignment (i) follows the direction less"
+     },
+     "6": {
+      "rho_ii": {
+       "rho": 0.02602279034838541,
+       "ci_low": -0.16749181823636577,
+       "ci_high": 0.21214833829280041
+      },
+      "rho_i": {
+       "rho": 0.144589196895985,
+       "ci_low": -0.05190471473849871,
+       "ci_high": 0.33646605020835
+      },
+      "rho_i_plain": {
+       "rho": -0.22425746345816872,
+       "ci_low": -0.4145378236042565,
+       "ci_high": -0.024567891690113502
+      },
+      "i_minus_ii": {
+       "difference": 0.1185664065475996,
+       "ci_low": -0.013876048551138831,
+       "ci_high": 0.2588625520099769
+      },
+      "reading": "not visible inside one place",
+      "minus_plain_i": {
+       "difference": 0.3688466603541537,
+       "ci_low": 0.19860486500373234,
+       "ci_high": 0.5428091790882703
+      },
+      "change_reading": "after the alignment (i) follows the direction less"
+     },
+     "9": {
+      "rho_ii": {
+       "rho": 0.014790870800274268,
+       "ci_low": -0.19472668406443414,
+       "ci_high": 0.2240906374065296
+      },
+      "rho_i": {
+       "rho": 0.035143283159739226,
+       "ci_low": -0.19293135314471083,
+       "ci_high": 0.25707284534470787
+      },
+      "rho_i_plain": {
+       "rho": -0.24312970037330894,
+       "ci_low": -0.4470938032318591,
+       "ci_high": -0.034130581650822646
+      },
+      "i_minus_ii": {
+       "difference": 0.020352412359464958,
+       "ci_low": -0.13873403152708078,
+       "ci_high": 0.16984474599281774
+      },
+      "reading": "not visible inside one place",
+      "minus_plain_i": {
+       "difference": 0.2782729835330482,
+       "ci_low": 0.10601483482833567,
+       "ci_high": 0.45909914440490956
+      },
+      "change_reading": "after the alignment (i) follows the direction less"
+     },
+     "12": {
+      "rho_ii": {
+       "rho": 0.007760037439731827,
+       "ci_low": -0.19866033859603247,
+       "ci_high": 0.20965389774107687
+      },
+      "rho_i": {
+       "rho": 0.06631403663434225,
+       "ci_low": -0.1393788278837304,
+       "ci_high": 0.2701962164262167
+      },
+      "rho_i_plain": {
+       "rho": -0.23990814205330807,
+       "ci_low": -0.442022649426656,
+       "ci_high": -0.031152102526886525
+      },
+      "i_minus_ii": {
+       "difference": 0.05855399919461043,
+       "ci_low": -0.07942387587630809,
+       "ci_high": 0.19466788072430158
+      },
+      "reading": "not visible inside one place",
+      "minus_plain_i": {
+       "difference": 0.30622217868765034,
+       "ci_low": 0.1312024307431336,
+       "ci_high": 0.48503217854374636
+      },
+      "change_reading": "after the alignment (i) follows the direction less"
+     }
+    },
+    "overall": "as measured",
+    "overall_change": "after the alignment (i) follows the direction less"
+   }
+  }
+ },
+ "handcrafted": {
+  "location": {
+   "hsa_patients": {
+    "layers": {
+     "0": {
+      "rho_ii": {
+       "rho": -0.14658779207300224,
+       "ci_low": -0.25117451175084393,
+       "ci_high": -0.038104576218818645
+      },
+      "rho_i": {
+       "rho": -0.20711286637596965,
+       "ci_low": -0.3121158326858345,
+       "ci_high": -0.09723734661549185
+      },
+      "rho_i_plain": {
+       "rho": -0.3945234837813976,
+       "ci_low": -0.48580927596805373,
+       "ci_high": -0.29400150654513324
+      },
+      "i_minus_ii": {
+       "difference": -0.06052507430296741,
+       "ci_low": -0.11373327304649083,
+       "ci_high": -0.006207958996380165
+      },
+      "reading": "as measured",
+      "minus_plain_i": {
+       "difference": 0.18741061740542797,
+       "ci_low": 0.10043780514494993,
+       "ci_high": 0.2716092912577125
+      },
+      "change_reading": "after the alignment (i) follows the direction less"
+     },
+     "3": {
+      "rho_ii": {
+       "rho": 0.03516703846231609,
+       "ci_low": -0.07297066371188417,
+       "ci_high": 0.14069654489228361
+      },
+      "rho_i": {
+       "rho": 0.05252090929309404,
+       "ci_low": -0.05849945950522831,
+       "ci_high": 0.1607286486467893
+      },
+      "rho_i_plain": {
+       "rho": -0.18273239474588723,
+       "ci_low": -0.29152092656674966,
+       "ci_high": -0.07162186521343455
+      },
+      "i_minus_ii": {
+       "difference": 0.017353870830777947,
+       "ci_low": -0.03765380785861385,
+       "ci_high": 0.07249019383053887
+      },
+      "reading": "not visible inside one place",
+      "minus_plain_i": {
+       "difference": 0.23525330403898126,
+       "ci_low": 0.1403254856164624,
+       "ci_high": 0.3274970363128657
+      },
+      "change_reading": "after the alignment (i) follows the direction less"
+     },
+     "6": {
+      "rho_ii": {
+       "rho": 0.18056530910708388,
+       "ci_low": 0.07405807652790193,
+       "ci_high": 0.285897014700283
+      },
+      "rho_i": {
+       "rho": 0.23944661980468934,
+       "ci_low": 0.13317026467563658,
+       "ci_high": 0.3410371872650356
+      },
+      "rho_i_plain": {
+       "rho": 0.0499706831829302,
+       "ci_low": -0.05961246624026397,
+       "ci_high": 0.15657195490959092
+      },
+      "i_minus_ii": {
+       "difference": 0.058881310697605466,
+       "ci_low": 0.00702456671036277,
+       "ci_high": 0.11135214257379074
+      },
+      "reading": "as measured",
+      "minus_plain_i": {
+       "difference": 0.18947593662175916,
+       "ci_low": 0.09790450579320634,
+       "ci_high": 0.28158075477583605
+      },
+      "change_reading": "after the alignment (i) follows the direction less"
+     },
+     "9": {
+      "rho_ii": {
+       "rho": 0.13520916032592215,
+       "ci_low": 0.026598538733496255,
+       "ci_high": 0.24366422034590304
+      },
+      "rho_i": {
+       "rho": 0.1892683600779086,
+       "ci_low": 0.08091210913059906,
+       "ci_high": 0.29535145302941007
+      },
+      "rho_i_plain": {
+       "rho": 0.027986103154759096,
+       "ci_low": -0.07944971618933494,
+       "ci_high": 0.1326399101916893
+      },
+      "i_minus_ii": {
+       "difference": 0.05405919975198645,
+       "ci_low": 0.0025348765341937957,
+       "ci_high": 0.10571344032630269
+      },
+      "reading": "as measured",
+      "minus_plain_i": {
+       "difference": 0.1612822569231495,
+       "ci_low": 0.0706199357744047,
+       "ci_high": 0.2517465843273376
+      },
+      "change_reading": "after the alignment (i) follows the direction less"
+     },
+     "12": {
+      "rho_ii": {
+       "rho": 0.09439577029094413,
+       "ci_low": -0.016278817388982954,
+       "ci_high": 0.20506902134715607
+      },
+      "rho_i": {
+       "rho": 0.13538742005270288,
+       "ci_low": 0.02498268611812227,
+       "ci_high": 0.2440889283601726
+      },
+      "rho_i_plain": {
+       "rho": -0.026412430330437595,
+       "ci_low": -0.13891271828877977,
+       "ci_high": 0.08516012702201839
+      },
+      "i_minus_ii": {
+       "difference": 0.040991649761758744,
+       "ci_low": -0.009934455082095651,
+       "ci_high": 0.09300126221651045
+      },
+      "reading": "not visible inside one place",
+      "minus_plain_i": {
+       "difference": 0.1617998503831405,
+       "ci_low": 0.07066337382936315,
+       "ci_high": 0.2536733864966676
+      },
+      "change_reading": "after the alignment (i) follows the direction less"
+     }
+    },
+    "overall": "as measured",
+    "overall_change": "after the alignment (i) follows the direction less"
+   },
+   "hsa_normals": {
+    "layers": {
+     "0": {
+      "rho_ii": {
+       "rho": -0.20201129722140596,
+       "ci_low": -0.4182257350288363,
+       "ci_high": 0.029641006057568156
+      },
+      "rho_i": {
+       "rho": -0.24530642896790414,
+       "ci_low": -0.4470012023119106,
+       "ci_high": -0.02774612694211249
+      },
+      "rho_i_plain": {
+       "rho": -0.3224496903603574,
+       "ci_low": -0.5054710643939309,
+       "ci_high": -0.11518276067881542
+      },
+      "i_minus_ii": {
+       "difference": -0.04329513174649818,
+       "ci_low": -0.1472517594394943,
+       "ci_high": 0.056643368813722575
+      },
+      "reading": "not visible inside one place",
+      "minus_plain_i": {
+       "difference": 0.07714326139245328,
+       "ci_low": -0.08477836450042953,
+       "ci_high": 0.23991430770904026
+      },
+      "change_reading": "after the alignment (i) follows it just the same"
+     },
+     "3": {
+      "rho_ii": {
+       "rho": -0.08971386902624047,
+       "ci_low": -0.3201274497262555,
+       "ci_high": 0.1501158492902532
+      },
+      "rho_i": {
+       "rho": -0.20797553357059675,
+       "ci_low": -0.4333993484273561,
+       "ci_high": 0.02507368016907068
+      },
+      "rho_i_plain": {
+       "rho": -0.31443932913224715,
+       "ci_low": -0.4989985267917174,
+       "ci_high": -0.10104969805804653
+      },
+      "i_minus_ii": {
+       "difference": -0.11826166454435628,
+       "ci_low": -0.23189377663371238,
+       "ci_high": -0.01804380242617377
+      },
+      "reading": "inside one place, the (i) score follows the place direction too",
+      "minus_plain_i": {
+       "difference": 0.10646379556165039,
+       "ci_low": -0.05927030755845479,
+       "ci_high": 0.2755890209908395
+      },
+      "change_reading": "after the alignment (i) follows it just the same"
+     },
+     "6": {
+      "rho_ii": {
+       "rho": -0.09178176119110588,
+       "ci_low": -0.3199132819304428,
+       "ci_high": 0.14378353395116156
+      },
+      "rho_i": {
+       "rho": -0.1407146199976056,
+       "ci_low": -0.36411435181680457,
+       "ci_high": 0.08739856206548643
+      },
+      "rho_i_plain": {
+       "rho": -0.19104058510464622,
+       "ci_low": -0.3915515392955529,
+       "ci_high": 0.029504647120965618
+      },
+      "i_minus_ii": {
+       "difference": -0.04893285880649971,
+       "ci_low": -0.15918475087167147,
+       "ci_high": 0.056533471135937145
+      },
+      "reading": "not visible inside one place",
+      "minus_plain_i": {
+       "difference": 0.05032596510704063,
+       "ci_low": -0.11806587313865219,
+       "ci_high": 0.2106292111988659
+      },
+      "change_reading": "after the alignment (i) follows it just the same"
+     },
+     "9": {
+      "rho_ii": {
+       "rho": -0.06894787823380241,
+       "ci_low": -0.29769878511959014,
+       "ci_high": 0.16150759854251945
+      },
+      "rho_i": {
+       "rho": -0.12961330416517017,
+       "ci_low": -0.36411944612176844,
+       "ci_high": 0.10051617343781612
+      },
+      "rho_i_plain": {
+       "rho": -0.2657894450430448,
+       "ci_low": -0.47017009089375894,
+       "ci_high": -0.040704718256897705
+      },
+      "i_minus_ii": {
+       "difference": -0.060665425931367756,
+       "ci_low": -0.17938042931680223,
+       "ci_high": 0.05496762372621528
+      },
+      "reading": "not visible inside one place",
+      "minus_plain_i": {
+       "difference": 0.13617614087787464,
+       "ci_low": -0.024077289203194564,
+       "ci_high": 0.2928055499311345
+      },
+      "change_reading": "after the alignment (i) follows it just the same"
+     },
+     "12": {
+      "rho_ii": {
+       "rho": -0.12097169164462729,
+       "ci_low": -0.3474374020167909,
+       "ci_high": 0.10700790334974848
+      },
+      "rho_i": {
+       "rho": -0.15808491418247517,
+       "ci_low": -0.38086194055445477,
+       "ci_high": 0.06096203181455553
+      },
+      "rho_i_plain": {
+       "rho": -0.3137863105538686,
+       "ci_low": -0.5122884438857329,
+       "ci_high": -0.09847802560778272
+      },
+      "i_minus_ii": {
+       "difference": -0.03711322253784788,
+       "ci_low": -0.15089467240141152,
+       "ci_high": 0.07263429451864108
+      },
+      "reading": "not visible inside one place",
+      "minus_plain_i": {
+       "difference": 0.1557013963713934,
+       "ci_low": -0.011627135791145549,
+       "ci_high": 0.31379446781385917
+      },
+      "change_reading": "after the alignment (i) follows it just the same"
+     }
+    },
+    "overall": "not visible inside one place",
+    "overall_change": "after the alignment (i) follows it just the same"
+   }
+  },
+  "scale": {
+   "hsa_patients": {
+    "layers": {
+     "0": {
+      "rho_ii": {
+       "rho": -0.14658779207300224,
+       "ci_low": -0.25117451175084393,
+       "ci_high": -0.038104576218818645
+      },
+      "rho_i": {
+       "rho": -0.17715175328045074,
+       "ci_low": -0.28150045942561386,
+       "ci_high": -0.06831586635052268
+      },
+      "rho_i_plain": {
+       "rho": -0.3945234837813976,
+       "ci_low": -0.48580927596805373,
+       "ci_high": -0.29400150654513324
+      },
+      "i_minus_ii": {
+       "difference": -0.030563961207448503,
+       "ci_low": -0.08184020775307878,
+       "ci_high": 0.022029412435656308
+      },
+      "reading": "not visible inside one place",
+      "minus_plain_i": {
+       "difference": 0.21737173050094688,
+       "ci_low": 0.13007990477777556,
+       "ci_high": 0.3019744912126007
+      },
+      "change_reading": "after the alignment (i) follows the direction less"
+     },
+     "3": {
+      "rho_ii": {
+       "rho": 0.03516703846231609,
+       "ci_low": -0.07297066371188417,
+       "ci_high": 0.14069654489228361
+      },
+      "rho_i": {
+       "rho": 0.06153802087896535,
+       "ci_low": -0.050371346086876975,
+       "ci_high": 0.1706881443127726
+      },
+      "rho_i_plain": {
+       "rho": -0.18273239474588723,
+       "ci_low": -0.29152092656674966,
+       "ci_high": -0.07162186521343455
+      },
+      "i_minus_ii": {
+       "difference": 0.026370982416649258,
+       "ci_low": -0.026376674700640788,
+       "ci_high": 0.07828296219115273
+      },
+      "reading": "not visible inside one place",
+      "minus_plain_i": {
+       "difference": 0.24427041562485258,
+       "ci_low": 0.14751394070652288,
+       "ci_high": 0.3401359015446388
+      },
+      "change_reading": "after the alignment (i) follows the direction less"
+     },
+     "6": {
+      "rho_ii": {
+       "rho": 0.18056530910708388,
+       "ci_low": 0.07405807652790193,
+       "ci_high": 0.285897014700283
+      },
+      "rho_i": {
+       "rho": 0.2402034654499626,
+       "ci_low": 0.13348622420194162,
+       "ci_high": 0.34235835123612124
+      },
+      "rho_i_plain": {
+       "rho": 0.0499706831829302,
+       "ci_low": -0.05961246624026397,
+       "ci_high": 0.15657195490959092
+      },
+      "i_minus_ii": {
+       "difference": 0.05963815634287872,
+       "ci_low": 0.008832296266218958,
+       "ci_high": 0.11045171122014674
+      },
+      "reading": "as measured",
+      "minus_plain_i": {
+       "difference": 0.19023278226703239,
+       "ci_low": 0.09560688986751832,
+       "ci_high": 0.2847378831111006
+      },
+      "change_reading": "after the alignment (i) follows the direction less"
+     },
+     "9": {
+      "rho_ii": {
+       "rho": 0.13520916032592215,
+       "ci_low": 0.026598538733496255,
+       "ci_high": 0.24366422034590304
+      },
+      "rho_i": {
+       "rho": 0.18671105749465894,
+       "ci_low": 0.0786171660723821,
+       "ci_high": 0.29253037838740875
+      },
+      "rho_i_plain": {
+       "rho": 0.027986103154759096,
+       "ci_low": -0.07944971618933494,
+       "ci_high": 0.1326399101916893
+      },
+      "i_minus_ii": {
+       "difference": 0.05150189716873679,
+       "ci_low": 0.00023418707747477872,
+       "ci_high": 0.10227021150971952
+      },
+      "reading": "as measured",
+      "minus_plain_i": {
+       "difference": 0.15872495433989983,
+       "ci_low": 0.06579252869787111,
+       "ci_high": 0.25127661352106057
+      },
+      "change_reading": "after the alignment (i) follows the direction less"
+     },
+     "12": {
+      "rho_ii": {
+       "rho": 0.09439577029094413,
+       "ci_low": -0.016278817388982954,
+       "ci_high": 0.20506902134715607
+      },
+      "rho_i": {
+       "rho": 0.14045147898287494,
+       "ci_low": 0.02995377409285564,
+       "ci_high": 0.24952659907924604
+      },
+      "rho_i_plain": {
+       "rho": -0.026412430330437595,
+       "ci_low": -0.13891271828877977,
+       "ci_high": 0.08516012702201839
+      },
+      "i_minus_ii": {
+       "difference": 0.046055708691930805,
+       "ci_low": -0.0032023185183037367,
+       "ci_high": 0.09713672311232176
+      },
+      "reading": "not visible inside one place",
+      "minus_plain_i": {
+       "difference": 0.16686390931331252,
+       "ci_low": 0.07284927283676033,
+       "ci_high": 0.26135151570982174
+      },
+      "change_reading": "after the alignment (i) follows the direction less"
+     }
+    },
+    "overall": "as measured",
+    "overall_change": "after the alignment (i) follows the direction less"
+   },
+   "hsa_normals": {
+    "layers": {
+     "0": {
+      "rho_ii": {
+       "rho": -0.20201129722140596,
+       "ci_low": -0.4182257350288363,
+       "ci_high": 0.029641006057568156
+      },
+      "rho_i": {
+       "rho": -0.22136241442735713,
+       "ci_low": -0.4283950961197354,
+       "ci_high": 0.0022372088545985582
+      },
+      "rho_i_plain": {
+       "rho": -0.3224496903603574,
+       "ci_low": -0.5054710643939309,
+       "ci_high": -0.11518276067881542
+      },
+      "i_minus_ii": {
+       "difference": -0.019351117205951174,
+       "ci_low": -0.12168209516708255,
+       "ci_high": 0.08121791064873625
+      },
+      "reading": "not visible inside one place",
+      "minus_plain_i": {
+       "difference": 0.10108727593300029,
+       "ci_low": -0.05976317670979318,
+       "ci_high": 0.2629725737438663
+      },
+      "change_reading": "after the alignment (i) follows it just the same"
+     },
+     "3": {
+      "rho_ii": {
+       "rho": -0.08971386902624047,
+       "ci_low": -0.3201274497262555,
+       "ci_high": 0.1501158492902532
+      },
+      "rho_i": {
+       "rho": -0.19241192411924118,
+       "ci_low": -0.4151448562650618,
+       "ci_high": 0.04001633257216151
+      },
+      "rho_i_plain": {
+       "rho": -0.31443932913224715,
+       "ci_low": -0.4989985267917174,
+       "ci_high": -0.10104969805804653
+      },
+      "i_minus_ii": {
+       "difference": -0.10269805509300071,
+       "ci_low": -0.21018337451414157,
+       "ci_high": -0.008331275851730015
+      },
+      "reading": "inside one place, the (i) score follows the place direction too",
+      "minus_plain_i": {
+       "difference": 0.12202740501300596,
+       "ci_low": -0.04145413595500798,
+       "ci_high": 0.28608002717367
+      },
+      "change_reading": "after the alignment (i) follows it just the same"
+     },
+     "6": {
+      "rho_ii": {
+       "rho": -0.09178176119110588,
+       "ci_low": -0.3199132819304428,
+       "ci_high": 0.14378353395116156
+      },
+      "rho_i": {
+       "rho": -0.13409736507003625,
+       "ci_low": -0.3596139441723188,
+       "ci_high": 0.09298265959680455
+      },
+      "rho_i_plain": {
+       "rho": -0.19104058510464622,
+       "ci_low": -0.3915515392955529,
+       "ci_high": 0.029504647120965618
+      },
+      "i_minus_ii": {
+       "difference": -0.042315603878930366,
+       "ci_low": -0.15057516059737042,
+       "ci_high": 0.058973800983243105
+      },
+      "reading": "not visible inside one place",
+      "minus_plain_i": {
+       "difference": 0.05694322003460997,
+       "ci_low": -0.11264484217429706,
+       "ci_high": 0.21771463904578064
+      },
+      "change_reading": "after the alignment (i) follows it just the same"
+     },
+     "9": {
+      "rho_ii": {
+       "rho": -0.06894787823380241,
+       "ci_low": -0.29769878511959014,
+       "ci_high": 0.16150759854251945
+      },
+      "rho_i": {
+       "rho": -0.13226891305057628,
+       "ci_low": -0.3651163524487201,
+       "ci_high": 0.09819981994371497
+      },
+      "rho_i_plain": {
+       "rho": -0.2657894450430448,
+       "ci_low": -0.47017009089375894,
+       "ci_high": -0.040704718256897705
+      },
+      "i_minus_ii": {
+       "difference": -0.06332103481677387,
+       "ci_low": -0.1848128676402196,
+       "ci_high": 0.04986625399774795
+      },
+      "reading": "not visible inside one place",
+      "minus_plain_i": {
+       "difference": 0.13352053199246852,
+       "ci_low": -0.02979132303508914,
+       "ci_high": 0.2900506384651394
+      },
+      "change_reading": "after the alignment (i) follows it just the same"
+     },
+     "12": {
+      "rho_ii": {
+       "rho": -0.12097169164462729,
+       "ci_low": -0.3474374020167909,
+       "ci_high": 0.10700790334974848
+      },
+      "rho_i": {
+       "rho": -0.15586465101598806,
+       "ci_low": -0.3786250915539067,
+       "ci_high": 0.06550161398511545
+      },
+      "rho_i_plain": {
+       "rho": -0.3137863105538686,
+       "ci_low": -0.5122884438857329,
+       "ci_high": -0.09847802560778272
+      },
+      "i_minus_ii": {
+       "difference": -0.03489295937136078,
+       "ci_low": -0.14766970177232816,
+       "ci_high": 0.07216522459217917
+      },
+      "reading": "not visible inside one place",
+      "minus_plain_i": {
+       "difference": 0.1579216595378805,
+       "ci_low": -0.012333117290478458,
+       "ci_high": 0.3164590351062112
+      },
+      "change_reading": "after the alignment (i) follows it just the same"
+     }
+    },
+    "overall": "not visible inside one place",
+    "overall_change": "after the alignment (i) follows it just the same"
+   }
+  },
+  "coral": {
+   "hsa_patients": {
+    "layers": {
+     "0": {
+      "rho_ii": {
+       "rho": -0.14658779207300224,
+       "ci_low": -0.25117451175084393,
+       "ci_high": -0.038104576218818645
+      },
+      "rho_i": {
+       "rho": -0.1606645819152306,
+       "ci_low": -0.26603346139605594,
+       "ci_high": -0.04907400119058113
+      },
+      "rho_i_plain": {
+       "rho": -0.3945234837813976,
+       "ci_low": -0.48580927596805373,
+       "ci_high": -0.29400150654513324
+      },
+      "i_minus_ii": {
+       "difference": -0.014076789842228349,
+       "ci_low": -0.05747809298234116,
+       "ci_high": 0.029429165283435366
+      },
+      "reading": "not visible inside one place",
+      "minus_plain_i": {
+       "difference": 0.23385890186616703,
+       "ci_low": 0.14671050014810422,
+       "ci_high": 0.31987331244116474
+      },
+      "change_reading": "after the alignment (i) follows the direction less"
+     },
+     "3": {
+      "rho_ii": {
+       "rho": 0.03516703846231609,
+       "ci_low": -0.07297066371188417,
+       "ci_high": 0.14069654489228361
+      },
+      "rho_i": {
+       "rho": 0.08439839869523315,
+       "ci_low": -0.025928015582469124,
+       "ci_high": 0.19202056322876182
+      },
+      "rho_i_plain": {
+       "rho": -0.18273239474588723,
+       "ci_low": -0.29152092656674966,
+       "ci_high": -0.07162186521343455
+      },
+      "i_minus_ii": {
+       "difference": 0.049231360232917055,
+       "ci_low": 0.005555026582835106,
+       "ci_high": 0.09309656718819043
+      },
+      "reading": "as measured",
+      "minus_plain_i": {
+       "difference": 0.2671307934411204,
+       "ci_low": 0.16975934395821105,
+       "ci_high": 0.36412108387857683
+      },
+      "change_reading": "after the alignment (i) follows the direction less"
+     },
+     "6": {
+      "rho_ii": {
+       "rho": 0.18056530910708388,
+       "ci_low": 0.07405807652790193,
+       "ci_high": 0.285897014700283
+      },
+      "rho_i": {
+       "rho": 0.26131865021330514,
+       "ci_low": 0.15677256282746999,
+       "ci_high": 0.36244398713349185
+      },
+      "rho_i_plain": {
+       "rho": 0.0499706831829302,
+       "ci_low": -0.05961246624026397,
+       "ci_high": 0.15657195490959092
+      },
+      "i_minus_ii": {
+       "difference": 0.08075334110622126,
+       "ci_low": 0.03861784616711521,
+       "ci_high": 0.12405068057683168
+      },
+      "reading": "as measured",
+      "minus_plain_i": {
+       "difference": 0.21134796703037495,
+       "ci_low": 0.11818389654639645,
+       "ci_high": 0.3048842003711617
+      },
+      "change_reading": "after the alignment (i) follows the direction less"
+     },
+     "9": {
+      "rho_ii": {
+       "rho": 0.13520916032592215,
+       "ci_low": 0.026598538733496255,
+       "ci_high": 0.24366422034590304
+      },
+      "rho_i": {
+       "rho": 0.2083472054670809,
+       "ci_low": 0.10072578812658714,
+       "ci_high": 0.31430608140112243
+      },
+      "rho_i_plain": {
+       "rho": 0.027986103154759096,
+       "ci_low": -0.07944971618933494,
+       "ci_high": 0.1326399101916893
+      },
+      "i_minus_ii": {
+       "difference": 0.07313804514115876,
+       "ci_low": 0.03190910372001219,
+       "ci_high": 0.11461280033722233
+      },
+      "reading": "as measured",
+      "minus_plain_i": {
+       "difference": 0.1803611023123218,
+       "ci_low": 0.08837784793955147,
+       "ci_high": 0.2733641674327926
+      },
+      "change_reading": "after the alignment (i) follows the direction less"
+     },
+     "12": {
+      "rho_ii": {
+       "rho": 0.09439577029094413,
+       "ci_low": -0.016278817388982954,
+       "ci_high": 0.20506902134715607
+      },
+      "rho_i": {
+       "rho": 0.1587839249489483,
+       "ci_low": 0.04815458649074469,
+       "ci_high": 0.2686958601502934
+      },
+      "rho_i_plain": {
+       "rho": -0.026412430330437595,
+       "ci_low": -0.13891271828877977,
+       "ci_high": 0.08516012702201839
+      },
+      "i_minus_ii": {
+       "difference": 0.06438815465800417,
+       "ci_low": 0.02274087200372548,
+       "ci_high": 0.10757081750722357
+      },
+      "reading": "as measured",
+      "minus_plain_i": {
+       "difference": 0.18519635527938588,
+       "ci_low": 0.09162378240876336,
+       "ci_high": 0.2785797088491205
+      },
+      "change_reading": "after the alignment (i) follows the direction less"
+     }
+    },
+    "overall": "as measured",
+    "overall_change": "after the alignment (i) follows the direction less"
+   },
+   "hsa_normals": {
+    "layers": {
+     "0": {
+      "rho_ii": {
+       "rho": -0.20201129722140596,
+       "ci_low": -0.4182257350288363,
+       "ci_high": 0.029641006057568156
+      },
+      "rho_i": {
+       "rho": -0.1910623523905922,
+       "ci_low": -0.40601266108860384,
+       "ci_high": 0.03659957183091571
+      },
+      "rho_i_plain": {
+       "rho": -0.3224496903603574,
+       "ci_low": -0.5054710643939309,
+       "ci_high": -0.11518276067881542
+      },
+      "i_minus_ii": {
+       "difference": 0.010948944830813767,
+       "ci_low": -0.07672277121861988,
+       "ci_high": 0.09597540622471917
+      },
+      "reading": "not visible inside one place",
+      "minus_plain_i": {
+       "difference": 0.13138733796976523,
+       "ci_low": -0.034518127058690166,
+       "ci_high": 0.3048559025659066
+      },
+      "change_reading": "after the alignment (i) follows it just the same"
+     },
+     "3": {
+      "rho_ii": {
+       "rho": -0.08971386902624047,
+       "ci_low": -0.3201274497262555,
+       "ci_high": 0.1501158492902532
+      },
+      "rho_i": {
+       "rho": -0.15022692395598655,
+       "ci_low": -0.3766245317700067,
+       "ci_high": 0.08355285035817317
+      },
+      "rho_i_plain": {
+       "rho": -0.31443932913224715,
+       "ci_low": -0.4989985267917174,
+       "ci_high": -0.10104969805804653
+      },
+      "i_minus_ii": {
+       "difference": -0.06051305492974608,
+       "ci_low": -0.16019102539731253,
+       "ci_high": 0.026651084288807227
+      },
+      "reading": "not visible inside one place",
+      "minus_plain_i": {
+       "difference": 0.1642124051762606,
+       "ci_low": 0.003008734416312389,
+       "ci_high": 0.3310417747487612
+      },
+      "change_reading": "after the alignment (i) follows the direction less"
+     },
+     "6": {
+      "rho_ii": {
+       "rho": -0.09178176119110588,
+       "ci_low": -0.3199132819304428,
+       "ci_high": 0.14378353395116156
+      },
+      "rho_i": {
+       "rho": -0.089474428880835,
+       "ci_low": -0.32365950234004637,
+       "ci_high": 0.1432879414197903
+      },
+      "rho_i_plain": {
+       "rho": -0.19104058510464622,
+       "ci_low": -0.3915515392955529,
+       "ci_high": 0.029504647120965618
+      },
+      "i_minus_ii": {
+       "difference": 0.0023073323102708876,
+       "ci_low": -0.08779500351034987,
+       "ci_high": 0.08832403557301996
+      },
+      "reading": "not visible inside one place",
+      "minus_plain_i": {
+       "difference": 0.10156615622381122,
+       "ci_low": -0.07108145744497314,
+       "ci_high": 0.2693931462243241
+      },
+      "change_reading": "after the alignment (i) follows it just the same"
+     },
+     "9": {
+      "rho_ii": {
+       "rho": -0.06894787823380241,
+       "ci_low": -0.29769878511959014,
+       "ci_high": 0.16150759854251945
+      },
+      "rho_i": {
+       "rho": -0.0794397100597512,
+       "ci_low": -0.3226308077082185,
+       "ci_high": 0.15783870875063122
+      },
+      "rho_i_plain": {
+       "rho": -0.2657894450430448,
+       "ci_low": -0.47017009089375894,
+       "ci_high": -0.040704718256897705
+      },
+      "i_minus_ii": {
+       "difference": -0.010491831825948789,
+       "ci_low": -0.11268575309106196,
+       "ci_high": 0.08514104389614928
+      },
+      "reading": "not visible inside one place",
+      "minus_plain_i": {
+       "difference": 0.1863497349832936,
+       "ci_low": 0.017018961956436263,
+       "ci_high": 0.3521242398439853
+      },
+      "change_reading": "after the alignment (i) follows the direction less"
+     },
+     "12": {
+      "rho_ii": {
+       "rho": -0.12097169164462729,
+       "ci_low": -0.3474374020167909,
+       "ci_high": 0.10700790334974848
+      },
+      "rho_i": {
+       "rho": -0.11087167096570565,
+       "ci_low": -0.34363943348667175,
+       "ci_high": 0.12222908234356325
+      },
+      "rho_i_plain": {
+       "rho": -0.3137863105538686,
+       "ci_low": -0.5122884438857329,
+       "ci_high": -0.09847802560778272
+      },
+      "i_minus_ii": {
+       "difference": 0.010100020678921642,
+       "ci_low": -0.08242141859195422,
+       "ci_high": 0.10150869960552636
+      },
+      "reading": "not visible inside one place",
+      "minus_plain_i": {
+       "difference": 0.20291463958816292,
+       "ci_low": 0.02673911980369376,
+       "ci_high": 0.36918864500563503
+      },
+      "change_reading": "after the alignment (i) follows the direction less"
+     }
+    },
+    "overall": "not visible inside one place",
+    "overall_change": "as measured"
+   }
+  }
+ }
+}

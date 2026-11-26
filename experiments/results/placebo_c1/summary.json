@@ -1,0 +1,588 @@
+{
+ "handcrafted": {
+  "0": {
+   "gap_i_minus_ii": {
+    "difference": -0.03974293869078527,
+    "ci_low": -0.08245626804975868,
+    "ci_high": 0.0034560912220640695,
+    "p_one_sided": 0.965003499650035,
+    "n_resamples": 10000,
+    "n_undefined": 0,
+    "n_speakers_resampled": 939
+   },
+   "reading": "no place, no gap",
+   "uar_ii": 0.6687393431685078,
+   "uar_i_mean": 0.6289964044777225,
+   "uar_i_range": [
+    0.5532860108236342,
+    0.6769738305285788
+   ],
+   "auc_ii": 0.714697160649418,
+   "auc_i_mean": 0.6831315145674253
+  },
+  "1": {
+   "gap_i_minus_ii": {
+    "difference": 0.041496663948402346,
+    "ci_low": -0.0018985668914026828,
+    "ci_high": 0.08754036619242493,
+    "p_one_sided": 0.031196880311968805,
+    "n_resamples": 10000,
+    "n_undefined": 0,
+    "n_speakers_resampled": 960
+   },
+   "reading": "no place, no gap",
+   "uar_ii": 0.6255059678256357,
+   "uar_i_mean": 0.6670026317740381,
+   "uar_i_range": [
+    0.58540292089851,
+    0.7047019793906146
+   ],
+   "auc_ii": 0.6696715842538364,
+   "auc_i_mean": 0.7224653421306251
+  },
+  "2": {
+   "gap_i_minus_ii": {
+    "difference": -0.004612758543998785,
+    "ci_low": -0.04610989616885117,
+    "ci_high": 0.03865144094535684,
+    "p_one_sided": 0.5777422257774223,
+    "n_resamples": 10000,
+    "n_undefined": 0,
+    "n_speakers_resampled": 950
+   },
+   "reading": "no place, no gap",
+   "uar_ii": 0.6757320779894729,
+   "uar_i_mean": 0.6711193194454741,
+   "uar_i_range": [
+    0.5998925050040773,
+    0.7059085180517457
+   ],
+   "auc_ii": 0.7544035881088293,
+   "auc_i_mean": 0.7323991400400325
+  },
+  "3": {
+   "gap_i_minus_ii": {
+    "difference": 0.05824760916302174,
+    "ci_low": 0.014228231964154953,
+    "ci_high": 0.10353466216694714,
+    "p_one_sided": 0.005599440055994401,
+    "n_resamples": 10000,
+    "n_undefined": 0,
+    "n_speakers_resampled": 926
+   },
+   "reading": "the design makes a gap by itself",
+   "uar_ii": 0.583595892949811,
+   "uar_i_mean": 0.6418435021128327,
+   "uar_i_range": [
+    0.5895303580695381,
+    0.7052839350581955
+   ],
+   "auc_ii": 0.6214359848765661,
+   "auc_i_mean": 0.6917410482615464
+  },
+  "4": {
+   "gap_i_minus_ii": {
+    "difference": -0.012076506783305074,
+    "ci_low": -0.05493856313984653,
+    "ci_high": 0.031294857463086655,
+    "p_one_sided": 0.7127287271272873,
+    "n_resamples": 10000,
+    "n_undefined": 0,
+    "n_speakers_resampled": 911
+   },
+   "reading": "no place, no gap",
+   "uar_ii": 0.6831992734820966,
+   "uar_i_mean": 0.6711227666987916,
+   "uar_i_range": [
+    0.6267032396767737,
+    0.739432129883609
+   ],
+   "auc_ii": 0.7490214248647046,
+   "auc_i_mean": 0.7306711394469566
+  },
+  "5": {
+   "gap_i_minus_ii": {
+    "difference": -0.018091481948254162,
+    "ci_low": -0.06152279770244537,
+    "ci_high": 0.02655092392727518,
+    "p_one_sided": 0.7837216278372163,
+    "n_resamples": 10000,
+    "n_undefined": 0,
+    "n_speakers_resampled": 928
+   },
+   "reading": "no place, no gap",
+   "uar_ii": 0.689282007561717,
+   "uar_i_mean": 0.6711905256134628,
+   "uar_i_range": [
+    0.5890577507598784,
+    0.7298558084365039
+   ],
+   "auc_ii": 0.7591259544814293,
+   "auc_i_mean": 0.7310906664689746
+  },
+  "6": {
+   "gap_i_minus_ii": {
+    "difference": 0.014502891244717708,
+    "ci_low": -0.029802668176912073,
+    "ci_high": 0.06038684419288185,
+    "p_one_sided": 0.2618738126187381,
+    "n_resamples": 10000,
+    "n_undefined": 0,
+    "n_speakers_resampled": 916
+   },
+   "reading": "no place, no gap",
+   "uar_ii": 0.651701386314775,
+   "uar_i_mean": 0.6662042775594927,
+   "uar_i_range": [
+    0.620288753799392,
+    0.7120190525613463
+   ],
+   "auc_ii": 0.7036251760693898,
+   "auc_i_mean": 0.7270882200311364
+  },
+  "7": {
+   "gap_i_minus_ii": {
+    "difference": 0.02529134850619008,
+    "ci_low": -0.019632651255077353,
+    "ci_high": 0.07180279882607518,
+    "p_one_sided": 0.1394860513948605,
+    "n_resamples": 10000,
+    "n_undefined": 0,
+    "n_speakers_resampled": 943
+   },
+   "reading": "no place, no gap",
+   "uar_ii": 0.6277985766179851,
+   "uar_i_mean": 0.6530899251241752,
+   "uar_i_range": [
+    0.6046241381866707,
+    0.709420639039217
+   ],
+   "auc_ii": 0.6829935503002446,
+   "auc_i_mean": 0.7088177033138112
+  },
+  "8": {
+   "gap_i_minus_ii": {
+    "difference": -0.00014749054785379023,
+    "ci_low": -0.04181660097059385,
+    "ci_high": 0.042705657151741135,
+    "p_one_sided": 0.49995000499950004,
+    "n_resamples": 10000,
+    "n_undefined": 0,
+    "n_speakers_resampled": 951
+   },
+   "reading": "no place, no gap",
+   "uar_ii": 0.6847116168730076,
+   "uar_i_mean": 0.6845641263251538,
+   "uar_i_range": [
+    0.6327859737563941,
+    0.7465620134924753
+   ],
+   "auc_ii": 0.7479427681814812,
+   "auc_i_mean": 0.7476215434798723
+  },
+  "9": {
+   "gap_i_minus_ii": {
+    "difference": 0.008362851212098565,
+    "ci_low": -0.03733938606141213,
+    "ci_high": 0.05487621389648366,
+    "p_one_sided": 0.35906409359064095,
+    "n_resamples": 10000,
+    "n_undefined": 0,
+    "n_speakers_resampled": 950
+   },
+   "reading": "no place, no gap",
+   "uar_ii": 0.6661557565423679,
+   "uar_i_mean": 0.6745186077544665,
+   "uar_i_range": [
+    0.620294313885388,
+    0.7332011268440951
+   ],
+   "auc_ii": 0.7451627251834828,
+   "auc_i_mean": 0.7389303135888501
+  },
+  "10": {
+   "gap_i_minus_ii": {
+    "difference": 0.09175202016457851,
+    "ci_low": 0.04768930999624541,
+    "ci_high": 0.13588197486746958,
+    "p_one_sided": 0.00019998000199980003,
+    "n_resamples": 10000,
+    "n_undefined": 0,
+    "n_speakers_resampled": 952
+   },
+   "reading": "the design makes a gap by itself",
+   "uar_ii": 0.5928867966491216,
+   "uar_i_mean": 0.6846388168137001,
+   "uar_i_range": [
+    0.630204240492253,
+    0.7406182815627548
+   ],
+   "auc_ii": 0.6387352657721106,
+   "auc_i_mean": 0.7503511750315072
+  },
+  "11": {
+   "gap_i_minus_ii": {
+    "difference": -0.008675253910593872,
+    "ci_low": -0.053778795496460544,
+    "ci_high": 0.03759707862964366,
+    "p_one_sided": 0.650934906509349,
+    "n_resamples": 10000,
+    "n_undefined": 0,
+    "n_speakers_resampled": 909
+   },
+   "reading": "no place, no gap",
+   "uar_ii": 0.7034676402995034,
+   "uar_i_mean": 0.6947923863889095,
+   "uar_i_range": [
+    0.6378234116687671,
+    0.7455259841352213
+   ],
+   "auc_ii": 0.7766179850248351,
+   "auc_i_mean": 0.7601734746830751
+  },
+  "12": {
+   "gap_i_minus_ii": {
+    "difference": 0.013882052042404891,
+    "ci_low": -0.02878743779891555,
+    "ci_high": 0.05926923579751945,
+    "p_one_sided": 0.2695730426957304,
+    "n_resamples": 10000,
+    "n_undefined": 0,
+    "n_speakers_resampled": 953
+   },
+   "reading": "no place, no gap",
+   "uar_ii": 0.6676829268292683,
+   "uar_i_mean": 0.6815649788716732,
+   "uar_i_range": [
+    0.6343261175772853,
+    0.7382200311364817
+   ],
+   "auc_ii": 0.7281006746237675,
+   "auc_i_mean": 0.7463782341166878
+  },
+  "13": {
+   "gap_i_minus_ii": {
+    "difference": -0.021587145081177206,
+    "ci_low": -0.06651534249717402,
+    "ci_high": 0.02336276866450323,
+    "p_one_sided": 0.831916808319168,
+    "n_resamples": 10000,
+    "n_undefined": 0,
+    "n_speakers_resampled": 948
+   },
+   "reading": "no place, no gap",
+   "uar_ii": 0.7023685966342945,
+   "uar_i_mean": 0.6807814515531173,
+   "uar_i_range": [
+    0.621691748832382,
+    0.7375787678849434
+   ],
+   "auc_ii": 0.7555563792719994,
+   "auc_i_mean": 0.7413405738008747
+  },
+  "14": {
+   "gap_i_minus_ii": {
+    "difference": -0.011683149232708079,
+    "ci_low": -0.05221609285201613,
+    "ci_high": 0.029429478276046,
+    "p_one_sided": 0.7151284871512849,
+    "n_resamples": 10000,
+    "n_undefined": 0,
+    "n_speakers_resampled": 947
+   },
+   "reading": "no place, no gap",
+   "uar_ii": 0.7028523241159463,
+   "uar_i_mean": 0.6911691748832383,
+   "uar_i_range": [
+    0.6358199273482097,
+    0.7373100303951368
+   ],
+   "auc_ii": 0.7699903625176069,
+   "auc_i_mean": 0.7594275335458522
+  },
+  "15": {
+   "gap_i_minus_ii": {
+    "difference": -0.036130550819186036,
+    "ci_low": -0.08139293033796537,
+    "ci_high": 0.010202423375710826,
+    "p_one_sided": 0.9405059494050595,
+    "n_resamples": 10000,
+    "n_undefined": 0,
+    "n_speakers_resampled": 961
+   },
+   "reading": "no place, no gap",
+   "uar_ii": 0.6804470309140781,
+   "uar_i_mean": 0.6443164800948921,
+   "uar_i_range": [
+    0.593693009118541,
+    0.6883905404403589
+   ],
+   "auc_ii": 0.7435910742086145,
+   "auc_i_mean": 0.7000613833493958
+  },
+  "16": {
+   "gap_i_minus_ii": {
+    "difference": -0.03589231966787754,
+    "ci_low": -0.07963354903466345,
+    "ci_high": 0.008691371193875225,
+    "p_one_sided": 0.9406059394060594,
+    "n_resamples": 10000,
+    "n_undefined": 0,
+    "n_speakers_resampled": 922
+   },
+   "reading": "no place, no gap",
+   "uar_ii": 0.7008933204833568,
+   "uar_i_mean": 0.6650010008154793,
+   "uar_i_range": [
+    0.6143079546296983,
+    0.7142505004077396
+   ],
+   "auc_ii": 0.7762510193490992,
+   "auc_i_mean": 0.7250520424049226
+  },
+  "17": {
+   "gap_i_minus_ii": {
+    "difference": -0.007931610942249367,
+    "ci_low": -0.05059566908796876,
+    "ci_high": 0.035561945040260896,
+    "p_one_sided": 0.6432356764323568,
+    "n_resamples": 10000,
+    "n_undefined": 0,
+    "n_speakers_resampled": 945
+   },
+   "reading": "no place, no gap",
+   "uar_ii": 0.6827581733264142,
+   "uar_i_mean": 0.6748265623841648,
+   "uar_i_range": [
+    0.6289754614871376,
+    0.714137445325821
+   ],
+   "auc_ii": 0.748176291793313,
+   "auc_i_mean": 0.734626288086589
+  },
+  "18": {
+   "gap_i_minus_ii": {
+    "difference": 0.004468789383942462,
+    "ci_low": -0.040073384905997,
+    "ci_high": 0.04943962914374193,
+    "p_one_sided": 0.42475752424757524,
+    "n_resamples": 10000,
+    "n_undefined": 0,
+    "n_speakers_resampled": 926
+   },
+   "reading": "no place, no gap",
+   "uar_ii": 0.6684057380087478,
+   "uar_i_mean": 0.6728745273926903,
+   "uar_i_range": [
+    0.6146545333234487,
+    0.721747349692342
+   ],
+   "auc_ii": 0.748298613685225,
+   "auc_i_mean": 0.7348156275483727
+  },
+  "19": {
+   "gap_i_minus_ii": {
+    "difference": -0.0031241381866707885,
+    "ci_low": -0.04627159683901719,
+    "ci_high": 0.040201937119537685,
+    "p_one_sided": 0.5588441155884412,
+    "n_resamples": 10000,
+    "n_undefined": 0,
+    "n_speakers_resampled": 927
+   },
+   "reading": "no place, no gap",
+   "uar_ii": 0.6728649269775373,
+   "uar_i_mean": 0.6697407887908665,
+   "uar_i_range": [
+    0.6178645563051375,
+    0.7094447327451998
+   ],
+   "auc_ii": 0.7233338275631995,
+   "auc_i_mean": 0.7260131959374305
+  },
+  "20": {
+   "gap_i_minus_ii": {
+    "difference": 0.018958670027430014,
+    "ci_low": -0.025681875715904315,
+    "ci_high": 0.06345641825091948,
+    "p_one_sided": 0.20317968203179682,
+    "n_resamples": 10000,
+    "n_undefined": 0,
+    "n_speakers_resampled": 924
+   },
+   "reading": "no place, no gap",
+   "uar_ii": 0.6536974571873377,
+   "uar_i_mean": 0.6726561272147678,
+   "uar_i_range": [
+    0.6213729705686115,
+    0.7205537845652012
+   ],
+   "auc_ii": 0.6919638223737861,
+   "auc_i_mean": 0.7325613462821557
+  },
+  "21": {
+   "gap_i_minus_ii": {
+    "difference": 0.0019544072948328717,
+    "ci_low": -0.042295402425224046,
+    "ci_high": 0.04730381837265618,
+    "p_one_sided": 0.46965303469653036,
+    "n_resamples": 10000,
+    "n_undefined": 0,
+    "n_speakers_resampled": 969
+   },
+   "reading": "no place, no gap",
+   "uar_ii": 0.6707057602490918,
+   "uar_i_mean": 0.6726601675439247,
+   "uar_i_range": [
+    0.6274649714582251,
+    0.7203647416413375
+   ],
+   "auc_ii": 0.7321002298168878,
+   "auc_i_mean": 0.7316038253391652
+  },
+  "22": {
+   "gap_i_minus_ii": {
+    "difference": -0.02756171695455556,
+    "ci_low": -0.07209884311052278,
+    "ci_high": 0.01825896845986271,
+    "p_one_sided": 0.8873112688731127,
+    "n_resamples": 10000,
+    "n_undefined": 0,
+    "n_speakers_resampled": 952
+   },
+   "reading": "no place, no gap",
+   "uar_ii": 0.6847505374749796,
+   "uar_i_mean": 0.657188820520424,
+   "uar_i_range": [
+    0.5901530877010898,
+    0.7098339387649195
+   ],
+   "auc_ii": 0.7347097635110089,
+   "auc_i_mean": 0.714654014382089
+  }
+ },
+ "hubert": {
+  "0": {
+   "gap_i_minus_ii": {
+    "difference": -0.007608310475202051,
+    "ci_low": -0.047367449890392856,
+    "ci_high": 0.03327653838994099,
+    "p_one_sided": 0.6499350064993501,
+    "n_resamples": 10000,
+    "n_undefined": 0,
+    "n_speakers_resampled": 939
+   },
+   "reading": "no place, no gap",
+   "uar_ii": 0.6789087404551857,
+   "uar_i_mean": 0.6713004299799836,
+   "uar_i_range": [
+    0.5832585810660538,
+    0.7165190154941063
+   ],
+   "auc_ii": 0.7567388242271481,
+   "auc_i_mean": 0.7409854696419305
+  },
+  "1": {
+   "gap_i_minus_ii": {
+    "difference": 0.05352972792645849,
+    "ci_low": 0.01532236591199068,
+    "ci_high": 0.09303278305583694,
+    "p_one_sided": 0.0032996700329967,
+    "n_resamples": 10000,
+    "n_undefined": 0,
+    "n_speakers_resampled": 960
+   },
+   "reading": "the design makes a gap by itself",
+   "uar_ii": 0.6400808065831417,
+   "uar_i_mean": 0.6936105345096002,
+   "uar_i_range": [
+    0.6297093928386092,
+    0.748237452739269
+   ],
+   "auc_ii": 0.7011564978871674,
+   "auc_i_mean": 0.7578173326414117
+  },
+  "2": {
+   "gap_i_minus_ii": {
+    "difference": -0.025444176736599933,
+    "ci_low": -0.06736735099221777,
+    "ci_high": 0.017418433236448667,
+    "p_one_sided": 0.882011798820118,
+    "n_resamples": 10000,
+    "n_undefined": 0,
+    "n_speakers_resampled": 950
+   },
+   "reading": "no place, no gap",
+   "uar_ii": 0.7060827340796203,
+   "uar_i_mean": 0.6806385573430204,
+   "uar_i_range": [
+    0.6376658758988806,
+    0.709609681963081
+   ],
+   "auc_ii": 0.7760212024612647,
+   "auc_i_mean": 0.747649788716732
+  },
+  "3": {
+   "gap_i_minus_ii": {
+    "difference": 0.03519171176514202,
+    "ci_low": -0.0053333374684117075,
+    "ci_high": 0.07746998295299028,
+    "p_one_sided": 0.043795620437956206,
+    "n_resamples": 10000,
+    "n_undefined": 0,
+    "n_speakers_resampled": 926
+   },
+   "reading": "no place, no gap",
+   "uar_ii": 0.6405941878567721,
+   "uar_i_mean": 0.6757858996219142,
+   "uar_i_range": [
+    0.6385406627622506,
+    0.7195733560679073
+   ],
+   "auc_ii": 0.698198532137297,
+   "auc_i_mean": 0.7329996293276002
+  },
+  "4": {
+   "gap_i_minus_ii": {
+    "difference": 0.003243902439024282,
+    "ci_low": -0.03823735743231054,
+    "ci_high": 0.04431585820277215,
+    "p_one_sided": 0.43865613438656137,
+    "n_resamples": 10000,
+    "n_undefined": 0,
+    "n_speakers_resampled": 911
+   },
+   "reading": "no place, no gap",
+   "uar_ii": 0.7086329601897843,
+   "uar_i_mean": 0.7118768626288086,
+   "uar_i_range": [
+    0.6749610793980281,
+    0.759088887241456
+   ],
+   "auc_ii": 0.7956260656831491,
+   "auc_i_mean": 0.7800561939357995
+  }
+ },
+ "overall": "the C1 design makes no gap by itself",
+ "distribution": {
+  "splits": 23,
+  "median": -0.0031241381866707885,
+  "min": -0.03974293869078527,
+  "max": 0.09175202016457851,
+  "third_smallest": -0.03589231966787754,
+  "third_largest": 0.041496663948402346,
+  "avfad": {
+   "location": 0.06121154273852769,
+   "scale": 0.06799284602268518,
+   "coral": 0.06251204685299139,
+   "unaligned_c1": 0.22173152198087343
+  },
+  "reading": "what is left after the alignment is within the spread without place",
+  "unaligned_c1_above_max": true
+ },
+ "hubert_range": {
+  "splits": 5,
+  "min": -0.025444176736599933,
+  "max": 0.05352972792645849
+ }
+}

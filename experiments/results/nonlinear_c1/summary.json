@@ -1,0 +1,100 @@
+{
+ "logistic": {
+  "plain": 0.22173152198087343,
+  "scale": 0.06799284602268518
+ },
+ "svc": {
+  "plain": {
+   "gap_i_minus_ii": {
+    "difference": 0.20882192897916818,
+    "ci_low": 0.16245406051692676,
+    "ci_high": 0.2559940076691282,
+    "p_one_sided": 9.999000099990002e-05,
+    "n_resamples": 10000,
+    "n_undefined": 0,
+    "n_speakers_resampled": 670,
+    "i_uar_mean": 0.7617168804210839,
+    "ii_uar": 0.5528949514419157
+   },
+   "gap_reading": "the non-linear detector has the gap too",
+   "minus_logistic": {
+    "difference": -0.012909593001705244,
+    "ci_low": -0.05794421138144099,
+    "ci_high": 0.030597112244323654
+   },
+   "versus_reading": "about the same as logistic"
+  },
+  "scale": {
+   "gap_i_minus_ii": {
+    "difference": 0.05984209355771353,
+    "ci_low": 0.01952471904036363,
+    "ci_high": 0.09993203994579125,
+    "p_one_sided": 0.0015998400159984002,
+    "n_resamples": 10000,
+    "n_undefined": 0,
+    "n_speakers_resampled": 670,
+    "i_uar_mean": 0.6127370449996292,
+    "ii_uar": 0.5528949514419157
+   },
+   "gap_reading": "the gap shrinks",
+   "minus_plain": {
+    "difference": -0.14897983542145465,
+    "ci_low": -0.17490728791385649,
+    "ci_high": -0.12399095398379173
+   },
+   "minus_logistic": {
+    "difference": -0.008150752464971656,
+    "ci_low": -0.05009855218278253,
+    "ci_high": 0.03346415690833407
+   },
+   "versus_reading": "aligned, the same as logistic"
+  }
+ },
+ "random_forest": {
+  "plain": {
+   "gap_i_minus_ii": {
+    "difference": 0.28574705315442217,
+    "ci_low": 0.25307487108287086,
+    "ci_high": 0.3188301067678258,
+    "p_one_sided": 9.999000099990002e-05,
+    "n_resamples": 10000,
+    "n_undefined": 0,
+    "n_speakers_resampled": 670,
+    "i_uar_mean": 0.7946339239380236,
+    "ii_uar": 0.5088868707836014
+   },
+   "gap_reading": "the non-linear detector has the gap too",
+   "minus_logistic": {
+    "difference": 0.06401553117354875,
+    "ci_low": 0.023474375802673562,
+    "ci_high": 0.1065565614963976
+   },
+   "versus_reading": "learns more than logistic"
+  },
+  "scale": {
+   "gap_i_minus_ii": {
+    "difference": 0.05010160130476693,
+    "ci_low": 0.033050503699187016,
+    "ci_high": 0.06732657838286578,
+    "p_one_sided": 9.999000099990002e-05,
+    "n_resamples": 10000,
+    "n_undefined": 0,
+    "n_speakers_resampled": 670,
+    "i_uar_mean": 0.5589884720883683,
+    "ii_uar": 0.5088868707836014
+   },
+   "gap_reading": "the gap shrinks",
+   "minus_plain": {
+    "difference": -0.23564545184965524,
+    "ci_low": -0.26350467565549807,
+    "ci_high": -0.2085957311922163
+   },
+   "minus_logistic": {
+    "difference": -0.017891244717918253,
+    "ci_low": -0.05460106838176902,
+    "ci_high": 0.01913436914443173
+   },
+   "versus_reading": "aligned, the same as logistic"
+  }
+ }
+}

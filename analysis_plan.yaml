@@ -1,0 +1,233 @@
+# The S2 plan, frozen on 2026-11-04; the SHA-256 of the frozen file is in experiments/freeze.json.
+# Later changes are recorded separately. Same numbers as analysis_plan.md.
+frozen: true
+frozen_on: 2026-11-04
+
+datasets:
+  avfad:
+    speakers: {normal: 363, pathological: 346}
+    material: "002"
+  svd:
+    speakers: {normal: 659, pathological: 804}
+    usable_after_file_problems:
+      iau: {normal: 657, pathological: 802}
+      a_n: {normal: 657, pathological: 802}
+      both_for_the_a_n_iau_gap: 1458
+    material: iau
+    gap_reference_material: a_n
+    one_session_per_speaker: earliest_eligible
+  voiced:
+    records: {healthy: 57, pathological: 151}
+    material: a
+    role: exploratory negative control
+
+segmentation:
+  analysis_rate_hz: 16000
+  frame_s: 0.030
+  hop_s: 0.010
+  band_hz: [300, 3500]
+  floor_percentile: 2
+  margin_db: 8
+  min_range_db: 20
+  voiced_veto_range_db: 25
+  vad_only_within_db: 20
+  quiet_voice_min_prob: 0.1
+  quiet_voice_min_prob_note: chosen after looking at figures; 0.05 and 0.2 leave availability unchanged
+  phonation_excluded_from_nonphonation: true
+  f0_range_hz: [60, 800]
+  fill_gap_s: 0.05
+  min_nonphonation_s: 0.10
+  phonation_bridge_s: 0.15
+  min_phonation_s: 0.10
+  guard_s: 0.10
+  kudio: 3.9.1
+  control_on_room_recordings:
+    places: [ESSUA, HSA]
+    min_median_nonphonation_share: 0.95
+    max_median_voiced_fraction: 0.05
+  changes_before_freeze: none further, except a program bug
+  acceptance_third_pass: {svd_iau: 30/30, avfad: 28/30, voiced_second_pass: 30/30}
+  room_recording_control_result: {ESSUA: {nonphonation: 0.998, voiced: 0.002}, HSA: {nonphonation: 0.989, voiced: 0.010}}
+
+non_phonation_use:
+  min_total_s: 1.0
+  below_minimum: leave out, report counts
+  features_exclude: [nonphonation_total_s, nonphonation_segments]
+  availability_reported_by: {avfad: place, svd: year_stratum}
+  availability_third_pass: {ESSUA: 0.774, HSA: 0.925, svd_iau: 0.684, svd_iau_1997_98: 0.694, svd_iau_1999_2000: 0.577, svd_iau_2001_on: 0.773}
+  retention_rule_result: ESSUA below 80%, HSA above; H1-AVFAD not kept, and no longer in the family
+
+detector:
+  features: [mfcc13_delta_mean_std, third_octave_ltas, level_statistics]
+  n_columns: 78
+  frames_cross_spans: false
+  spans_shorter_than_a_frame: not counted
+  mfcc:
+    implementation: speechdsp 0.2.0 mfcc and delta, defaults
+    n_mfcc: 13
+    n_mels: 26
+    frame_ms: 25
+    hop_ms: 10
+    c0: log frame energy
+    delta_width: 9
+    statistics: [mean, std]
+    columns: 52
+  ltas:
+    window: {type: hann, ms: 32}
+    hop_ms: 16
+    n_fft: 1024
+    averaging: power over all frames, then bands, then dB
+    third_octave_centres_hz: [63, 6300]
+    columns: 21
+  level:
+    frame_ms: 30
+    hop_ms: 10
+    unit: full-band RMS dBFS
+    statistics: [mean, std, p5, p50, p95]
+    columns: 5
+  classifier:
+    name: logistic
+    class_weight: balanced
+    scaling: inside each training fold
+    c_grid: [0.01, 0.1, 1.0, 10.0]
+    inner_splits: 3
+    inner_grouped: true
+  level_handling:
+    phonation_conditions: {tests: [C2, C3], normalise_to_dbfs: -26, measured_on: all phonation samples, applied_to: whole file before cutting}
+    full_file_c1: original
+    non_phonation: {tests: [positive_gate, C4], level: original, reason: dividing by phonation level would carry it into the arm}
+    no_phonation_span: leave out of normalised conditions, report counts
+  not_used: [frame_mfcc39_mlp]
+
+confirmatory_family:
+  correction: {method: holm, alpha: 0.05}
+  tests:
+    C1:
+      question: how much of the AVFAD score comes from where the normal group comes from
+      patients: HSA pathological, 329
+      normals: {i: 82 drawn from all 363, ii: HSA normal, 82}
+      essua_share_of_i_over_the_50_draws: {mean: 0.668, min: 0.585, max: 0.780}
+      draws: 50
+      matched_on: 5-year age band by sex, to the HSA 82; each draw redrawn; patients not sampled
+      input: full file, original level
+      statistic: mean over draws of the UAR of i, minus the UAR of ii; UAR of an arm is the mean over repeats
+      test:
+        kind: one-sided speaker bootstrap without refitting
+        resamples: 10000
+        resampled: all speakers used by either arm, patients and normals together
+        weights: the same on every arm (voice_severity_bench.bootstrap group_weights, weighted_metric)
+        p: (1 + count(D* <= 0)) / (1 + 10000)
+        interval: percentile 95%
+        limit: no refitting, so the interval leaves out variation of the training set
+      smallest_gap_points: 10
+      sensitivity: without laryngeal surgery
+    C2:
+      question: after keeping phonation only, can normal speakers still be told apart by place
+      groups: {ESSUA: matched to HSA 82, HSA: 82}
+      matched_on: 5-year age band by sex; one fixed draw of ESSUA; short cells taken whole, counts reported
+      other_draws: 10 further seeds, UAR range only, no permutation
+      input: phonation only, level normalised
+      statistic: UAR
+      test: one-sided speaker permutation within age by sex, 1000
+      smallest_gap_points: 10
+    C3:
+      question: how much of the SVD iau score comes from outside phonation
+      conditions: [phonation_only, phonation_plus_breath, full_file]
+      primary_contrast: full_file minus phonation_only
+      level: normalised in every condition
+      before: reproduce the a_n to iau gap in the same pipeline
+      test: one-sided corrected t, with speaker bootstrap 95% CI
+      smallest_gap_points: 3
+    C4:
+      question: what SVD non-phonation carries beyond age, sex and year
+      input: iau non-phonation
+      strata: {age_bands: 6, sex: 2, year: [1997-98, 1999-2000, 2001+]}
+      statistic: UAR minus the mean of the stratified null
+      test: one-sided speaker permutation within strata, 1000
+      smallest_gap_points: 8
+      after_unblinding_report: availability by label within the same strata
+      availability_as_its_own_test:
+        role: exploratory, always reported
+        features: [reaches_1s, nonphonation_total_s, nonphonation_segments]
+        test: the same stratified permutation
+      reading: if availability beats the stratified null, or differs by more than 10 points between the labels within strata, C4 holds only for files with enough non-phonation
+  smallest_gap_meaning: the smallest difference this sample can detect, not clinical meaning
+  c1_c2_wording: place and recruitment source, never the room
+
+statistics:
+  voice_severity_bench_commit: 35de45dee783cc7c5b635e723d988efa47b2a214  # pre-rename commit; the same code is published as voice-severity-bench 1760203, see README
+  cv:
+    folds: 5
+    repeats: 10
+    grouped_by: speaker
+    stratified: true
+    splitter: permute speaker codes per repeat, then StratifiedGroupKFold(shuffle=False)
+    scikit_learn: 1.7.2
+    check_each_split:
+      speakers_disjoint: true
+      max_class_share_deviation: max(0.02, 1.5 / speakers_in_fold)
+      on_failure: stop
+      splits_under_permutation: checked with the same conditions
+  metrics: [uar, roc_auc, sensitivity, specificity]
+  primary_metric: uar
+  seeds:
+    cv: 20261104
+    c1_draws: 20261105
+    bootstrap: 20261106
+    permutation: 20261107
+    negative_control: 20261108
+    c2_essua_draw: 20261109
+    c2_other_draws: [20261110, 20261119]
+  blas_threads_per_worker: 1
+
+controls:
+  positive_gate:
+    task: ESSUA vs HSA normal speakers from non-phonation only
+    min_uar: 0.90
+    speakers: reach 1.0 s; HSA normals who reach it are the reference, ESSUA who reach it matched to them by the C2 rule
+    level: original
+    read: point estimate, no permutation
+  positive_report: [avfad_all_non_phonation, avfad_all_m_tech]
+  negative:
+    task: shuffled speaker labels, full CV each time
+    shuffles_per_arm: 20
+    c2_uses: its 1000 permutations
+    statistic: mean UAR
+    uar_within: [0.47, 0.53]
+    on_failure: stop and check
+  smoke: planted signal in synthetic data
+
+exploratory:
+  - id: noise_intervention
+    train: AVFAD all
+    apply_to: ESSUA normal speakers
+    noise: HSA room recordings, non-phonation only, no duplicated files
+    doses_db_relative_to_matched_floor: [-6, 0, 6]
+    control: HSA normal speakers with HSA noise
+    role: the only direct evidence about the room
+  - train_on_hsa_test_specificity_on_essua_normals
+  - svd_recording_year
+  - svd_m_tech_effect_size
+  - svd_phrase_length
+  - {id: segmenter_leak, features: [nonphonation_total_s, nonphonation_segments], sets: [avfad_all, avfad_hsa]}
+  - voiced_negative_control
+  - {id: hubert_sensitivity, tests: [C1, C2], material: avfad}
+  - svd_age_sex_one_line_reproduction
+  - room_silence_description
+
+sensitivity:
+  - {test: C1, change: without laryngeal surgery}
+  - {uses: non_phonation, change: guard 50 and 200 ms}
+  - {uses: non_phonation, change: minimum 0.5 s}
+  - {test: C4, change: 10-year age bands}
+
+stop_rules:
+  - {if: positive gate UAR below 0.90, then: stop and check the features}
+  - {if: C1 gap below 10 and C3 gap below 3 points, then: data note only}
+  - {if: someone publishes the AVFAD place confound, checked before the freeze and before the run, then: data note only}
+
+run_order:
+  - positive gate, C1, C2
+  - the rest
+
+removed_in_this_version: [H3-SVD, H4-SVD, H2-VOICED, H3-VOICED, H3-AVFAD, H4-AVFAD, svd_to_voiced_cross_database, voice_pathology_detection_additions]

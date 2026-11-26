@@ -1,0 +1,52 @@
+{
+ "svd_iau_full": {
+  "auc": 0.6587376453215675,
+  "ci": [
+   0.6187486032989659,
+   0.6989845569568577
+  ],
+  "strata_with_both_labels": 28,
+  "strata": 36,
+  "speakers": 1459
+ },
+ "svd_iau_phonation": {
+  "auc": 0.6683194495882889,
+  "ci": [
+   0.6278719622106056,
+   0.706208705355077
+  ],
+  "strata_with_both_labels": 28,
+  "strata": 36,
+  "speakers": 1459
+ },
+ "svd_iau_phonation_breath": {
+  "auc": 0.6540078519979923,
+  "ci": [
+   0.6139467048076142,
+   0.6933365309825242
+  ],
+  "strata_with_both_labels": 28,
+  "strata": 36,
+  "speakers": 1459
+ },
+ "avfad_hsa_handcrafted": {
+  "auc": 0.5725260492252982,
+  "ci": [
+   0.5193553336451849,
+   0.6261091304566473
+  ],
+  "strata_with_both_labels": 24,
+  "strata": 31,
+  "speakers": 411
+ },
+ "avfad_hsa_hubert": {
+  "auc": 0.6558483278301559,
+  "ci": [
+   0.602201629341635,
+   0.7115883747919798
+  ],
+  "strata_with_both_labels": 24,
+  "strata": 31,
+  "speakers": 411
+ }
+}

@@ -1,0 +1,96 @@
+{
+ "handcrafted": {
+  "hsa_patients_vs_hsa_normals": {
+   "auc": 0.4868781970494477,
+   "ci": [
+    0.418743049892505,
+    0.560793053599229
+   ]
+  },
+  "hsa_inside_strata": {
+   "auc": 0.46735368122893456,
+   "ci": [
+    0.391947867678201,
+    0.5445879928571574
+   ]
+  },
+  "hsa_patients_vs_essua_normals": {
+   "auc": 0.07504492711823042,
+   "ci": [
+    0.054762829188205804,
+    0.09811389301799303
+   ]
+  },
+  "hsa_normals_vs_essua_normals": {
+   "auc": 0.0927096314758768,
+   "ci": [
+    0.05291859533558839,
+    0.13508545486914725
+   ]
+  },
+  "everyone": {
+   "auc": 0.18316374464561538,
+   "ci": [
+    0.15738519797388031,
+    0.21088249144363097
+   ]
+  },
+  "counts": {
+   "hsa_patients": 329,
+   "hsa_normals": 82,
+   "essua_normals": 274,
+   "others": 24
+  },
+  "reading": {
+   "inside_hsa": "hard inside HSA for an outside model too",
+   "hsa_normals": "middle"
+  }
+ },
+ "hubert": {
+  "hsa_patients_vs_hsa_normals": {
+   "auc": 0.6471940099340203,
+   "ci": [
+    0.5866604270146044,
+    0.7094308325302098
+   ]
+  },
+  "hsa_inside_strata": {
+   "auc": 0.6396635424975187,
+   "ci": [
+    0.5615902584977915,
+    0.710439603685972
+   ]
+  },
+  "hsa_patients_vs_essua_normals": {
+   "auc": 0.5927384465200897,
+   "ci": [
+    0.5488748807490071,
+    0.6374192975839195
+   ]
+  },
+  "hsa_normals_vs_essua_normals": {
+   "auc": 0.443208118212569,
+   "ci": [
+    0.37249087591240876,
+    0.5143403952287698
+   ]
+  },
+  "everyone": {
+   "auc": 0.60634723482858,
+   "ci": [
+    0.5661708188597231,
+    0.6506533686738972
+   ]
+  },
+  "counts": {
+   "hsa_patients": 329,
+   "hsa_normals": 82,
+   "essua_normals": 274,
+   "others": 24
+  },
+  "reading": {
+   "inside_hsa": "hard inside HSA for an outside model too",
+   "hsa_normals": "no sign that HSA normals look sicker"
+  }
+ }
+}

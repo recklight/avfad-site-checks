@@ -1,0 +1,240 @@
+{
+ "inside_strata": {
+  "handcrafted": {
+   "s004": {
+    "auc": 0.5236125957404265,
+    "ci": [
+     0.4735310556227197,
+     0.5708158101997126
+    ],
+    "strata_with_both_labels": 24,
+    "strata": 31,
+    "speakers": 410
+   },
+   "s005": {
+    "auc": 0.5891191591212841,
+    "ci": [
+     0.544306231215888,
+     0.6426620798441735
+    ],
+    "strata_with_both_labels": 24,
+    "strata": 31,
+    "speakers": 411
+   },
+   "s006": {
+    "auc": 0.5580959597085565,
+    "ci": [
+     0.5060351042906523,
+     0.6101947595741427
+    ],
+    "strata_with_both_labels": 24,
+    "strata": 31,
+    "speakers": 411
+   },
+   "s007": {
+    "auc": 0.5851925931736273,
+    "ci": [
+     0.5374899338318085,
+     0.6344807126049992
+    ],
+    "strata_with_both_labels": 24,
+    "strata": 31,
+    "speakers": 411
+   },
+   "s008": {
+    "auc": 0.5379877833844067,
+    "ci": [
+     0.49296073945799657,
+     0.582640700560618
+    ],
+    "strata_with_both_labels": 24,
+    "strata": 31,
+    "speakers": 410
+   },
+   "s009": {
+    "auc": 0.5280073422644865,
+    "ci": [
+     0.47816744266209543,
+     0.5775006286588046
+    ],
+    "strata_with_both_labels": 24,
+    "strata": 31,
+    "speakers": 410
+   },
+   "cape_v": {
+    "auc": 0.4855802757922024,
+    "ci": [
+     0.4374473680831372,
+     0.5337990755214297
+    ],
+    "strata_with_both_labels": 24,
+    "strata": 31,
+    "speakers": 411
+   },
+   "reading": {
+    "auc": 0.5604597737464986,
+    "ci": [
+     0.5087631295392232,
+     0.6045515401256053
+    ],
+    "strata_with_both_labels": 24,
+    "strata": 31,
+    "speakers": 410
+   },
+   "connected": {
+    "auc": 0.5295058782019738,
+    "ci": [
+     0.4833317552293841,
+     0.5792262859046001
+    ],
+    "strata_with_both_labels": 24,
+    "strata": 31,
+    "speakers": 411
+   }
+  },
+  "hubert": {
+   "s004": {
+    "auc": 0.5907960338719601,
+    "ci": [
+     0.5416907021930044,
+     0.6430305155808419
+    ],
+    "strata_with_both_labels": 24,
+    "strata": 31,
+    "speakers": 410
+   },
+   "s005": {
+    "auc": 0.6132556568825634,
+    "ci": [
+     0.5682291105502588,
+     0.6643245875020677
+    ],
+    "strata_with_both_labels": 24,
+    "strata": 31,
+    "speakers": 411
+   },
+   "s006": {
+    "auc": 0.6170243822008563,
+    "ci": [
+     0.5708872979749858,
+     0.6675312554146906
+    ],
+    "strata_with_both_labels": 24,
+    "strata": 31,
+    "speakers": 411
+   },
+   "s007": {
+    "auc": 0.5888084164938524,
+    "ci": [
+     0.5414943067267995,
+     0.6317650482123002
+    ],
+    "strata_with_both_labels": 24,
+    "strata": 31,
+    "speakers": 411
+   },
+   "s008": {
+    "auc": 0.553206997647075,
+    "ci": [
+     0.5131597078723619,
+     0.5936140779532142
+    ],
+    "strata_with_both_labels": 24,
+    "strata": 31,
+    "speakers": 410
+   },
+   "s009": {
+    "auc": 0.5634826695633569,
+    "ci": [
+     0.519772962366598,
+     0.6104234302433746
+    ],
+    "strata_with_both_labels": 24,
+    "strata": 31,
+    "speakers": 410
+   },
+   "cape_v": {
+    "auc": 0.61032240092232,
+    "ci": [
+     0.5657128653984066,
+     0.6554450461214139
+    ],
+    "strata_with_both_labels": 24,
+    "strata": 31,
+    "speakers": 411
+   },
+   "reading": {
+    "auc": 0.6217653156315897,
+    "ci": [
+     0.5683270641841623,
+     0.6712970690044703
+    ],
+    "strata_with_both_labels": 24,
+    "strata": 31,
+    "speakers": 410
+   },
+   "connected": {
+    "auc": 0.624912671353016,
+    "ci": [
+     0.5767945247040875,
+     0.675919777348492
+    ],
+    "strata_with_both_labels": 24,
+    "strata": 31,
+    "speakers": 411
+   }
+  }
+ },
+ "fusion": {
+  "handcrafted": {
+   "speakers": 410,
+   "uar": 0.5242378048780487,
+   "roc_auc": 0.5606856038072576,
+   "within_strata": {
+    "auc": 0.5543435155187456,
+    "ci": [
+     0.5019688000082911,
+     0.6023319470630394
+    ],
+    "strata_with_both_labels": 24,
+    "strata": 31,
+    "speakers": 410
+   }
+  },
+  "hubert": {
+   "speakers": 410,
+   "uar": 0.6118902439024391,
+   "roc_auc": 0.6631618084473527,
+   "within_strata": {
+    "auc": 0.6430185395162582,
+    "ci": [
+     0.5917904905707788,
+     0.6916532532558319
+    ],
+    "strata_with_both_labels": 24,
+    "strata": 31,
+    "speakers": 410
+   }
+  }
+ },
+ "verdicts": {
+  "cape_v": {
+   "handcrafted": "not only /a/",
+   "hubert": "not only /a/"
+  },
+  "reading": {
+   "handcrafted": "not only /a/",
+   "hubert": "not only /a/"
+  }
+ },
+ "overall": "not only /a/",
+ "fusion_reaches_shrink": {
+  "handcrafted": false,
+  "hubert": false
+ },
+ "quiet_verdicts": {
+  "cape_v": "not only /a/",
+  "reading": "not only /a/",
+  "connected": "not only /a/"
+ }
+}

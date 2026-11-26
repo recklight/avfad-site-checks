@@ -1,0 +1,190 @@
+{
+ "handcrafted": {
+  "21": {
+   "ii": {
+    "uar": 0.7343835717992439,
+    "roc_auc": 0.7926532730372896
+   },
+   "i_uar_mean": 0.6814898435762474,
+   "i_uar_range": [
+    0.6476814441396694,
+    0.730109719030321
+   ],
+   "gap_i_minus_ii": {
+    "difference": -0.05289372822299643,
+    "ci_low": -0.08923215546686089,
+    "ci_high": -0.013891899757108032,
+    "p_one_sided": 0.996000399960004,
+    "n_resamples": 10000,
+    "n_undefined": 0,
+    "n_speakers_resampled": 647
+   },
+   "gap_reading": "this unclean, the normals alone do not make AVFAD's gap",
+   "place": {
+    "auc": 0.3997814282299102,
+    "ci_low": 0.3581159711075442,
+    "ci_high": 0.44237069259929646,
+    "inside_a": 0.326673585884795,
+    "dirty_vs_clean_a": 0.6432474629195941,
+    "reading": "this unclean, the place detector does not reach AVFAD's"
+   }
+  },
+  "41": {
+   "ii": {
+    "uar": 0.7299873971384091,
+    "roc_auc": 0.7781785158277115
+   },
+   "i_uar_mean": 0.6741996441544963,
+   "i_uar_range": [
+    0.6328267477203646,
+    0.7272203276744014
+   ],
+   "gap_i_minus_ii": {
+    "difference": -0.05578775298391281,
+    "ci_low": -0.09305824246816238,
+    "ci_high": -0.017518029185211875,
+    "p_one_sided": 0.9978002199780022,
+    "n_resamples": 10000,
+    "n_undefined": 0,
+    "n_speakers_resampled": 647
+   },
+   "gap_reading": "this unclean, the normals alone do not make AVFAD's gap",
+   "place": {
+    "auc": 0.428281137939278,
+    "ci_low": 0.3857354171647143,
+    "ci_high": 0.47032247874048017,
+    "inside_a": 0.3631477500185336,
+    "dirty_vs_clean_a": 0.5187388459250446,
+    "reading": "this unclean, the place detector does not reach AVFAD's"
+   }
+  },
+  "62": {
+   "ii": {
+    "uar": 0.6955593446511973,
+    "roc_auc": 0.7452294462154349
+   },
+   "i_uar_mean": 0.6668184075913708,
+   "i_uar_range": [
+    0.6137556527540958,
+    0.7098691526428942
+   ],
+   "gap_i_minus_ii": {
+    "difference": -0.0287409370598265,
+    "ci_low": -0.0664636252910001,
+    "ci_high": 0.010553961780931563,
+    "p_one_sided": 0.9294070592940706,
+    "n_resamples": 10000,
+    "n_undefined": 0,
+    "n_speakers_resampled": 647
+   },
+   "gap_reading": "this unclean, the normals alone do not make AVFAD's gap",
+   "place": {
+    "auc": 0.5080342201427547,
+    "ci_low": 0.46461762747173935,
+    "ci_high": 0.5516806973805539,
+    "inside_a": 0.4539995551931203,
+    "dirty_vs_clean_a": 0.6338709677419355,
+    "reading": "this unclean, the place detector does not reach AVFAD's"
+   }
+  },
+  "overall": "three quarters of HSA's normals being patients does not give AVFAD's picture without a recording change",
+  "avfad": {
+   "inside_hsa_place_auc": 0.513,
+   "ii_uar": 0.553
+  }
+ },
+ "hubert": {
+  "21": {
+   "ii": {
+    "uar": 0.723098450589369,
+    "roc_auc": 0.7774260508562534
+   },
+   "i_uar_mean": 0.7079720883683001,
+   "i_uar_range": [
+    0.6643283416116836,
+    0.7593761583512492
+   ],
+   "gap_i_minus_ii": {
+    "difference": -0.01512636222106889,
+    "ci_low": -0.05271273333367708,
+    "ci_high": 0.023979440044711753,
+    "p_one_sided": 0.7728227177282272,
+    "n_resamples": 10000,
+    "n_undefined": 0,
+    "n_speakers_resampled": 647
+   },
+   "gap_reading": "this unclean, the normals alone do not make AVFAD's gap",
+   "place": {
+    "auc": 0.4827789351456576,
+    "ci_low": 0.43828655954373147,
+    "ci_high": 0.5261007564632356,
+    "inside_a": 0.4436948624805397,
+    "dirty_vs_clean_a": 0.5870413739266198,
+    "reading": "this unclean, the place detector does not reach AVFAD's"
+   }
+  },
+  "41": {
+   "ii": {
+    "uar": 0.701768107346727,
+    "roc_auc": 0.7430239454370227
+   },
+   "i_uar_mean": 0.6933613314552598,
+   "i_uar_range": [
+    0.6519923641485655,
+    0.7338924308695975
+   ],
+   "gap_i_minus_ii": {
+    "difference": -0.00840677589146721,
+    "ci_low": -0.04532186512132358,
+    "ci_high": 0.029825219741965923,
+    "p_one_sided": 0.6682331766823317,
+    "n_resamples": 10000,
+    "n_undefined": 0,
+    "n_speakers_resampled": 647
+   },
+   "gap_reading": "this unclean, the normals alone do not make AVFAD's gap",
+   "place": {
+    "auc": 0.5276202998531471,
+    "ci_low": 0.48485344592056284,
+    "ci_high": 0.5719579249342577,
+    "inside_a": 0.4986655793609608,
+    "dirty_vs_clean_a": 0.5276621058893516,
+    "reading": "this unclean, the place detector does not reach AVFAD's"
+   }
+  },
+  "62": {
+   "ii": {
+    "uar": 0.6495718733783082,
+    "roc_auc": 0.6822596189487731
+   },
+   "i_uar_mean": 0.6691938245978206,
+   "i_uar_range": [
+    0.6334735710578991,
+    0.7135313959522575
+   ],
+   "gap_i_minus_ii": {
+    "difference": 0.01962195121951238,
+    "ci_low": -0.015479904018585403,
+    "ci_high": 0.05654877894703844,
+    "p_one_sided": 0.13438656134386562,
+    "n_resamples": 10000,
+    "n_undefined": 0,
+    "n_speakers_resampled": 647
+   },
+   "gap_reading": "this unclean, the normals alone do not make AVFAD's gap",
+   "place": {
+    "auc": 0.6023786755916806,
+    "ci_low": 0.5594920767733343,
+    "ci_high": 0.6438731600696698,
+    "inside_a": 0.5367707020535251,
+    "dirty_vs_clean_a": 0.6193548387096774,
+    "reading": "this unclean, the place detector does not reach AVFAD's"
+   }
+  },
+  "overall": "three quarters of HSA's normals being patients does not give AVFAD's picture without a recording change",
+  "avfad": {
+   "inside_hsa_place_auc": 0.643,
+   "ii_uar": 0.621
+  }
+ }
+}

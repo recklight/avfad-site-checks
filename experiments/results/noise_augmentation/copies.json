@@ -1,0 +1,13 @@
+{
+ "target_db": -53.55332409422985,
+ "copies": 1418,
+ "rooms": {
+  "HSA": 89,
+  "ESSUA": 36
+ },
+ "rooms_used": {
+  "HSA": 89,
+  "ESSUA": 36
+ },
+ "seconds": 159
+}

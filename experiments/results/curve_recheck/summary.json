@@ -1,0 +1,82 @@
+{
+ "rows": 100,
+ "essua_handcrafted": {
+  "max_abs_uar_change": 0.024296112621980503,
+  "same": false,
+  "points": [
+   {
+    "requested": "16",
+    "normals": 16.0,
+    "uar_new": 0.8663833786594145,
+    "uar_old": 0.8660774276115821
+   },
+   {
+    "requested": "24",
+    "normals": 24.0,
+    "uar_new": 0.8892557190849464,
+    "uar_old": 0.8860662294032956
+   },
+   {
+    "requested": "32",
+    "normals": 32.0,
+    "uar_new": 0.8912773956167014,
+    "uar_old": 0.8951227803551431
+   },
+   {
+    "requested": "48",
+    "normals": 48.0,
+    "uar_new": 0.9015977443609022,
+    "uar_old": 0.9007878739401696
+   },
+   {
+    "requested": "all",
+    "normals": 60.8,
+    "uar_new": 0.9192089265717485,
+    "uar_old": 0.9181970884658455
+   }
+  ],
+  "inverse_root_at_target": 0.9402260038099027,
+  "inverse_root_limit": 0.9626996404443271,
+  "log_at_target": 0.970116127091372
+ },
+ "hsa_handcrafted": {
+  "max_abs_uar_change": 5.551115123125783e-17,
+  "same": true,
+  "points": [
+   {
+    "requested": "16",
+    "normals": 16.0,
+    "uar_new": 0.5184075913707465,
+    "uar_old": 0.5184075913707465
+   },
+   {
+    "requested": "24",
+    "normals": 24.0,
+    "uar_new": 0.5230613833493958,
+    "uar_old": 0.5230613833493958
+   },
+   {
+    "requested": "32",
+    "normals": 32.0,
+    "uar_new": 0.5363833493958039,
+    "uar_old": 0.5363833493958039
+   },
+   {
+    "requested": "48",
+    "normals": 48.0,
+    "uar_new": 0.539198606271777,
+    "uar_old": 0.539198606271777
+   },
+   {
+    "requested": "all",
+    "normals": 65.6,
+    "uar_new": 0.5529412854918823,
+    "uar_old": 0.5529412854918823
+   }
+  ],
+  "inverse_root_at_target": 0.5658239789124894,
+  "inverse_root_limit": 0.5812666892279749,
+  "log_at_target": 0.5860861209629334
+ },
+ "reading_hsa": "more training data would not close the gap"
+}

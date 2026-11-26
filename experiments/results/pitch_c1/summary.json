@@ -1,0 +1,49 @@
+{
+ "ii": {
+  "uar": 0.5363203350878493,
+  "roc_auc": 0.5586848543257469
+ },
+ "i_uar_mean": 0.5730258358662614,
+ "i_uar_range": [
+  0.529561123878716,
+  0.6121914152272222
+ ],
+ "gap_i_minus_ii": {
+  "difference": 0.03670550077841217,
+  "ci_low": -0.014676247401788686,
+  "ci_high": 0.08908602384217042,
+  "p_one_sided": 0.07639236076392361,
+  "n_resamples": 10000,
+  "n_undefined": 0,
+  "n_speakers_resampled": 670
+ },
+ "gap_reading": "pitch is too weak to read",
+ "visibility": {
+  "speakers": {
+   "ESSUA": 274,
+   "HSA": 82
+  },
+  "missing": {
+   "ESSUA": 0,
+   "HSA": 0
+  },
+  "voiced_share_median": {
+   "ESSUA": 0.9527104747919726,
+   "HSA": 0.9047400377154118
+  },
+  "auc": 0.6897810218978102,
+  "ci_low": 0.6173669218444009,
+  "ci_high": 0.7570767313512551,
+  "reading": "the two places' normals differ in pitch"
+ },
+ "missing_by_place_and_label": {
+  "ESSUA_normal": 0,
+  "HSA_normal": 0,
+  "HSA_pathological": 2,
+  "HSJ_normal": 0,
+  "HSJ_pathological": 0,
+  "ULSM_normal": 0,
+  "ULSM_pathological": 0
+ },
+ "joint_reading": "as measured"
+}
